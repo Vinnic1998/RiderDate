@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RiderDate</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+</head>
+<body>
+    <div class="birthbox">
+        <h1>Episódios de Kamen Rider que estreaream no seu dia do bolo!</h1>
+        <hr>
+        <p>Descubra qual(is) episódio(s) lançaram na sua data!</p>
+
+        
+        <label for="birthdate">Digite sua data:</label><br>
+        <input type="date" id="birthdate"><br><br>
+
+        <button onclick="findEpisodes()">Encontrar Episódio(s)</button>
+
+        <div id="results"></div>
+
+        <button id="shareButton" style="display: none;">Compartilhar</button>
+        <button id="screenshotButton" style="display: none;">Salvar como imagem</button>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
