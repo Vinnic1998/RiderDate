@@ -449,6 +449,6 @@ const episodes = [
     title: "This Is My Flowery Way of Life",
     episode: 18,
     air_date: "2020-01-12",
-    image: "Episodes Images/REIWA/ZERO-ONE/ZERO-ONE_18.webp"
+    image: "Episodes Images/REIWA/ZERO-ONE/ZERO ONE_18.webp"
   }
 ];
