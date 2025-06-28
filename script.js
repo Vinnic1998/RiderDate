@@ -445,7 +445,7 @@ const episodes = [
     image: "Episodes Images/HEISEI/GAIM/GAIM_13.webp"
   },
     {
-    series: "Kamen Rider Zero-one",
+    series: "Kamen Rider Zero-One",
     title: "This Is My Flowery Way of Life",
     episode: 18,
     air_date: "2020-01-12",
