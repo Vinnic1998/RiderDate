@@ -451,4 +451,11 @@ const episodes = [
     air_date: "2020-01-12",
     image: "Episodes Images/REIWA/ZERO ONE/ZERO ONE_18.webp"
   },
+    {
+    series: "Kamen Rider Gavv",
+    title: "Extremely Strong! The Pudding Bodyguard",
+    episode: 18,
+    air_date: "2020-01-12",
+    image: "Episodes Images/REIWA/GAVV/GAVV_18.webp"
+  },
 ];
