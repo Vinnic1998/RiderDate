@@ -429,5 +429,12 @@ const episodes = [
     episode: 19,
     air_date: "2010-01-24",
     image: "Episodes Images/HEISEI/W/W_19.webp"
+  },
+  {
+    series: "Kamen Rider Ryuki",
+    title: "Granting a Wish",
+    episode: 49,
+    air_date: "2003-01-12",
+    image: "Episodes Images/HEISEI/RYUKI/RYUKI_49.webp"
   }
 ];
