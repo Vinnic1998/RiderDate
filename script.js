@@ -436,5 +436,12 @@ const episodes = [
     episode: 49,
     air_date: "2003-01-12",
     image: "Episodes Images/HEISEI/RYUKI/RYUKI_49.webp"
+  },
+  {
+    series: "Kamen Rider Gaim",
+    title: "Gaim and Baron, Tag of Friendship!h",
+    episode: 13,
+    air_date: "2014-01-12",
+    image: "Episodes Images/HEISEI/GAIM/GAIM_13.webp"
   }
 ];
