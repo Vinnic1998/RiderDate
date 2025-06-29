@@ -120,10 +120,6 @@ main {
   background-color: #000000;
 }
 
-.facebook {
-  background-color: #1877F2;
-}
-
 .whatsapp {
   background-color: #25D366;
 }
@@ -184,4 +180,8 @@ main {
 
 .social-buttons a:hover {
   transform: scale(1.2);
+}
+
+.associadouga {
+    background-color: red;
 }

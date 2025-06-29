@@ -82,7 +82,6 @@ function findEpisodes() {
       const encodedURL = encodeURIComponent(window.location.href);
 
       document.getElementById("twitterShare").href = `https://twitter.com/intent/tweet?text=${encodedText}`;
-      document.getElementById("facebookShare").href = `https://www.facebook.com/sharer/sharer.php?u=${encodedURL}`;
       document.getElementById("whatsappShare").href = `https://wa.me/?text=${encodedText}`;
       document.getElementById("bskyShare").href = `https://bsky.app/intent/compose?text=${encodedText}`;
       document.getElementById("instagramShare").href = `https://www.instagram.com`; 
@@ -159,7 +158,7 @@ const seriesIcons = {
   "Kamen Rider Build": "Series Icons/HEISEI/BUILD Icon.png",
   "Kamen Rider Zi-O": "Series Icons/HEISEI/Zi-O Icon.webp",
   "Kamen Rider Zero-One": "Series Icons/REIWA/ZERO-ONE Icon.webp",
-  "Kamen Rider Saber": "Series Icons/HEISEI/SABER Icon.webp",
+  "Kamen Rider Saber": "Series Icons/REIWA/SABER Icon.webp",
   "Kamen Rider Revice": "Series Icons/REIWA/REVICE ICON.webp",
   "Kamen Rider Geats": "Series Icons/REIWA/GEATS Icon.webp",
   "Kamen Rider Gotchard": "Series Icons/REIWA/GOTCHARD Icon.webp",
@@ -489,6 +488,13 @@ const episodes = [
     image: "Episodes Images/HEISEI/DEN-O/DEN-O_01.webp" 
   },
   {
+    series: "Kamen Rider Den-O",
+    title: "The Climax Goes On, No Matter What",
+    episode: 49,
+    air_date: "2008-01-20",
+    image: "Episodes Images/HEISEI/DEN-O/DEN-O_49.webp"
+  },
+  {
     series: "Kamen Rider Kiva",
     title: "Fate: Wake Up!",
     episode: 1,
@@ -553,6 +559,13 @@ const episodes = [
     image: "Episodes Images/HEISEI/W/W_21.webp"
   },
   {
+    series: "Kamen Rider W",
+    title: "Goodbye to the E/A Bouquet of Justice to This City",
+    episode: 49,
+    air_date: "2010-08-29",
+    image: "Episodes Images/HEISEI/W/W_49.webp"
+  },
+  {
     series: "Kamen Rider OOO",
     title: "Medals, Underwear, and a Mysterious Arm",
     episode: 1,
@@ -575,11 +588,39 @@ const episodes = [
     fact: "Esse é o 1000º episódio da franquia Kamen Rider, também servindo como comemoração ao 40º aniversário da franquia!",
   },
   {
+    series: "Kamen Rider OOO",
+    title: "Finale: The Medals of Tomorrow, Underwear, and Arms Held",
+    episode: 48,
+    air_date: "2011-08-28",
+    image: "Episodes Images/HEISEI/OOO/OOO_48.webp",
+  },
+  {
     series: "Kamen Rider Fourze",
     title: "Youthful Transformation",
     episode: 1,
     air_date: "2011-09-04",
     image: "Episodes Images/HEISEI/FOURZE/FOURZE_01.webp"
+  },
+  {
+    series: "Kamen Rider Fourze",
+    title: "Final Episode: Youthful Galaxy",
+    episode: 48,
+    air_date: "2012-08-26",
+    image: "Episodes Images/HEISEI/FOURZE/FOURZE_48.webp"
+  },
+  {
+    series: "Kamen Rider Wizard",
+    title: "The Ringed Magician",
+    episode: 1,
+    air_date: "2012-09-02",
+    image: "Episodes Images/HEISEI/WIZARD/WIZARD_01.webp"
+  },
+  {
+    series: "Kamen Rider Wizard",
+    title: "Neverending Story",
+    episode: 53,
+    air_date: "2013-09-29",
+    image: "Episodes Images/HEISEI/WIZARD/WIZARD_53.webp"
   },
   {
     series: "Kamen Rider Gaim",
@@ -645,11 +686,46 @@ const episodes = [
     image: "Episodes Images/HEISEI/DRIVE/DRIVE_06.webp"
   },
   {
+    series: "Kamen Rider Drive",
+    title: "Final Story (Special Edition): The Case of Ghost",
+    episode: 48,
+    air_date: "2015-09-27",
+    image: "Episodes Images/HEISEI/DRIVE/DRIVE_48.webp"
+  },
+  {
+    series: "Kamen Rider Ghost",
+    title: "Eyes Open! It's Me!",
+    episode: 1,
+    air_date: "2015-10-04",
+    image: "Episodes Images/HEISEI/GHOST/GHOST_01.webp"
+  },
+  {
+    series: "Kamen Rider Ghost",
+    title: "Final Story (Special Edition): Future! Connected Thoughts!",
+    episode: 50,
+    air_date: "2016-09-25",
+    image: "Episodes Images/HEISEI/GHOST/GHOST_50.webp"
+  },
+  {
+    series: "Kamen Rider Ex-Aid",
+    title: "I'm a Kamen Rider!",
+    episode: 1,
+    air_date: "2016-10-02",
+    image: "Episodes Images/HEISEI/EX-AID/EX-AID_01.webp"
+  },
+  {
     series: "Kamen Rider Ex-Aid",
     title: "Everyone Gathers for a Clashing Crash!",
     episode: 5,
     air_date: "2016-10-30",
     image: "Episodes Images/HEISEI/EX-AID/EX-AID_05.webp"
+  },
+  {
+    series: "Kamen Rider Ex-Aid",
+    title: "Endless Game",
+    episode: 45,
+    air_date: "2017-08-27",
+    image: "Episodes Images/HEISEI/EX-AID/EX-AID_45.webp"
   },
   {
     series: "Kamen Rider Build",
@@ -673,6 +749,27 @@ const episodes = [
     image: "Episodes Images/HEISEI/BUILD/BUILD_46.webp"
   },
   {
+    series: "Kamen Rider Build",
+    title: "The Tomorrow Build Will Create",
+    episode: 49,
+    air_date: "2018-08-26",
+    image: "Episodes Images/HEISEI/BUILD/BUILD_49.webp"
+  },
+  {
+    series: "Kamen Rider Zi-O",
+    title: "Kingdom 2068",
+    episode: 1,
+    air_date: "2018-09-02",
+    image: "Episodes Images/HEISEI/ZI/ZI_01.webp"
+  },
+  {
+    series: "Kamen Rider Zi-O",
+    title: "2019: Apocalypse",
+    episode: 49,
+    air_date: "2019-08-25",
+    image: "Episodes Images/HEISEI/ZI/ZI_49.webp"
+  },
+  {
     series: "Kamen Rider Zero-One",
     title: "I'm the President and a Kamen Rider",
     episode: 1,
@@ -687,11 +784,32 @@ const episodes = [
     image: "Episodes Images/REIWA/ZERO ONE/ZERO ONE_18.webp"
   },
   {
+    series: "Kamen Rider Zero-One",
+    title: "Their Respectives Futures",
+    episode: 45,
+    air_date: "2020-08-30",
+    image: "Episodes Images/REIWA/ZERO ONE/ZERO ONE_45.webp"
+  },
+  {
+    series: "Kamen Rider Saber",
+    title: "Chapter 1: In The Beginning, There Was a Flame Swordsman.",
+    episode: 1,
+    air_date: "2020-09-06",
+    image: "Episodes Images/REIWA/SABER/SABER_01.webp"
+  },
+  {
     series: "Kamen Rider Saber",
     title: "Chapter 45: Ten Swordsmen, Betting the World.",
     episode: 45,
     air_date: "2021-08-08",
     image: "Episodes Images/REIWA/SABER/SABER_45.webp"
+  },
+  {
+    series: "Kamen Rider Saber",
+    title: "Final Chapter: The End of the World, the Story that is Born.",
+    episode: 47,
+    air_date: "2021-08-22",
+    image: "Episodes Images/REIWA/SABER/SABER_47.webp"
   },
   {
     series: "Kamen Rider Revice",
@@ -708,11 +826,32 @@ const episodes = [
     image: "Episodes Images/REIWA/REVICE/REVICE_12.webp"
   },
   {
+    series: "Kamen Rider Revice",
+    title: "Family to the End, Until the Day We Meet Again",
+    episode: 50,
+    air_date: "2022-08-28",
+    image: "Episodes Images/REIWA/REVICE/REVICE_50.webp"
+  },
+  {
+    series: "Kamen Rider Geats",
+    title: "Daybreak F: Invitation to the Rider",
+    episode: 1,
+    air_date: "2022-09-04",
+    image: "Episodes Images/REIWA/GEATS/GEATS_01.webp"
+  },
+  {
     series: "Kamen Rider Geats",
     title: "Genesis V: His Name Is Gya-Go!",
     episode: 43,
     air_date: "2023-07-09",
     image: "Episodes Images/REIWA/GEATS/GEATS_43.webp"
+  },
+  {
+    series: "Kamen Rider Geats",
+    title: "Daybreak I: Here Comes The Highlight!",
+    episode: 49,
+    air_date: "2023-08-27",
+    image: "Episodes Images/REIWA/GEATS/GEATS_49.webp"
   },
   {
     series: "Kamen Rider Gotchard",
