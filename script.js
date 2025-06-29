@@ -458,4 +458,11 @@ const episodes = [
     air_date: "2025-01-12",
     image: "Episodes Images/REIWA/GAVV/GAVV_18.webp"
   },
+      {
+    series: "Kamen Rider Amazon",
+    title: "Man or Beast? The Cool Guy Who Came From the Jungle!",
+    episode: 1,
+    air_date: "1974-10-19",
+    image: "Episodes Images/SHOWA/AMAZON/AMAZON_01.webp"
+  },
 ];
