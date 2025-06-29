@@ -486,4 +486,25 @@ const episodes = [
     air_date: "2014-09-28",
     image: "Episodes Images/HEISEI/GAIM/GAIM_47.webp"
   },
+  {
+    series: "Kamen Rider Faiz",
+    title: "Capture Commences",
+    episode: 41,
+    air_date: "2003-11-16",
+    image: "Episodes Images/HEISEI/FAIZ/FAIZ_41.webp"
+  },
+  {
+    series: "Kamen Rider Kiva",
+    title: "Encore: Nago Ixa Explosively Returns",
+    episode: 40,
+    air_date: "2008-11-16",
+    image: "Episodes Images/HEISEI/KIVA/KIVA_40.webp"
+  },
+    {
+    series: "Kamen Rider Drive",
+    title: "Who Does the Warrior Fight For?",
+    episode: 6,
+    air_date: "2014-11-16",
+    image: "Episodes Images/HEISEI/DRIVE/DRIVE_06.webp"
+  },
 ];
