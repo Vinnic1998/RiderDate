@@ -390,10 +390,45 @@ const episodes = [
   },
   {
     series: "Kamen Rider Ryuki",
+    title: "Raia's Revenge",
+    episode: 22,
+    air_date: "2002-06-30",
+    image: "Episodes Images/HEISEI/RYUKI/RYUKI_22.webp"
+  },
+  {
+    series: "Kamen Rider Ryuki",
+    title: "Changing Destiny",
+    episode: 23,
+    air_date: "2002-07-07",
+    image: "Episodes Images/HEISEI/RYUKI/RYUKI_23.webp"
+  },
+  {
+    series: "Kamen Rider Ryuki",
     title: "The Girl and Ouja",
     episode: 31,
     air_date: "2002-09-01",
     image: "Episodes Images/HEISEI/RYUKI/RYUKI_31.webp"
+  },
+  {
+    series: "Kamen Rider Ryuki",
+    title: "Friendship's Battle",
+    episode: 34,
+    air_date: "2002-09-22",
+    image: "Episodes Images/HEISEI/RYUKI/RYUKI_34.webp"
+  },
+  {
+    series: "Kamen Rider Ryuki",
+    title: "Enter Tiger",
+    episode: 35,
+    air_date: "2002-09-29",
+    image: "Episodes Images/HEISEI/RYUKI/RYUKI_35.webp"
+  },
+  {
+    series: "Kamen Rider Ryuki",
+    title: "The Battle Ends",
+    episode: 36,
+    air_date: "2002-10-06",
+    image: "Episodes Images/HEISEI/RYUKI/RYUKI_36.webp"
   },
   {
     series: "Kamen Rider Ryuki",
@@ -444,6 +479,30 @@ const episodes = [
     episode: 1,
     air_date: "2004-01-25",
     image: "Episodes Images/HEISEI/BLADE/BLADE_01.webp"
+  },
+  {
+    series: "Kamen Rider Blade",
+    title: "The Power Which Moves Me",
+    episode: 26,
+    air_date: "2004-07-25",
+    image: "Episodes Images/HEISEI/BLADE/BLADE_26.webp",
+    fact: "Debut da forma Jack do Blade"
+  },
+  {
+    series: "Kamen Rider Blade",
+    title: "Lost Memories",
+    episode: 30,
+    air_date: "2004-08-22",
+    image: "Episodes Images/HEISEI/BLADE/BLADE_30.webp",
+    fact: "Debut da forma Jack do Garren"
+  },
+  {
+    series: "Kamen Rider Blade",
+    title: "Category King",
+    episode: 34,
+    air_date: "2004-09-26",
+    image: "Episodes Images/HEISEI/BLADE/BLADE_34.webp",
+    fact: "Debut da forma King do Blade"
   },
   {
     series: "Kamen Rider Blade",
@@ -757,6 +816,20 @@ const episodes = [
     episode: 2,
     air_date: "2011-09-11",
     image: "Episodes Images/HEISEI/FOURZE/FOURZE_02.webp"
+  },
+  {
+    series: "Kamen Rider Fourze",
+    title: "Right and Wrong Conflict",
+    episode: 16,
+    air_date: "2011-12-25",
+    image: "Episodes Images/HEISEI/FOURZE/FOURZE_16.webp"
+  },
+  {
+    series: "Kamen Rider Fourze",
+    title: "Meteor Appearance",
+    episode: 17,
+    air_date: "2011-01-08",
+    image: "Episodes Images/HEISEI/FOURZE/FOURZE_17.webp"
   },
   {
     series: "Kamen Rider Fourze",
