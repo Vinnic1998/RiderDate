@@ -465,4 +465,25 @@ const episodes = [
     air_date: "1974-10-19",
     image: "Episodes Images/SHOWA/AMAZON/AMAZON_01.webp"
   },
+  {
+    series: "Kamen Rider Faiz",
+    title: "The Resurrection Riddle",
+    episode: 35,
+    air_date: "2004-09-28",
+    image: "Episodes Images/HEISEI/FAIZ/FAIZ_35.webp"
+  },
+  {
+    series: "Kamen Rider Kiva",
+    title: "Noise: Melody of Destruction",
+    episode: 34,
+    air_date: "2008-09-28",
+    image: "Episodes Images/HEISEI/KIVA/KIVA_34.webp"
+  },
+    {
+    series: "Kamen Rider Gaim",
+    title: "Transformation! And into the Future",
+    episode: 47,
+    air_date: "2014-09-28",
+    image: "Episodes Images/HEISEI/GAIM/GAIM_47.webp"
+  },
 ];
