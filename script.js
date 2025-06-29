@@ -334,6 +334,20 @@ const episodes = [
   },
   {
     series: "Kamen Rider Agito",
+    title: "The Two G3s",
+    episode: 9,
+    air_date: "2001-03-25",
+    image: "Episodes Images/HEISEI/AGITO/AGITO_09.webp",
+  },
+  {
+    series: "Kamen Rider Agito",
+    title: "Silver Points and Lines",
+    episode: 10,
+    air_date: "2001-04-01",
+    image: "Episodes Images/HEISEI/AGITO/AGITO_10.webp",
+  },
+  {
+    series: "Kamen Rider Agito",
     title: "Warriors, Those Bonds",
     episode: 46,
     air_date: "2002-12-23",
@@ -489,6 +503,20 @@ const episodes = [
   },
   {
     series: "Kamen Rider Den-O",
+    title: "My Strength Has Made You Cry",
+    episode: 9,
+    air_date: "2007-03-25",
+    image: "Episodes Images/HEISEI/DEN-O/DEN-O_09.webp" 
+  },
+  {
+    series: "Kamen Rider Den-O",
+    title: "Hana in a Stormy Singularity Point",
+    episode: 10,
+    air_date: "2007-04-01",
+    image: "Episodes Images/HEISEI/DEN-O/DEN-O_10.webp" 
+  },
+  {
+    series: "Kamen Rider Den-O",
     title: "The Climax Goes On, No Matter What",
     episode: 49,
     air_date: "2008-01-20",
@@ -600,6 +628,13 @@ const episodes = [
     episode: 1,
     air_date: "2011-09-04",
     image: "Episodes Images/HEISEI/FOURZE/FOURZE_01.webp"
+  },
+  {
+    series: "Kamen Rider Fourze",
+    title: "Star Storm Comeback",
+    episode: 28,
+    air_date: "2012-03-25",
+    image: "Episodes Images/HEISEI/FOURZE/FOURZE_28.webp"
   },
   {
     series: "Kamen Rider Fourze",
@@ -740,6 +775,13 @@ const episodes = [
     episode: 8,
     air_date: "2017-10-22",
     image: "Episodes Images/HEISEI/BUILD/BUILD_08.webp"
+  },
+  {
+    series: "Kamen Rider Build",
+    title: "The Genius Arrives With a Tank",
+    episode: 28,
+    air_date: "2018-03-25",
+    image: "Episodes Images/HEISEI/BUILD/BUILD_28.webp"
   },
   {
     series: "Kamen Rider Build",
