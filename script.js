@@ -551,12 +551,33 @@ const episodes = [
     image: "Episodes Images/HEISEI/KIVA/KIVA_40.webp"
   },
   {
+    series: "Kamen Rider Kiva",
+    title: "Finale: The Inheritors of Kiva",
+    episode: 48,
+    air_date: "2009-01-18",
+    image: "Episodes Images/HEISEI/KIVA/KIVA_48.webp"
+  },
+  {
+    series: "Kamen Rider Decade",
+    title: "Rider War",
+    episode: 1,
+    air_date: "2009-01-25",
+    image: "Episodes Images/HEISEI/DECADE/DECADE_01.webp",
+  },
+  {
     series: "Kamen Rider Decade",
     title: "Welcome to the Blade Restaurant",
     episode: 8,
     air_date: "2009-03-15",
     image: "Episodes Images/HEISEI/DECADE/DECADE_08.webp",
     fact: "Esse é o 900º episódio da franquia Kamen Rider!",
+  },
+  {
+    series: "Kamen Rider Decade",
+    title: "The Destroyer of Worlds",
+    episode: 31,
+    air_date: "2009-08-30",
+    image: "Episodes Images/HEISEI/DECADE/DECADE_31.webp",
   },
   {
     series: "Kamen Rider W",
