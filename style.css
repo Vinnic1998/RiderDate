@@ -100,3 +100,88 @@ main {
   padding-top: 10px;  
   padding-bottom: 100px; 
 }
+
+.social-btn {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.social-btn i {
+  margin-right: 6px;
+}
+
+.twitter, .threads {
+  background-color: #000000;
+}
+
+.facebook {
+  background-color: #1877F2;
+}
+
+.whatsapp {
+  background-color: #25D366;
+}
+
+.social-btn:hover {
+  opacity: 0.85;
+}
+
+.bluesky {
+  background-color: #1DA1F2;
+}
+
+.instagram {
+  background: linear-gradient(to right, #F58529, #DD2A7B, #8134AF, #515BD4);
+}
+
+.discord {
+  background-color: #5865f2;
+}
+
+.instagram, .bluesky {
+  margin-top: 10px;
+}
+
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px; right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.social-buttons a {
+  font-size: 2rem;
+  margin: 10px;
+  color: #ffffff;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.social-buttons a:hover {
+  transform: scale(1.2);
+}
