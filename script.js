@@ -156,7 +156,7 @@ const seriesIcons = {
   "Kamen Rider Ghost": "Series Icons/HEISEI/GHOST Icon.webp",
   "Kamen Rider Ex-Aid": "Series Icons/HEISEI/EX-AID Icon.webp",
   "Kamen Rider Build": "Series Icons/HEISEI/BUILD Icon.png",
-  "Kamen Rider Zi-O": "Series Icons/HEISEI/Zi-O Icon.webp",
+  "Kamen Rider Zi-O": "Series Icons/HEISEI/ZI-O Icon.webp",
   "Kamen Rider Zero-One": "Series Icons/REIWA/ZERO-ONE Icon.webp",
   "Kamen Rider Saber": "Series Icons/REIWA/SABER Icon.webp",
   "Kamen Rider Revice": "Series Icons/REIWA/REVICE ICON.webp",
@@ -165,7 +165,6 @@ const seriesIcons = {
   "Kamen Rider Gavv": "Series Icons/REIWA/GAVV Icon.webp",
 };
 
-
 const episodes = [
   {
     series: "Kamen Rider",
@@ -173,7 +172,7 @@ const episodes = [
     episode: 1,
     air_date: "1971-04-03",
     image: "Episodes Images/SHOWA/KR/KR_01.webp",
-    fact: "Esse é o 1º episódio da franquia Kamen Rider, também o da Era Showa!",
+    fact: "Esse é o 1º episódio da franquia Kamen Rider, também o da Era Showa",
   },
   {
     series: "Kamen Rider",
@@ -293,7 +292,8 @@ const episodes = [
     episode: 47,
     air_date: "1989-09-24",
     image: "Episodes Images/SHOWA/BLACK RX/RX_47.webp",
-    fact: "Esse é o último episódio da Era Showa!",
+    fact: "Esse é o último episódio da Era Showa",
+
   },
   {
     series: "Kamen Rider Kuuga",
@@ -301,7 +301,14 @@ const episodes = [
     episode: 1,
     air_date: "2000-01-30",
     image: "Episodes Images/HEISEI/KUUGA/KUUGA_01.webp",
-    fact: "Esse é o primeiro episódio da era Heisei!",
+    fact: "Esse é o 1º episódio da era Heisei",
+  },
+  {
+    series: "Kamen Rider Kuuga",
+    title: "Teacher",
+    episode: 12,
+    air_date: "2000-04-16",
+    image: "Episodes Images/HEISEI/KUUGA/KUUGA_12.webp",
   },
   {
     series: "Kamen Rider Kuuga",
@@ -330,7 +337,7 @@ const episodes = [
     episode: 2,
     air_date: "2001-02-04",
     image: "Episodes Images/HEISEI/AGITO/AGITO_02.webp",
-    fact: "Esse é o 500º episódio da franquia Kamen Rider!",
+    fact: "Esse é o 500º episódio da franquia Kamen Rider",
   },
   {
     series: "Kamen Rider Agito",
@@ -350,7 +357,7 @@ const episodes = [
     series: "Kamen Rider Agito",
     title: "Warriors, Those Bonds",
     episode: 46,
-    air_date: "2002-12-23",
+    air_date: "2001-12-23",
     image: "Episodes Images/HEISEI/AGITO/AGITO_46.webp",
   },
   {
@@ -408,13 +415,13 @@ const episodes = [
     episode: 1,
     air_date: "2003-01-26",
     image: "Episodes Images/HEISEI/FAIZ/FAIZ_01.webp",
-    fact: "Esse é o 600º episódio da franquia Kamen Rider!",
+    fact: "Esse é o 600º episódio da franquia Kamen Rider",
   },
   {
     series: "Kamen Rider Faiz",
     title: "The Resurrection Riddle",
     episode: 35,
-    air_date: "2004-09-28",
+    air_date: "2003-09-28",
     image: "Episodes Images/HEISEI/FAIZ/FAIZ_35.webp"
   },
   {
@@ -486,6 +493,14 @@ const episodes = [
     episode: 1,
     air_date: "2006-01-29",
     image: "Episodes Images/HEISEI/KABUTO/KABUTO_01.png"
+  },
+  {
+    series: "Kamen Rider Kabuto",
+    title: "The Makeup Thousand-Man Cut",
+    episode: 12,
+    air_date: "2006-04-16",
+    image: "Episodes Images/HEISEI/KABUTO/KABUTO_12.webp",
+    fact: "Debut da forma Rider do Drake"
   },
   {
     series: "Kamen Rider Kabuto",
@@ -584,7 +599,7 @@ const episodes = [
     episode: 8,
     air_date: "2009-03-15",
     image: "Episodes Images/HEISEI/DECADE/DECADE_08.webp",
-    fact: "Esse é o 900º episódio da franquia Kamen Rider!",
+    fact: "Esse é o 900º episódio da franquia Kamen Rider",
   },
   {
     series: "Kamen Rider Decade",
@@ -598,7 +613,8 @@ const episodes = [
     title: "The W Search/Two Detectives in One",
     episode: 1,
     air_date: "2009-09-06",
-    image: "Episodes Images/HEISEI/W/W_01.webp"
+    image: "Episodes Images/HEISEI/W/W_01.webp",
+    fact: "Primeiro episódio da Era Heisei 2"
   },
   {
     series: "Kamen Rider W",
@@ -682,7 +698,8 @@ const episodes = [
     title: "The I Doesn't Stop/That Guy's Name Is Accel",
     episode: 19,
     air_date: "2010-01-24",
-    image: "Episodes Images/HEISEI/W/W_19.webp"
+    image: "Episodes Images/HEISEI/W/W_19.webp",
+    fact: "Debut na TV do Kamen Rider Accel"
   },
   {
     series: "Kamen Rider W",
@@ -787,7 +804,7 @@ const episodes = [
     series: "Kamen Rider Gaim",
     title: "Transformation! And into the Future",
     episode: 47,
-    air_date: "2014-09-28",
+    air_date: "2015-09-28",
     image: "Episodes Images/HEISEI/GAIM/GAIM_47.webp"
   },
   {
@@ -809,7 +826,8 @@ const episodes = [
     title: "Who Stole the Woman's Smile?",
     episode: 3,
     air_date: "2014-10-19",
-    image: "Episodes Images/HEISEI/DRIVE/DRIVE_03.webp"
+    image: "Episodes Images/HEISEI/DRIVE/DRIVE_03.webp",
+    fact: "Esse episódio saiu 40 anos depois de Kamen Rider Amazon"
   },
   {
     series: "Kamen Rider Drive",
@@ -865,7 +883,16 @@ const episodes = [
     title: "Everyone Gathers for a Clashing Crash!",
     episode: 5,
     air_date: "2016-10-30",
-    image: "Episodes Images/HEISEI/EX-AID/EX-AID_05.webp"
+    image: "Episodes Images/HEISEI/EX-AID/EX-AID_05.webp", 
+    fact: "Debut dos Robots Gamers, como também da forma Robot Action Gamer Level 3"
+  },
+  {
+    series: "Kamen Rider Ex-Aid",
+    title: "Love & Peace for the Winner!",
+    episode: 27,
+    air_date: "2017-04-16",
+    image: "Episodes Images/HEISEI/EX-AID/EX-AID_27.webp",
+    fact: "Debut da Ride Player Nico"
   },
   {
     series: "Kamen Rider Ex-Aid",
@@ -907,28 +934,30 @@ const episodes = [
     title: "The Tomorrow Build Will Create",
     episode: 49,
     air_date: "2018-08-26",
-    image: "Episodes Images/HEISEI/BUILD/BUILD_49.webp"
+    image: "Episodes Images/HEISEI/BUILD/BUILD_49.webp",
+    fact: "Nesse episódio, o Riderwatch do Cross-Z aparece"
   },
   {
     series: "Kamen Rider Zi-O",
     title: "Kingdom 2068",
     episode: 1,
     air_date: "2018-09-02",
-    image: "Episodes Images/HEISEI/ZI/ZI_01.webp"
+    image: "Episodes Images/HEISEI/ZI-O/ZI-O_01.webp"
   },
   {
     series: "Kamen Rider Zi-O",
     title: "2019: Apocalypse",
     episode: 49,
     air_date: "2019-08-25",
-    image: "Episodes Images/HEISEI/ZI/ZI_49.webp"
+    image: "Episodes Images/HEISEI/ZI-O/ZI-O_49.webp"
   },
   {
     series: "Kamen Rider Zero-One",
     title: "I'm the President and a Kamen Rider",
     episode: 1,
     air_date: "2019-09-01",
-    image: "Episodes Images/REIWA/ZERO ONE/ZERO ONE_01.webp"
+    image: "Episodes Images/REIWA/ZERO ONE/ZERO ONE_01.webp",
+    fact: "Primeiro episódio da Era Reiwa"
   },
   {
     series: "Kamen Rider Zero-One",
@@ -977,7 +1006,8 @@ const episodes = [
     title: "Weakness Is Strength!? The Invincible Jeanne!",
     episode: 12,
     air_date: "2021-11-28",
-    image: "Episodes Images/REIWA/REVICE/REVICE_12.webp"
+    image: "Episodes Images/REIWA/REVICE/REVICE_12.webp",
+    fact: "Como o nome diz, a Kamen Rider Jeanne faz debut nesse episódio"
   },
   {
     series: "Kamen Rider Revice",
@@ -1009,10 +1039,18 @@ const episodes = [
   },
   {
     series: "Kamen Rider Geats",
+    title: "Lamentation VII: Heaven and Hell Game♡",
+    episode: 31,
+    air_date: "2023-04-16",
+    image: "Episodes Images/REIWA/GEATS/GEATS_31.webp"
+  },
+  {
+    series: "Kamen Rider Geats",
     title: "Genesis V: His Name Is Gya-Go!",
     episode: 43,
     air_date: "2023-07-09",
-    image: "Episodes Images/REIWA/GEATS/GEATS_43.webp"
+    image: "Episodes Images/REIWA/GEATS/GEATS_43.webp",
+    fact: "Nesse episódio, Keiwa Sakurai é eliminado do Jyamato Grand Prix e Archimedel morre"
   },
   {
     series: "Kamen Rider Geats",
@@ -1040,21 +1078,24 @@ const episodes = [
     title: "A Snack Kamen Rider!?",
     episode: 1,
     air_date: "2024-09-01",
-    image: "Episodes Images/REIWA/GAVV/GAVV_01.webp"
+    image: "Episodes Images/REIWA/GAVV/GAVV_01.webp",
+    fact: "Esse episódio foi lançado 5 anos depois da estréia de Zero-One"
   },
   {
     series: "Kamen Rider Gavv",
     title: "Happy Zakuzakuchips",
     episode: 2,
     air_date: "2024-09-08",
-    image: "Episodes Images/REIWA/GAVV/GAVV_02.webp"
+    image: "Episodes Images/REIWA/GAVV/GAVV_02.webp",
+    fact: "Debut da forma Zakuzakuchips do Gavv"
   },
   {
     series: "Kamen Rider Gavv",
     title: "Soda Punch Is a Guilty Pleasure",
     episode: 3,
     air_date: "2024-09-15",
-    image: "Episodes Images/REIWA/GAVV/GAVV_03.webp"
+    image: "Episodes Images/REIWA/GAVV/GAVV_03.webp",
+    fact: "Debut do Punchingummy Assist do Gavv"
   },
   {
     series: "Kamen Rider Gavv",
