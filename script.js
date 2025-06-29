@@ -461,6 +461,20 @@ const episodes = [
   },
   {
     series: "Kamen Rider Hibiki",
+    title: "Surpassing Father",
+    episode: 31,
+    air_date: "2005-09-11",
+    image: "Episodes Images/HEISEI/HIBIKI/HIBIKI_31.webp"
+  },
+  {
+    series: "Kamen Rider Hibiki",
+    title: "Dying a Glorious Death, Zanki",
+    episode: 45,
+    air_date: "2005-12-25",
+    image: "Episodes Images/HEISEI/HIBIKI/HIBIKI_45.webp"
+  },
+  {
+    series: "Kamen Rider Hibiki",
     title: "Dreaming of Tomorrow",
     episode: 48,
     air_date: "2006-01-22",
@@ -588,10 +602,80 @@ const episodes = [
   },
   {
     series: "Kamen Rider W",
+    title: "The W Search/Those Who Make the City Cry",
+    episode: 2,
+    air_date: "2009-09-13",
+    image: "Episodes Images/HEISEI/W/W_02.webp"
+  },
+  {
+    series: "Kamen Rider W",
     title: "Don't Touch the M/How to Get to Heaven",
     episode: 3,
     air_date: "2009-09-20",
     image: "Episodes Images/HEISEI/W/W_03.webp"
+  },
+  {
+    series: "Kamen Rider W",
+    title: "Don't Touch the M/Play with a Joker",
+    episode: 4,
+    air_date: "2009-09-27",
+    image: "Episodes Images/HEISEI/W/W_04.webp"
+  },
+  {
+    series: "Kamen Rider W",
+    title: "The Girl... A/Papa Is a Kamen Rider",
+    episode: 5,
+    air_date: "2009-10-04",
+    image: "Episodes Images/HEISEI/W/W_05.webp"
+  },
+  {
+    series: "Kamen Rider W",
+    title: "The Girl... A/The Price of Lying",
+    episode: 6,
+    air_date: "2009-10-11",
+    image: "Episodes Images/HEISEI/W/W_06.webp"
+  },
+  {
+    series: "Kamen Rider W",
+    title: "Find the C/Philip Can't Stand It",
+    episode: 7,
+    air_date: "2009-10-18",
+    image: "Episodes Images/HEISEI/W/W_07.webp"
+  },
+  {
+    series: "Kamen Rider W",
+    title: "Find the C/Dancing Hero",
+    episode: 8,
+    air_date: "2009-10-25",
+    image: "Episodes Images/HEISEI/W/W_08.webp"
+  },
+  {
+    series: "Kamen Rider W",
+    title: "The S Terror/The Maid Detective Witnessed It!",
+    episode: 9,
+    air_date: "2009-11-08",
+    image: "Episodes Images/HEISEI/W/W_09.webp"
+  },
+  {
+    series: "Kamen Rider W",
+    title: "The S Terror/The Great Detective's Daughter",
+    episode: 10,
+    air_date: "2009-11-15",
+    image: "Episodes Images/HEISEI/W/W_10.webp"
+  },
+  {
+    series: "Kamen Rider W",
+    title: "The Revenge V/Infected Car",
+    episode: 11,
+    air_date: "2009-11-22",
+    image: "Episodes Images/HEISEI/W/W_11.webp"
+  },
+  {
+    series: "Kamen Rider W",
+    title: "The Revenge V/Grudge Beast",
+    episode: 12,
+    air_date: "2009-11-29",
+    image: "Episodes Images/HEISEI/W/W_12.webp"
   },
   {
     series: "Kamen Rider W",
@@ -649,6 +733,13 @@ const episodes = [
     episode: 1,
     air_date: "2011-09-04",
     image: "Episodes Images/HEISEI/FOURZE/FOURZE_01.webp"
+  },
+  {
+    series: "Kamen Rider Fourze",
+    title: "Space Superiority",
+    episode: 2,
+    air_date: "2011-09-11",
+    image: "Episodes Images/HEISEI/FOURZE/FOURZE_02.webp"
   },
   {
     series: "Kamen Rider Fourze",
@@ -890,6 +981,13 @@ const episodes = [
   },
   {
     series: "Kamen Rider Revice",
+    title: "Lay Down My Life, Entrust My Feelings",
+    episode: 21,
+    air_date: "2022-02-06",
+    image: "Episodes Images/REIWA/REVICE/REVICE_21.webp"
+  },
+  {
+    series: "Kamen Rider Revice",
     title: "Family to the End, Until the Day We Meet Again",
     episode: 50,
     air_date: "2022-08-28",
@@ -901,6 +999,13 @@ const episodes = [
     episode: 1,
     air_date: "2022-09-04",
     image: "Episodes Images/REIWA/GEATS/GEATS_01.webp"
+  },
+  {
+    series: "Kamen Rider Geats",
+    title: "Encounter I: Treasure Hunting and Thievery",
+    episode: 2,
+    air_date: "2022-09-11",
+    image: "Episodes Images/REIWA/GEATS/GEATS_02.webp"
   },
   {
     series: "Kamen Rider Geats",
