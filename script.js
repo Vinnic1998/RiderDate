@@ -127,6 +127,21 @@ function findEpisodes() {
     }
   }
 
+document.getElementById("surpriseButton").addEventListener("click", () => {
+  const randomDate = getRandomDate();
+  const input = document.getElementById("birthdate");
+  input.value = randomDate.toISOString().slice(0, 10); // Formato YYYY-MM-DD
+  findEpisodes(); // Já executa a busca direto
+});
+
+function getRandomDate() {
+  const year = Math.floor(Math.random() * (2024 - 1971 + 1)) + 1971; // Entre 1971 e 2024
+  const month = Math.floor(Math.random() * 12);
+  const day = Math.floor(Math.random() * 28) + 1; // Evita dias inválidos tipo 30/02
+
+  return new Date(year, month, day);
+}
+
 const seriesIcons = {
   "Kamen Rider": "Series Icons/SHOWA/KR Icon.webp",
   "Kamen Rider V3": "Series Icons/SHOWA/V3 Icon.webp",

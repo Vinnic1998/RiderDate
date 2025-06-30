@@ -21,6 +21,67 @@
         <div class="ep-list">
             <h1>Lista de Episódios de Kamen Rider</h1>
             <p>Veja aqui o progresso de todos os episódios da franquia que estão no site</p>
+            <select id="serie-filter">
+                <option value="all">Todas as Séries</option>
+                <option value="Kamen Rider">Kamen Rider</option>
+                <option value="Kamen Rider V3">Kamen Rider V3</option>
+                <option value="Kamen Rider X">Kamen Rider X</option>
+                <option value="Kamen Rider Amazon">Kamen Rider Amazon</option>
+                <option value="Kamen Rider Stronger">Kamen Rider Stronger</option>
+                <option value="Kamen Rider (Skyrider)">Kamen Rider (Skyrider)</option>
+                <option value="Kamen Rider Super-1">Kamen Rider Super-1</option>
+                <option value="Kamen Rider Black">Kamen Rider Black</option>
+                <option value="Kamen Rider Black RX">Kamen Rider Black RX</option>
+                <option value="Kamen Rider Kuuga">Kamen Rider Kuuga</option>
+                <option value="Kamen Rider Agito">Kamen Rider Agito</option>
+                <option value="Kamen Rider Ryuki">Kamen Rider Ryuki</option>
+                <option value="Kamen Rider Faiz">Kamen Rider Faiz</option>
+                <option value="Kamen Rider Blade">Kamen Rider Blade</option>
+                <option value="Kamen Rider Hibiki">Kamen Rider Hibiki</option>
+                <option value="Kamen Rider Kabuto">Kamen Rider Kabuto</option>
+                <option value="Kamen Rider Den-O">Kamen Rider Den-O</option>
+                <option value="Kamen Rider Kiva">Kamen Rider Kiva</option>
+                <option value="Kamen Rider Decade">Kamen Rider Decade</option>
+                <option value="Kamen Rider W">Kamen Rider W</option>
+                <option value="Kamen Rider OOO">Kamen Rider OOO</option>
+                <option value="Kamen Rider Fourze">Kamen Rider Fourze</option>
+                <option value="Kamen Rider Wizard">Kamen Rider Wizard</option>
+                <option value="Kamen Rider Gaim">Kamen Rider Gaim</option>
+                <option value="Kamen Rider Drive">Kamen Rider Drive</option>
+                <option value="Kamen Rider Ghost">Kamen Rider Ghost</option>
+                <option value="Kamen Rider Ex-Aid">Kamen Rider Ex-Aid</option>
+                <option value="Kamen Rider Build">Kamen Rider Build</option>
+                <option value="Kamen Rider Zi-O">Kamen Rider Zi-O</option>
+                <option value="Kamen Rider Zero-One">Kamen Rider Zero-One</option>
+                <option value="Kamen Rider Saber">Kamen Rider Saber</option>
+                <option value="Kamen Rider Revice">Kamen Rider Revice</option>
+                <option value="Kamen Rider Geats">Kamen Rider Geats</option>
+                <option value="Kamen Rider Gotchard">Kamen Rider Gotchard</option>
+                <option value="Kamen Rider Gavv">Kamen Rider Gavv</option>
+            </select>
+            <select id="status-filter">
+                <option value="all">Todos</option>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+            <select id="month-filter">
+                <option value="all">Todos os Meses</option>
+                <option value="01">Janeiro</option>
+                <option value="02">Fevereiro</option>
+                <option value="03">Março</option>
+                <option value="04">Abril</option>
+                <option value="05">Maio</option>
+                <option value="06">Junho</option>
+                <option value="07">Julho</option>
+                <option value="08">Agosto</option>
+                <option value="09">Setembro</option>
+                <option value="10">Outubro</option>
+                <option value="11">Novembro</option>
+                <option value="12">Dezembro</option>
+            </select>
+
+            <p id="contador-episodios">Exibindo todos os episódios.</p>
+
             <table style="border: 1px solid black;">
             <thead>
                 <tr>
@@ -419,6 +480,46 @@
                     <td class="status">Sim</td>
                 </tr>
                 <tr>
+                    <td>18/03/2018</td>
+                    <td class="serie">Kamen Rider Build</td>
+                    <td>Episódio 27</td>
+                    <td>The Counterattack Hero</td>
+                    <td>Debut da forma RabbitRabbit do Build</td>
+                    <td class="status">Não</td>
+                </tr>
+                <tr>
+                    <td>19/03/2000</td>
+                    <td class="serie">Kamen Rider Kuuga</td>
+                    <td>Episódio 8</td>
+                    <td>Archer</td>
+                    <td></td>
+                    <td class="status">Não</td>
+                </tr>
+                <tr>
+                    <td>19/03/2006</td>
+                    <td class="serie">Kamen Rider Kabuto</td>
+                    <td>Episódio 8</td>
+                    <td>Angry Tofu</td>
+                    <td></td>
+                    <td class="status">Não</td>
+                </tr>
+                <tr>
+                    <td>19/03/2017</td>
+                    <td class="serie">Kamen Rider Ex-Aid</td>
+                    <td>Episódio 23</td>
+                    <td>To The Max, Dead or Alive!</td>
+                    <td>Debut da forma Maximum Gamer Level 99 do Ex-Aid</td>
+                    <td class="status">Não</td>
+                </tr>
+                <tr>
+                    <td>19/03/2023</td>
+                    <td class="serie">Kamen Rider Geats</td>
+                    <td>Episódio 27</td>
+                    <td>Lamentation III: A Fun Sengoku Game</td>
+                    <td>Debut do Beroba como Kamen Rider Glare2</td>
+                    <td class="status">Não</td>
+                </tr>
+                <tr>
                     <td>23/03/2025</td>
                     <td class="serie">Kamen Rider Gavv</td>
                     <td>Episódio 27</td>
@@ -523,6 +624,14 @@
                     <td>Episódio 30</td>
                     <td>The Most Terrible Presidential Daughter</td>
                     <td></td>
+                    <td class="status">Não</td>
+                </tr>
+                <tr>
+                    <td>15/04/2018</td>
+                    <td class="serie">Kamen Rider Build</td>
+                    <td>Episódio 31</td>
+                    <td>Surging Magma!</td>
+                    <td>Debut da forma Magma do Cross Z</td>
                     <td class="status">Não</td>
                 </tr>
                 <tr>

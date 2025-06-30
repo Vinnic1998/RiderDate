@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const seriesCells = document.querySelectorAll("td.serie");
   const statusCells = document.querySelectorAll("td.status");
 
+  // Aplica os ícones nas séries
   seriesCells.forEach(cell => {
     const serieName = cell.textContent.trim();
     const iconPath = seriesIcons[serieName];
@@ -59,6 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Aplica a cor nos status
   statusCells.forEach(cell => {
     const status = cell.textContent.trim().toLowerCase();
 
@@ -73,4 +75,73 @@ document.addEventListener("DOMContentLoaded", () => {
       cell.style.backgroundColor = "#e53935"; // Vermelho
     }
   });
+
+  // Filtro central (série + status + mês)
+  const serieFilter = document.getElementById("serie-filter");
+  const statusFilter = document.getElementById("status-filter");
+  const monthFilter = document.getElementById("month-filter");
+
+  function filtrarTabela() {
+    const serieSelecionada = serieFilter.value;
+    const statusSelecionado = statusFilter.value.toLowerCase();
+    const mesSelecionado = monthFilter.value;
+
+    const rows = document.querySelectorAll("tbody tr");
+
+    rows.forEach(row => {
+      const dateCell = row.querySelector("td");
+      const serieCell = row.querySelector(".serie");
+      const statusCell = row.querySelector(".status");
+
+      // Ignora linha de cabeçalho de mês (colspan)
+      if (!dateCell || !serieCell || !statusCell) {
+        row.style.display = "";
+        return;
+      }
+
+      const serieTexto = serieCell.textContent.trim();
+      const statusTexto = statusCell.textContent.trim().toLowerCase();
+      const mes = dateCell.textContent.trim().split("/")[1]; // extrai MM
+
+      const correspondeSerie = (serieSelecionada === "all" || serieTexto === serieSelecionada);
+      const correspondeStatus = (statusSelecionado === "all" || statusTexto === statusSelecionado);
+      const correspondeMes = (mesSelecionado === "all" || mes === mesSelecionado);
+
+      if (correspondeSerie && correspondeStatus && correspondeMes) {
+        row.style.display = "";
+      } else {
+        row.style.display = "none";
+      }
+    });
+
+    atualizarContador();
+  }
+
+  // Adiciona os eventos
+  serieFilter.addEventListener("change", filtrarTabela);
+  statusFilter.addEventListener("change", filtrarTabela);
+  monthFilter.addEventListener("change", filtrarTabela);
 });
+
+function atualizarContador() {
+  const rows = document.querySelectorAll("tbody tr");
+  let visiveis = 0;
+  let total = 0;
+
+  rows.forEach(row => {
+    const hasEpisodeData = row.querySelector("td");
+    if (hasEpisodeData) total++;
+
+    if (hasEpisodeData && row.style.display !== "none") {
+      visiveis++;
+    }
+  });
+
+  const contador = document.getElementById("contador-episodios");
+
+  if (visiveis === total) {
+    contador.textContent = `Exibindo todos os ${total} episódios.`;
+  } else {
+    contador.textContent = `Exibindo ${visiveis} de ${total} episódio${visiveis !== 1 ? "s" : ""}.`;
+  }
+}
