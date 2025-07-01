@@ -7,20 +7,33 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="table.css">
 </head>
-<body>
+<body class="theme-default">
     <header>
         <a href="index.html">
             <h1>RiderDate</h1>
         </a>
         <hr>
         <a href="tablerider.html">
-            <h2>Tabela dos Episódios Listados</h2>
+            <h2 id="tablepage">Tabela dos Episódios Listados</h2>
         </a>
+        <select id="rider-theme">
+          <option value="default">Tema Claro</option>
+          <option value="dark">Zero-one</option>
+          <option value="geats">Geats</option>
+          <option value="ooo">OOO</option>
+          <option value="showa">Showa</option>
+          <!--<option value="gavv">Gavv</option>-->
+          <option value="kabuto">Kabuto</option>
+        </select>
+        <select id="language-select">
+          <option value="pt">Português</option>
+          <option value="en">English</option>
+        </select>
     </header>
     <main>
         <div class="ep-list">
             <h1>Lista de Episódios de Kamen Rider</h1>
-            <p>Veja aqui o progresso de todos os episódios da franquia que estão no site</p>
+            <p id="ep-listP">Veja aqui o progresso de todos os episódios da franquia que estão no site</p>
             <select id="serie-filter">
                 <option value="all">Todas as Séries</option>
                 <option value="Kamen Rider">Kamen Rider</option>
@@ -100,18 +113,18 @@
                 <tr>
                     <td>05/01/2025</td>
                     <td class="serie">Kamen Rider Gavv</td>
-                    <td>Episódio 17</td>
-                    <td>Caramel Tentacles Taste Like Happiness</td>
+                    <td class="ep-number" data-ep="17">Episódio 17</td>
+                    <td class="ep-tile">Caramel Tentacles Taste Like Happiness</td>
                     <td>Debut do Kamen Rider Vram</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>08/01/2006</td>
                     <td class="serie">Kamen Rider Hibiki</td>
-                    <td>Episódio 46</td>
+                    <td class="ep-number" data-ep="46">Episódio 46</td>
                     <td>Mastering the Oni Way</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>08/01/2012</td>
@@ -119,7 +132,7 @@
                     <td>Episódio 17</td>
                     <td>Meteor Appearance</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>12/01/2003</td>
@@ -127,7 +140,7 @@
                     <td>Episódio 49</td>
                     <td>Granting a Wish</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true"">Sim</td>
                 </tr>
                 <tr>
                     <td>12/01/2014</td>
@@ -135,7 +148,7 @@
                     <td>Episódio 13</td>
                     <td>Gaim and Baron, Tag of Friendship!</td>
                     <td>Único uso da Banana Arms feito pelo Gaim na TV</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>12/01/2020</td>
@@ -143,7 +156,7 @@
                     <td>Episódio 18</td>
                     <td>This Is My Flowery Way of Life</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>12/01/2025</td>
@@ -151,7 +164,7 @@
                     <td>Episódio 18</td>
                     <td>Extremely Strong! The Pudding Bodyguard</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>15/01/1989</td>
@@ -159,7 +172,7 @@
                     <td>Episódio 11</td>
                     <td>The Scraps' Revolt</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>15/01/2012</td>
@@ -167,7 +180,7 @@
                     <td>Episódio 18</td>
                     <td>Gen/Ryu Showdown</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>18/01/2004</td>
@@ -175,7 +188,7 @@
                     <td>Episódio 50</td>
                     <td>My Dream</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>18/01/2009</td>
@@ -183,7 +196,7 @@
                     <td>Episódio 48</td>
                     <td>The Inheritors of Kiva</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>19/01/2003</td>
@@ -191,7 +204,7 @@
                     <td>Episódio 50</td>
                     <td>A New Life</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>19/01/2025</td>
@@ -199,7 +212,7 @@
                     <td>Episódio 19</td>
                     <td>The Secret Bittersweet Flavor of Pudding</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>20/01/2008</td>
@@ -207,7 +220,7 @@
                     <td>Episódio 49</td>
                     <td>The Climax Goes On, No Matter What</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>21/01/2001</td>
@@ -215,7 +228,7 @@
                     <td>Episódio 49</td>
                     <td>Yusuke</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>21/01/2007</td>
@@ -223,7 +236,7 @@
                     <td>Episódio 49</td>
                     <td>Path of Heaven</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>22/01/2005</td>
@@ -231,7 +244,7 @@
                     <td>Episódio 49</td>
                     <td>The Eternal Trump</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>22/01/2006</td>
@@ -239,7 +252,7 @@
                     <td>Episódio 48</td>
                     <td>Dreaming of Tomorrow</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>22/01/2012</td>
@@ -247,7 +260,7 @@
                     <td>Episódio 19</td>
                     <td>Steel Dragon, Unmatched</td>
                     <td>Debut dos NS Magnet Astroswitches</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>24/01/2010</td>
@@ -255,7 +268,7 @@
                     <td>Episódio 19</td>
                     <td>The I Doesn't Stop/That Guy's Name Is Accel</td>
                     <td>Debut na TV do Kamen Rider Accel</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>25/01/2004</td>
@@ -263,7 +276,7 @@
                     <td>Episódio 1</td>
                     <td>The Indigo Warrior</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>25/01/2009</td>
@@ -271,7 +284,7 @@
                     <td>Episódio 1</td>
                     <td>Rider War</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>26/01/2002</td>
@@ -279,7 +292,7 @@
                     <td>Episódio 1</td>
                     <td>The Start of a Trip</td>
                     <td>Esse é o 600º episódio da franquia Kamen Rider</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>26/01/2025</td>
@@ -287,7 +300,7 @@
                     <td>Episódio 20</td>
                     <td>Break In! To the Dark Snacks Factory!</td>
                     <td>Debut da forma Jelly Custom do Vram</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>27/01/2002</td>
@@ -295,7 +308,7 @@
                     <td>Episódio 51</td>
                     <td>AGITΩ</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>27/01/2008</td>
@@ -303,7 +316,7 @@
                     <td>Episódio 1</td>
                     <td>Fate: Wake Up!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>28/01/2001</td>
@@ -311,7 +324,7 @@
                     <td>Episódio 1</td>
                     <td>The Warrior's Awakening</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>28/01/2007</td>
@@ -319,7 +332,7 @@
                     <td>Episódio 1</td>
                     <td>I Have Arrived!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>29/01/2012</td>
@@ -327,7 +340,7 @@
                     <td>Episódio 20</td>
                     <td>Transcendent Magnetism</td>
                     <td>Debut da forma Magnetstates</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>30/01/2000</td>
@@ -335,7 +348,7 @@
                     <td>Episódio 1</td>
                     <td>Revival</td>
                     <td>Primeiro episódio da Era Heisei</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <th colspan="6" style="background-color: #2c2c2c; text-align: center;">Fevereiro</th>
@@ -346,7 +359,7 @@
                     <td>Episódio 21</td>
                     <td>Too Bitter Gavv</td>
                     <td>Debut do Kamen Rider Bitter Gavv</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>03/02/2002</td>
@@ -354,7 +367,7 @@
                     <td>Episódio 1</td>
                     <td>The Secret Story's Birth</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>04/02/2001</td>
@@ -362,7 +375,7 @@
                     <td>Episódio 2</td>
                     <td>Blue Storm</td>
                     <td>Esse é o 500º episódio da franquia Kamen Rider!</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>06/02/2022</td>
@@ -370,7 +383,7 @@
                     <td>Episódio 21</td>
                     <td>Lay Down My Life, Entrust My Feelings</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>07/02/2010</td>
@@ -378,7 +391,7 @@
                     <td>Episódio 21</td>
                     <td>The T Returns/A Melody Not Intended for Women</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>09/02/1974</td>
@@ -386,7 +399,7 @@
                     <td>Episódio 52</td>
                     <td>The Last Day of Destron</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>09/02/2025</td>
@@ -394,7 +407,7 @@
                     <td>Episódio 23</td>
                     <td>The Truth Is Sweet and Bitter</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>10/02/1973</td>
@@ -402,7 +415,7 @@
                     <td>Episódio 98</td>
                     <td>Gel Shocker Destroyed! The Leader's End!!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>10/02/2002</td>
@@ -410,7 +423,7 @@
                     <td>Episódio 2</td>
                     <td>Giant Spider Counterattack</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>16/02/1974</td>
@@ -418,7 +431,7 @@
                     <td>Episódio 1</td>
                     <td>X-X-X-Rider is Born!!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>16/02/2025</td>
@@ -426,7 +439,7 @@
                     <td>Episódio 23</td>
                     <td>Broken Sweets</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>17/02/1973</td>
@@ -434,15 +447,15 @@
                     <td>Episódio 1</td>
                     <td>Rider No. 3: His Name is V3!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>17/02/2002</td>
                     <td class="serie">Kamen Rider Ryuki</td>
                     <td>Episódio 3</td>
-                    <td>School Ghost</td>
+                    <td>School Ghost Story</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>23/02/2025</td>
@@ -450,7 +463,15 @@
                     <td>Episódio 24</td>
                     <td>A Spoonful of Revival Ice Cream</td>
                     <td>Debut da forma Sorbet Blizzard do Gavv</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
+                </tr>
+                <tr>
+                    <td>24/02/2002</td>
+                    <td class="serie">Kamen Rider Ryuki</td>
+                    <td>Episódio 4</td>
+                    <td>School Ghost Story 2</td>
+                    <td></td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <th colspan="6" style="background-color: #2c2c2c; text-align: center;">Março</th>
@@ -461,7 +482,7 @@
                     <td>Episódio 25</td>
                     <td>Virtual Happiness, The Taste of Nectar</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>09/03/2025</td>
@@ -469,7 +490,7 @@
                     <td>Episódio 26</td>
                     <td>Angry Pudding</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>15/03/2009</td>
@@ -477,7 +498,7 @@
                     <td>Episódio 8</td>
                     <td>Welcome to the Blade Restaurant</td>
                     <td>Esse é o 900º episódio da franquia Kamen Rider</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>18/03/2018</td>
@@ -485,7 +506,7 @@
                     <td>Episódio 27</td>
                     <td>The Counterattack Hero</td>
                     <td>Debut da forma RabbitRabbit do Build</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>19/03/2000</td>
@@ -493,7 +514,7 @@
                     <td>Episódio 8</td>
                     <td>Archer</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>19/03/2006</td>
@@ -501,7 +522,7 @@
                     <td>Episódio 8</td>
                     <td>Angry Tofu</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>19/03/2017</td>
@@ -509,7 +530,7 @@
                     <td>Episódio 23</td>
                     <td>To The Max, Dead or Alive!</td>
                     <td>Debut da forma Maximum Gamer Level 99 do Ex-Aid</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>19/03/2023</td>
@@ -517,7 +538,7 @@
                     <td>Episódio 27</td>
                     <td>Lamentation III: A Fun Sengoku Game</td>
                     <td>Debut do Beroba como Kamen Rider Glare2</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>23/03/2025</td>
@@ -525,7 +546,7 @@
                     <td>Episódio 27</td>
                     <td>Sour and Sweet to the Point of Burning</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>25/03/2001</td>
@@ -533,7 +554,7 @@
                     <td>Episódio 9</td>
                     <td>The Two G3s</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>25/03/2007</td>
@@ -541,7 +562,7 @@
                     <td>Episódio 9</td>
                     <td>My Strength Has Made You Cry</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>25/03/2012</td>
@@ -549,7 +570,7 @@
                     <td>Episódio 28</td>
                     <td>Star Storm Comeback</td>
                     <td>Debut da forma Storm do Meteor</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>25/03/2018</td>
@@ -557,7 +578,7 @@
                     <td>Episódio 28</td>
                     <td>The Genius Arrives With a Tank</td>
                     <td>Debut da forma TankTank do Build</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>30/03/2025</td>
@@ -565,7 +586,7 @@
                     <td>Episódio 28</td>
                     <td>Chocolate Frappe of Bonds!</td>
                     <td>Debut da forma Frappel Custom do Valen</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <th colspan="6" style="background-color: #2c2c2c; text-align: center;">Abril</th>
@@ -576,7 +597,7 @@
                     <td>Episódio 10</td>
                     <td>Silver Points and Lines</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>01/04/2007</td>
@@ -584,7 +605,7 @@
                     <td>Episódio 10</td>
                     <td>Hana in a Stormy Singularity Point</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>03/04/1971</td>
@@ -592,7 +613,7 @@
                     <td>Episódio 1</td>
                     <td>The Eerie Man Spider</td>
                     <td>Esse é o primeiro episódio da franquia e da Era Showa</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>03/04/2011</td>
@@ -600,7 +621,7 @@
                     <td>Episódio 28</td>
                     <td>1000, the Kamen Riders, and the Birthday</td>
                     <td>Esse é o 1000º episódio da franquia Kamen Rider, também servindo como comemoração ao 40º aniversário da franquia</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>03/04/1975</td>
@@ -608,7 +629,7 @@
                     <td>Episódio 1</td>
                     <td>I am the Electric Human Stronger!!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>06/04/2025</td>
@@ -616,7 +637,7 @@
                     <td>Episódio 29</td>
                     <td>Jiip's Surprise Wedding!</td>
                     <td>Primeira aparição de Bocca e Lizel Jeldak</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>13/04/2025</td>
@@ -624,7 +645,7 @@
                     <td>Episódio 30</td>
                     <td>The Most Terrible Presidential Daughter</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false"">Não</td>
                 </tr>
                 <tr>
                     <td>15/04/2018</td>
@@ -632,7 +653,7 @@
                     <td>Episódio 31</td>
                     <td>Surging Magma!</td>
                     <td>Debut da forma Magma do Cross Z</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>16/04/2000</td>
@@ -640,7 +661,7 @@
                     <td>Episódio 12</td>
                     <td>Teacher</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>16/04/2006</td>
@@ -648,7 +669,7 @@
                     <td>Episódio 12</td>
                     <td>The Makeup Thousand-Man Cut</td>
                     <td>Debut da forma Rider do Drake</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>16/04/2017</td>
@@ -656,7 +677,7 @@
                     <td>Episódio 12</td>
                     <td>Love & Peace for the Winner!</td>
                     <td>Debut da Ride Player Nico</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>16/04/2023</td>
@@ -664,7 +685,7 @@
                     <td>Episódio 31</td>
                     <td>Lamentation VII: Heaven and Hell Game♡</td>
                     <td>Nesse episódio, Keiwa Sakurai é eliminado do Jyamato Grand Prix e Archimedel morre</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>20/04/2025</td>
@@ -672,7 +693,7 @@
                     <td>Episódio 31</td>
                     <td>A Difficult Marriage</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>27/04/2025</td>
@@ -680,7 +701,7 @@
                     <td>Episódio 32</td>
                     <td>Cup on the True Feelings!</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <th colspan="6" style="background-color: #2c2c2c; text-align: center;">Maio</th>
@@ -691,7 +712,7 @@
                     <td>Episódio 33</td>
                     <td>One-Hit Kill!! Over Gavv!</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>11/05/2025</td>
@@ -699,7 +720,7 @@
                     <td>Episódio 34</td>
                     <td>The Great 100 Gochizo Operation!</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>18/05/2025</td>
@@ -707,7 +728,7 @@
                     <td>Episódio 35</td>
                     <td>Zero Sweetness! Ironclad Lango</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>25/05/2025</td>
@@ -715,7 +736,7 @@
                     <td>Episódio 36</td>
                     <td>Turnaround! Awakening! Master Gavv</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <th colspan="6" style="background-color: #2c2c2c; text-align: center;">Junho</th>
@@ -726,7 +747,7 @@
                     <td>Episódio 37</td>
                     <td>I Have Never Forgotten</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>08/06/2025</td>
@@ -734,7 +755,7 @@
                     <td>Episódio 38</td>
                     <td>The Other Side of Hatred</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>15/06/2025</td>
@@ -742,7 +763,7 @@
                     <td>Episódio 39</td>
                     <td>I've Been Looking for You</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>22/06/2025</td>
@@ -750,7 +771,7 @@
                     <td>Episódio 40</td>
                     <td>The Reminiscent A La Mode!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>29/06/2025</td>
@@ -758,7 +779,7 @@
                     <td>Episódio 41</td>
                     <td>Glasses Creeping Closer</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>30/06/2002</td>
@@ -766,7 +787,7 @@
                     <td>Episódio 22</td>
                     <td>Raia's Revenge</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <th colspan="6" style="background-color: #2c2c2c; text-align: center;">Julho</th>
@@ -777,7 +798,7 @@
                     <td>Episódio 23</td>
                     <td>Changing Destiny</td>
                     <td>Debut da forma Survive do Knight</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>09/07/2023</td>
@@ -785,7 +806,7 @@
                     <td>Episódio 43</td>
                     <td>Genesis V: His Name Is Gya-Go!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>27/07/2004</td>
@@ -793,7 +814,7 @@
                     <td>Episódio 26</td>
                     <td>The Power Which Moves Me</td>
                     <td>Debut da forma Jack do Blade</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>29/07/2018</td>
@@ -801,7 +822,7 @@
                     <td>Episódio 46</td>
                     <td>An Oath to Be The One</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <th colspan="6" style="background-color: #2c2c2c; text-align: center;">Agosto</th>
@@ -812,7 +833,7 @@
                     <td>Episódio 30</td>
                     <td>Lost Memories</td>
                     <td>Debut da forma Jack do Garren</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>24/08/2008</td>
@@ -820,7 +841,7 @@
                     <td>Episódio 29</td>
                     <td>When the Saints Go Marching In: I Am King</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>25/08/2019</td>
@@ -828,7 +849,7 @@
                     <td>Episódio 49</td>
                     <td>2019: Apocalypse</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>25/08/2024</td>
@@ -836,7 +857,7 @@
                     <td>Episódio 50</td>
                     <td>This Is My and Your CHEMY×STORY</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>26/08/2012</td>
@@ -844,7 +865,7 @@
                     <td>Episódio 48</td>
                     <td> Final Episode: Youthful Galaxy</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>26/08/2018</td>
@@ -852,7 +873,7 @@
                     <td>Episódio 49</td>
                     <td>The Tomorrow Build Will Create</td>
                     <td>Nesse episódio, o Riderwatch do Cross-Z aparece</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>27/08/2017</td>
@@ -860,7 +881,7 @@
                     <td>Episódio 45</td>
                     <td>Endless Game</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>27/08/2023</td>
@@ -868,7 +889,7 @@
                     <td>Episódio 49</td>
                     <td>Daybreak I: Here Comes The Highlight!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>28/08/2011</td>
@@ -876,7 +897,7 @@
                     <td>Episódio 48</td>
                     <td>Finale: The Medals of Tomorrow, Underwear, and Arms Held</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>28/08/2022</td>
@@ -884,7 +905,7 @@
                     <td>Episódio 50</td>
                     <td>Family to the End, Until the Day We Meet Again</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>29/08/2010</td>
@@ -892,7 +913,7 @@
                     <td>Episódio 49</td>
                     <td>Goodbye to the E/A Bouquet of Justice to This City</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>30/08/2009</td>
@@ -900,7 +921,7 @@
                     <td>Episódio 31</td>
                     <td>The Destroyer of Worlds</td>
                     <td>Último episódio da Era Heisei 1</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>30/08/2020</td>
@@ -908,7 +929,7 @@
                     <td>Episódio 45</td>
                     <td>Their Respectives Futures</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <th colspan="6" style="background-color: #2c2c2c; text-align: center;">Setembro</th>
@@ -919,7 +940,7 @@
                     <td>Episódio 31</td>
                     <td>The Girl and Ouja</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>01/09/2019</td>
@@ -927,7 +948,7 @@
                     <td>Episódio 1</td>
                     <td>I'm the President and a Kamen Rider</td>
                     <td>Primeiro episódio da Era Reiwa</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>01/09/2024</td>
@@ -935,7 +956,7 @@
                     <td>Episódio 1</td>
                     <td>A Snack Kamen Rider!?</td>
                     <td>Esse episódio foi lançado 5 anos depois da estréia de Zero-One</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>02/09/2012</td>
@@ -943,7 +964,7 @@
                     <td>Episódio 1</td>
                     <td>The Ringed Magician</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>02/09/2018</td>
@@ -951,7 +972,7 @@
                     <td>Episódio 1</td>
                     <td>Kingdom 2068</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>03/09/2017</td>
@@ -959,7 +980,7 @@
                     <td>Episódio 1</td>
                     <td>That One with the Best Match</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>03/09/2023</td>
@@ -967,7 +988,7 @@
                     <td>Episódio 1</td>
                     <td>Gotcha! Hopper1!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>04/09/2011</td>
@@ -975,7 +996,7 @@
                     <td>Episódio 1</td>
                     <td>Youthful Transformation</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>04/09/2022</td>
@@ -983,7 +1004,7 @@
                     <td>Episódio 1</td>
                     <td>Daybreak F: Invitation to the Rider</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>05/09/2010</td>
@@ -991,7 +1012,7 @@
                     <td>Episódio 1</td>
                     <td>Medals, Underwear, and a Mysterious Arm</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>05/09/2021</td>
@@ -999,7 +1020,7 @@
                     <td>Episódio 1</td>
                     <td>Family! Contract! The Demon Whispers!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>06/09/2009</td>
@@ -1007,7 +1028,7 @@
                     <td>Episódio 1</td>
                     <td>The W Search/Two Detectives in One</td>
                     <td>Primeiro episódio da Era Heisei 2</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>06/09/2020</td>
@@ -1015,7 +1036,7 @@
                     <td>Episódio 1</td>
                     <td>Chapter 1: In The Beginning, There Was a Flame Swordsman.</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>08/09/2024</td>
@@ -1023,7 +1044,7 @@
                     <td>Episódio 2</td>
                     <td>Happy Zakuzakuchips</td>
                     <td>Debut da forma Zakuzakuchips do Gavv</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>11/09/2005</td>
@@ -1031,7 +1052,7 @@
                     <td>Episódio 31</td>
                     <td>Surpassing Father</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>11/09/2011</td>
@@ -1039,7 +1060,7 @@
                     <td>Episódio 2</td>
                     <td>Space Superiority</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>11/09/2022</td>
@@ -1047,7 +1068,31 @@
                     <td>Episódio 2</td>
                     <td>Treasure Hunting and Thievery</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
+                </tr>
+                <tr>
+                    <td>12/09/2004</td>
+                    <td class="serie">Kamen Rider Blade</td>
+                    <td>Episódio 32</td>
+                    <td>The Destroyer's Secret</td>
+                    <td></td>
+                    <td class="ep-status" data-listed="false">Não</td>
+                </tr>
+                <tr>
+                    <td>12/09/2010</td>
+                    <td class="serie">Kamen Rider OOO</td>
+                    <td>Episódio 2</td>
+                    <td>Desire, Ice Pops, and Presents</td>
+                    <td></td>
+                    <td class="ep-status" data-listed="false">Não</td>
+                </tr>
+                <tr>
+                    <td>12/09/2021</td>
+                    <td class="serie">Kamen Rider Revice</td>
+                    <td>Episódio 2</td>
+                    <td>The Demon Is Just a Bad Guy!?</td>
+                    <td></td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>13/09/2009</td>
@@ -1055,7 +1100,7 @@
                     <td>Episódio 2</td>
                     <td>The W Search/Those Who Make the City Cry</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>15/09/2024</td>
@@ -1063,7 +1108,7 @@
                     <td>Episódio 3</td>
                     <td>Soda Punch Is a Guilty Pleasure</td>
                     <td>Debut do Punchingummy Assist do Gavv</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>20/09/2009</td>
@@ -1071,7 +1116,7 @@
                     <td>Episódio 3</td>
                     <td>Don't Touch the M/How to Get to Heaven</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>22/09/2002</td>
@@ -1079,7 +1124,7 @@
                     <td>Episódio 34</td>
                     <td>Friendship's Battle</td>
                     <td>Debut da forma Survive do Ryuki</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>22/09/2024</td>
@@ -1087,7 +1132,7 @@
                     <td>Episódio 4</td>
                     <td>More Marshmallows Please!</td>
                     <td>Debut da forma Fuwamallow do Gavv</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>24/09/1989</td>
@@ -1095,7 +1140,7 @@
                     <td>Episódio 47</td>
                     <td>A Shining Tomorrow!</td>
                     <td>Esse é o último episódio da Era Showa</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>25/09/2016</td>
@@ -1103,7 +1148,7 @@
                     <td>Episódio 50</td>
                     <td>Final Story (Special Edition): Future! Connected Thoughts!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>26/09/2004</td>
@@ -1111,7 +1156,7 @@
                     <td>Episódio 34</td>
                     <td>Category King</td>
                     <td>Debut da forma King do Blade</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>27/09/2009</td>
@@ -1119,7 +1164,7 @@
                     <td>Episódio 4</td>
                     <td>Don't Touch the M/Play with a Joker</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>27/09/2015</td>
@@ -1127,7 +1172,7 @@
                     <td>Episódio 4</td>
                     <td>Final Story (Special Edition): The Case of Ghost</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>28/09/2003</td>
@@ -1135,7 +1180,7 @@
                     <td>Episódio 35</td>
                     <td>The Resurrection Riddle</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>28/09/2008</td>
@@ -1143,7 +1188,7 @@
                     <td>Episódio 34</td>
                     <td>Noise: Melody of Destruction</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>28/09/2015</td>
@@ -1151,7 +1196,7 @@
                     <td>Episódio 47</td>
                     <td>Transformation! And into the Future</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>29/09/2002</td>
@@ -1159,7 +1204,7 @@
                     <td>Episódio 35</td>
                     <td>Enter Tiger</td>
                     <td>Debut do Alternative Zero</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>29/09/2013</td>
@@ -1167,7 +1212,7 @@
                     <td>Episódio 53</td>
                     <td>Neverending Story</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>29/09/2024</td>
@@ -1175,7 +1220,7 @@
                     <td>Episódio 4</td>
                     <td>The Memories Are Painful</td>
                     <td>Aparição do Dente Stoumach</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <th colspan="6" style="background-color: #2c2c2c; text-align: center;">Outubro</th>
@@ -1186,7 +1231,7 @@
                     <td>Episódio 1</td>
                     <td>I'm a Kamen Rider!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>03/10/1981</td>
@@ -1194,7 +1239,7 @@
                     <td>Episódio 48</td>
                     <td>Farewell, Earth! Kazuya Heads Off to Space!!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>04/10/1987</td>
@@ -1202,7 +1247,7 @@
                     <td>Episódio 1</td>
                     <td>Black!! Transformation</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true"Sim</td>
                 </tr>
                 <tr>
                     <td>04/10/2009</td>
@@ -1210,7 +1255,7 @@
                     <td>Episódio 1</td>
                     <td>The Girl... A/Papa Is a Kamen Rider</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>04/10/2015</td>
@@ -1218,7 +1263,7 @@
                     <td>Episódio 1</td>
                     <td>Eyes Open! It's Me!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>05/10/1979</td>
@@ -1226,7 +1271,7 @@
                     <td>Episódio 1</td>
                     <td>A Cyborg Flies in the Sky</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>05/10/2014</td>
@@ -1234,7 +1279,7 @@
                     <td>Episódio 1</td>
                     <td>Why Did My Time Stop?</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>06/10/2014</td>
@@ -1242,7 +1287,7 @@
                     <td>Episódio 1</td>
                     <td>Transform! The Orange From the Sky!?</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>06/10/2014</td>
@@ -1250,7 +1295,7 @@
                     <td>Episódio 6</td>
                     <td>Transformation Is Bitter Chocolate</td>
                     <td>o Kamen Rider Valen tem sua estréia neste episódio</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>09/10/1988</td>
@@ -1258,7 +1303,7 @@
                     <td>Episódio 51</td>
                     <td>Gorgom's Last Day</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>09/10/2016</td>
@@ -1266,7 +1311,7 @@
                     <td>Episódio 2</td>
                     <td>Another Prodigy with No Thank You?</td>
                     <td>Debut do Kamen Rider Brave</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>10/10/1980</td>
@@ -1274,7 +1319,7 @@
                     <td>Episódio 54</td>
                     <td>Farewell, Hiroshi Tsukuba! Eight Heroes Forever....</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>11/10/2009</td>
@@ -1282,7 +1327,7 @@
                     <td>Episódio 6</td>
                     <td>The Girl... A/The Price of Lying</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>12/10/1974</td>
@@ -1290,7 +1335,7 @@
                     <td>Episódio 35</td>
                     <td>Farewell, X-Rider</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>12/10/2014</td>
@@ -1298,7 +1343,7 @@
                     <td>Episódio 2</td>
                     <td>What is a Kamen Rider?</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>13/10/2002</td>
@@ -1306,7 +1351,7 @@
                     <td>Episódio 37</td>
                     <td>Sleep Is Awakening</td>
                     <td>Debut dos Alternative Pseudo-Riders</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>13/10/2024</td>
@@ -1314,7 +1359,7 @@
                     <td>Episódio 7</td>
                     <td>Dual Chocolate</td>
                     <td>Debut da forma Chocodan do Gavv e do Gavvphone</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>16/10/2002</td>
@@ -1322,7 +1367,7 @@
                     <td>Episódio 36</td>
                     <td>The Battle Ends</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>16/10/2016</td>
@@ -1330,7 +1375,7 @@
                     <td>Episódio 3</td>
                     <td>BANG, That Jerk is Coming!</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>17/10/2004</td>
@@ -1338,7 +1383,7 @@
                     <td>Episódio 37</td>
                     <td>Towards a New Destiny</td>
                     <td>Debut da forma Wild do Chalice</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>18/10/2009</td>
@@ -1346,7 +1391,7 @@
                     <td>Episódio 7</td>
                     <td>Find the C/Philip Can't Stand It</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>19/10/1974</td>
@@ -1354,7 +1399,7 @@
                     <td>Episódio 1</td>
                     <td>Man or Beast? The Cool Guy Who Came From the Jungle!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>19/10/2014</td>
@@ -1362,7 +1407,7 @@
                     <td>Episódio 3</td>
                     <td>Who Stole the Woman's Smile?</td>
                     <td>Esse episódio saiu 40 anos depois de Kamen Rider Amazon</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>20/10/2024</td>
@@ -1370,7 +1415,7 @@
                     <td>Episódio 9</td>
                     <td>Dual Chocolate</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>22/10/2000</td>
@@ -1378,7 +1423,7 @@
                     <td>Episódio 37</td>
                     <td>Approach</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>22/10/2006</td>
@@ -1386,7 +1431,7 @@
                     <td>Episódio 38</td>
                     <td>The Dangerous Younger Sister</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>22/10/2017</td>
@@ -1394,7 +1439,7 @@
                     <td>Episódio 8</td>
                     <td>Memory Starts To Talk</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>23/10/1988</td>
@@ -1402,7 +1447,7 @@
                     <td>Episódio 8</td>
                     <td>Child of the Sun! RX</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>23/10/2016</td>
@@ -1410,7 +1455,7 @@
                     <td>Episódio 4</td>
                     <td>An Operation Called Dash!</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>25/10/2009</td>
@@ -1418,7 +1463,7 @@
                     <td>Episódio 8</td>
                     <td>Find the C/Dancing Hero</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>26/10/2014</td>
@@ -1426,7 +1471,7 @@
                     <td>Episódio 4</td>
                     <td>What is That Prideful Chaser Thinking?</td>
                     <td>Debut do Shift Dimensional Cap</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>27/10/2024</td>
@@ -1434,7 +1479,7 @@
                     <td>Episódio 9</td>
                     <td>Trick or Dance!</td>
                     <td>Debut da forma Burucan do Gavv</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>30/10/2016</td>
@@ -1442,7 +1487,7 @@
                     <td>Episódio 5</td>
                     <td>Everyone Gathers for a Clashing Crash!</td>
                     <td>Debut dos Robots Gamers, como também da forma Robot Action Gamer Level 3</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <th colspan="6" style="background-color: #2c2c2c; text-align: center;">Novembro</th>
@@ -1453,7 +1498,7 @@
                     <td>Episódio 9</td>
                     <td>The S Terror/The Maid Detective Witnessed It!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>09/11/2014</td>
@@ -1461,7 +1506,7 @@
                     <td>Episódio 5</td>
                     <td>What Are the Steel Robbers After?</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>10/11/2024</td>
@@ -1469,7 +1514,7 @@
                     <td>Episódio 10</td>
                     <td>Extra Large! Candy Cannon!</td>
                     <td>Debut do Bakucan Assist, o episódio também lançou 1 dia depois dos 10 anos do Ep 5 de Drive</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>17/11/2024</td>
@@ -1477,7 +1522,7 @@
                     <td>Episódio 11</td>
                     <td>Beware of Sweet Words!</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>22/11/2009</td>
@@ -1485,7 +1530,7 @@
                     <td>Episódio 11</td>
                     <td>The Revenge V/Infected Car</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>24/11/2024</td>
@@ -1493,7 +1538,7 @@
                     <td>Episódio 12</td>
                     <td>A Bond Connected by Doughnuts</td>
                     <td>Debut da forma Doumaru do Valen</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>26/11/2006</td>
@@ -1501,7 +1546,7 @@
                     <td>Episódio 42</td>
                     <td>Worst Terror VS Worst Fear</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>28/11/2004</td>
@@ -1509,7 +1554,7 @@
                     <td>Episódio 42</td>
                     <td>Leangle Revived</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>28/11/2010</td>
@@ -1517,7 +1562,7 @@
                     <td>Episódio 12</td>
                     <td>An Eel, the World, and the Gravity Combo</td>
                     <td>Debut do combo Sagohzo</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>28/11/2021</td>
@@ -1525,7 +1570,7 @@
                     <td>Episódio 12</td>
                     <td>Weakness Is Strength!? The Invincible Jeanne!</td>
                     <td>Debut da Kamen Rider Jeanne</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>29/11/2009</td>
@@ -1533,7 +1578,7 @@
                     <td>Episódio 12</td>
                     <td>The Revenge V/Grudge Beast</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <th colspan="6" style="background-color: #2c2c2c; text-align: center;">Dezembro</th>
@@ -1544,7 +1589,7 @@
                     <td>Episódio 13</td>
                     <td>Promised Homemade Cake</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>08/12/2024</td>
@@ -1552,7 +1597,7 @@
                     <td>Episódio 14</td>
                     <td>Miraculous Awakening! Caking</td>
                     <td>Debut da forma Caking do Gavv</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>15/12/2024</td>
@@ -1560,7 +1605,7 @@
                     <td>Episódio 15</td>
                     <td>Escaped Granute!</td>
                     <td></td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>22/12/2024</td>
@@ -1568,7 +1613,7 @@
                     <td>Episódio 16</td>
                     <td>The Gift of Noël</td>
                     <td>Debut da forma Bushel do Valen</td>
-                    <td class="status">Não</td>
+                    <td class="ep-status" data-listed="false">Não</td>
                 </tr>
                 <tr>
                     <td>23/12/2001</td>
@@ -1576,7 +1621,7 @@
                     <td>Episódio 46</td>
                     <td>Warriors, Those Bonds</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>25/12/2011</td>
@@ -1584,7 +1629,7 @@
                     <td>Episódio 45</td>
                     <td>Dying a Glorious Death, Zanki</td>
                     <td>Último episódio de Hibiki em 2005</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>25/12/2011</td>
@@ -1592,7 +1637,7 @@
                     <td>Episódio 16</td>
                     <td>Right and Wrong Conflict</td>
                     <td>Último episódio de Fourze em 2011</td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
                 <tr>
                     <td>27/12/1975</td>
@@ -1600,7 +1645,7 @@
                     <td>Episódio 39</td>
                     <td>Goodbye! The Glorious Seven Riders!</td>
                     <td></td>
-                    <td class="status">Sim</td>
+                    <td class="ep-status" data-listed="true">Sim</td>
                 </tr>
             </tbody>
             </table>
@@ -1611,6 +1656,8 @@
     <p>Todas as imagens e informações de Kamen Rider pertencem à Toei Company</p>
     <p>As imagens e informações foram tiradas da <a href="https://kamenrider.fandom.com/pt/wiki/Kamen_Rider_Wiki">Kamen Rider Wiki</a>.</p>
     </footer>
-</body>
 <script src="table.js"></script>
+<script src="themes.js"></script>
+<script src="language.js"></script>
+</body>
 </html>

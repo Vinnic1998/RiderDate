@@ -9,15 +9,28 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
-<body>
+<body class="theme-default">
     <header>
         <a href="index.html">
             <h1>RiderDate</h1>
         </a>
         <hr>
         <a href="tablerider.html">
-            <h2>Tabela dos Episódios Listados</h2>
+            <h2 id="tablepage">Tabela dos Episódios Listados</h2>
         </a>
+        <select id="rider-theme">
+          <option value="default">Tema Claro</option>
+          <option value="dark">Zero-One</option>
+          <option value="geats">Geats</option>
+          <option value="ooo">OOO</option>
+          <option value="showa">Showa</option>
+          <!--<option value="gavv">Gavv</option>-->
+          <option value="kabuto">Kabuto</option>
+        </select>
+        <select id="language-select">
+          <option value="pt">Português</option>
+          <option value="en">English</option>
+        </select>
     </header>
     <main>
       <div class="birthbox">
@@ -74,6 +87,8 @@
     </main>
 
 <script src="script.js"></script>
+<script src="themes.js"></script>
+<script src="language.js"></script>
   <footer>
     <p>© 2025 - Projeto criado por Sonnic1998/FeldsparGamer</p>
     <p>Todas as imagens e informações de Kamen Rider pertencem à Toei Company</p>

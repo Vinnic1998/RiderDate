@@ -1,3 +1,5 @@
+/* Padrão */
+
 body {
     background-color: greenyellow;
     margin: 0;
@@ -8,8 +10,6 @@ body {
 }
 
 header {
-  background-color: #ffffff;
-  color: #000000;
   text-align: center;
   padding: 10px;
   font-size: 14px;
@@ -26,8 +26,6 @@ header {
 }
 
 footer {
-  background-color: #ffffff;
-  color: #000000;
   text-align: center;
   padding: 10px;
   font-size: 14px;
@@ -39,6 +37,11 @@ footer {
   height: 60px; 
   z-index: 999;
 }
+
+body, header, footer {
+  transition: background-color 0.4s ease, color 0.4s ease, border 0.4s ease;
+}
+
 
 main {
   padding-top: 10px;  
@@ -62,4 +65,179 @@ header h2 {
 
 header hr {
   margin: 10px 0;
+}
+
+/* Tema Claro */
+body.default-theme {
+  background: url(Wallpapers/KR.png) no-repeat center center fixed;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  color: #222;
+}
+
+body.default-theme header,
+body.default-theme footer {
+  background-color: greenyellow;
+  color: #000000;
+}
+
+body.default-theme header {
+  background-color: greenyellow;
+}
+
+/* Tema Escuro */
+body.dark-theme {
+  background: url(Wallpapers/REIWA/ZERO-ONE\ WPP.jpg) no-repeat center center fixed;
+  background-position: -350px -100px;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+body.dark-theme header,
+body.dark-theme footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body.dark-theme header {
+  border-bottom: 4px solid greenyellow;
+}
+
+body.dark-theme footer {
+  border-top: 4px solid greenyellow;
+}
+
+body.dark-theme header h1,
+body.dark-theme header h2,
+body.dark-theme header a {
+  color: white;
+}
+
+/* Geats: neon e vermelho */
+body.geats-theme {
+  background: url(Wallpapers/REIWA/GEATS\ WPP.jpg) no-repeat center center fixed;
+  background-position: -150px -100px;
+  background-repeat: no-repeat;
+  color: #000000;
+}
+
+body.geats-theme header,
+body.geats-theme footer {
+  background-color: #ffffff;
+  color: #000000;
+  border-image: linear-gradient(to top, #996a17, #7c5d09) 4;
+}
+
+body.geats-theme header {
+  border-bottom: 4px solid #9b7627;
+}
+
+body.geats-theme footer {
+  border-top: 4px solid red;
+}
+
+/* OOO: três cores */
+body.ooo-theme {
+  background: url(Wallpapers/HEISEI/OOO\ WPP.jpg) no-repeat center center fixed;
+  background-position: -150px -100px;
+  background-repeat: no-repeat;
+  color: #000000;
+}
+
+body.ooo-theme header,
+body.ooo-theme footer {
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  border-image: linear-gradient(to right, red, yellow, green) 1;
+}
+
+body.ooo-theme header h1,
+body.ooo-theme header h2,
+body.ooo-theme header a {
+  color: white;
+}
+
+body.ooo-theme header {
+  border-bottom: 4px solid;
+}
+
+body.ooo-theme footer {
+  border-top: 4px solid;
+}
+
+body.showa-theme {
+  background-color: #eae3d2;
+  color: #333;
+}
+
+body.showa-theme header,
+body.showa-theme footer {
+  background-color: #cfc6b8;
+  color: #000;
+}
+
+body.showa-theme header {
+  border-bottom: 3px solid #aa0000;
+}
+
+body.showa-theme footer {
+  border-top: 3px solid #aa0000;
+}
+
+/* Gavv: roxo escuro e dourado */
+body.gavv-theme {
+  background: url(Wallpapers/REIWA/GAVV\ WPP.jpg) no-repeat center center fixed;
+  background-position: 100px 0px;
+  background-repeat: no-repeat;
+  color: #000000;
+}
+
+body.gavv-theme header,
+body.gavv-theme footer {
+  background-color: #2e003e;
+  color: #f5d0ff;
+}
+
+body.gavv-theme header h1,
+body.gavv-theme header h2,
+body.gavv-theme header q {
+  color: #f5d0ff;
+}
+
+body.gavv-theme footer {
+  border-top: 4px solid gold;
+}
+
+body.gavv-theme header {
+  border-bottom: 4px solid gold;
+}
+
+/* Tema Kabuto */
+
+body.kabuto-theme {
+  background: url(Wallpapers/HEISEI/KABUTO\ WPP.jpg) no-repeat center center fixed;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+body.kabuto-theme header,
+body.kabuto-theme footer {
+  background-color: #750000;
+  color: #ffffff;
+}
+
+body.kabuto-theme header h1,
+body.kabuto-theme header h2,
+body.kabuto-theme header q {
+  color: #ffffff;
+}
+
+body.kabuto-theme footer {
+  border-top: 4px solid rgb(86, 86, 86);
+}
+
+body.kabuto-theme header {
+  border-bottom: 4px solid rgb(86, 86, 86);
 }

@@ -1,5 +1,4 @@
 .ep-list {
-    background-color: white;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -7,6 +6,21 @@
     text-align: center;
     margin-top: 100px;
     margin-bottom: 10px;
+}
+
+body.theme-default .ep-list {
+  background-color: white;
+  color: black;
+}
+
+body.theme-dark .ep-list {
+  background-color: #262626;
+  color: white;
+}
+
+body.theme-geats .ep-list {
+  background-color: #ffdbec;
+  border: red solid 4px;
 }
 
 table {
@@ -36,7 +50,7 @@ tr:hover {
   background-color: #f5f5f5;
 }
 
-.status-sim {
+.ep-status[data-listed="true"] {
   color: white;
   background-color: #4CAF50;
   padding: 5px 10px;
@@ -44,7 +58,7 @@ tr:hover {
   font-weight: bold;
 }
 
-.status-nao {
+.ep-status[data-listed="false"] {
   color: white;
   background-color: #e53935;
   padding: 5px 10px;
