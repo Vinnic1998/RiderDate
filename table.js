@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const img = document.createElement("img");
       img.src = iconPath;
       img.alt = serieName;
-      img.style.width = "20px";
+      img.style.width = "auto";
       img.style.height = "20px";
       img.style.verticalAlign = "middle";
       img.style.marginRight = "6px";
@@ -62,60 +62,70 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Aplica a cor nos status
   statusCells.forEach(cell => {
-    const status = cell.textContent.trim().toLowerCase();
+    const status = cell.getAttribute("data-listed");
 
     cell.style.padding = "6px 10px";
     cell.style.borderRadius = "0px";
     cell.style.color = "white";
     cell.style.fontWeight = "bold";
 
-    if (status === "sim") {
+      if (status === "true") {
       cell.style.backgroundColor = "#4CAF50"; // Verde
-    } else if (status === "não") {
+    } else {
       cell.style.backgroundColor = "#e53935"; // Vermelho
     }
+
   });
 
   // Filtro central (série + status + mês)
   const serieFilter = document.getElementById("serie-filter");
   const statusFilter = document.getElementById("status-filter");
   const monthFilter = document.getElementById("month-filter");
-
-  function filtrarTabela() {
+function filtrarTabela() {
     const serieSelecionada = serieFilter.value;
     const statusSelecionado = statusFilter.value.toLowerCase();
     const mesSelecionado = monthFilter.value;
 
     const rows = document.querySelectorAll("tbody tr");
+    let total = 0;
+    let visiveis = 0;
 
     rows.forEach(row => {
-      const dateCell = row.querySelector("td");
-      const serieCell = row.querySelector(".serie");
-      const statusCell = row.querySelector(".status");
+        // Ignora linhas de cabeçalho de mês
+        if (row.querySelector("th[colspan='6']")) {
+            return;
+        }
 
-      // Ignora linha de cabeçalho de mês (colspan)
-      if (!dateCell || !serieCell || !statusCell) {
-        row.style.display = "";
-        return;
-      }
+        const dateCell = row.querySelector("td");
+        const serieCell = row.querySelector(".serie");
+        const statusCell = row.querySelector(".ep-status"); // Alterado para ep-status
 
-      const serieTexto = serieCell.textContent.trim();
-      const statusTexto = statusCell.textContent.trim().toLowerCase();
-      const mes = dateCell.textContent.trim().split("/")[1]; // extrai MM
+        if (!dateCell || !serieCell || !statusCell) {
+            row.style.display = "none";
+            return;
+        }
 
-      const correspondeSerie = (serieSelecionada === "all" || serieTexto === serieSelecionada);
-      const correspondeStatus = (statusSelecionado === "all" || statusTexto === statusSelecionado);
-      const correspondeMes = (mesSelecionado === "all" || mes === mesSelecionado);
+        const serieTexto = serieCell.textContent.trim();
+        const statusValor = statusCell.getAttribute("data-listed"); // Usamos o data attribute
+        const statusTexto = statusValor === "true" ? "sim" : "não"; // Padronizamos para pt
+        const mes = dateCell.textContent.trim().split("/")[1];
 
-      if (correspondeSerie && correspondeStatus && correspondeMes) {
-        row.style.display = "";
-      } else {
-        row.style.display = "none";
-      }
+        const correspondeSerie = (serieSelecionada === "all" || serieTexto === serieSelecionada);
+        const correspondeStatus = (statusSelecionado === "all" || 
+                                 statusTexto === statusSelecionado);
+        const correspondeMes = (mesSelecionado === "all" || mes === mesSelecionado);
+
+        if (correspondeSerie && correspondeStatus && correspondeMes) {
+            row.style.display = "";
+            visiveis++;
+        } else {
+            row.style.display = "none";
+        }
+        total++;
     });
 
-    atualizarContador();
-  }
+    atualizarContador(visiveis, total);
+}
 
   // Adiciona os eventos
   serieFilter.addEventListener("change", filtrarTabela);

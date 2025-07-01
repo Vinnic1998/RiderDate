@@ -2,7 +2,6 @@
 
 const langSelect = document.getElementById("language-select");
 const lang = localStorage.getItem("lang") || "pt";
-let episodesData = []; // Vamos armazenar os episódios aqui
 
 // Seta o valor inicial do select
 if (langSelect) langSelect.value = lang;
@@ -15,27 +14,11 @@ if (langSelect) {
   });
 }
 
-// Função para carregar os episódios do JSON
-async function loadEpisodesData() {
-  try {
-    const response = await fetch('episodes.json');
-    if (!response.ok) throw new Error('Failed to load episodes data');
-    episodesData = await response.json();
-    return episodesData;
-  } catch (error) {
-    console.error('Error loading episodes data:', error);
-    return [];
-  }
-}
-
 // Função pra pegar o título traduzido de um episódio
-function getTranslatedText(episodeId) {
-  const ep = episodesData.find(e => e.id === episodeId);
-  if (!ep) return '';
+function getTranslatedText(ep) {
   return lang === "pt" ? (ep.title_pt || ep.title_en) : (ep.title_en || ep.title_pt);
 }
 
-// Função para aplicar traduções nos elementos da página
 function applyTranslations(lang) {
   const t = translations[lang];
 
@@ -74,6 +57,7 @@ function applyTranslations(lang) {
     footerPs[2].innerHTML = `${t.footer3} <a href="https://kamenrider.fandom.com/pt/wiki/Kamen_Rider_Wiki">Kamen Rider Wiki</a>.`;
   }
 }
+
 
 const translations = {
   pt: {
@@ -140,22 +124,9 @@ function applyTableTranslations(lang) {
     const watched = cell.getAttribute("data-listed");
     cell.innerText = watched === "true" ? t.yes : t.no;
   });
-
-  // Atualizar títulos dos episódios na tabela
-  document.querySelectorAll(".ep-title").forEach(cell => {
-    const episodeId = cell.getAttribute("data-ep-id");
-    if (episodeId && episodesData.length > 0) {
-      const translatedTitle = getTranslatedText(episodeId);
-      if (translatedTitle) {
-        cell.innerText = translatedTitle;
-      }
-    }
-  });
 }
 
-// Carrega os dados e depois aplica as traduções
-document.addEventListener("DOMContentLoaded", async () => {
-  await loadEpisodesData();
+document.addEventListener("DOMContentLoaded", () => {
   applyTranslations(lang);
 
   if (document.querySelector("table")) {
