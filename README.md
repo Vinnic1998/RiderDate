@@ -10,6 +10,8 @@ A função do RiderDate é de ser um site para se divertir caçando episódios d
 
 30/06/2025 - Adição do botão de "Me Surpreenda!" para datas aleatórias e filtros na Lista de Episódios.
 
+01/06/2025 - Adição de tradução para Inglês e Temas. Tradução ainda está sendo feita!
+
 ==================================================================================================================================================
 
 Mais coisas serão adicionadas futuramente ao site, se quiserem sugerir ideias fiquem a vontade!
