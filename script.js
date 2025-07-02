@@ -1,59 +1,19 @@
-let episodes = [];
-
-// Carrega os episódios assim que o script é executado
-fetch('episodes.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Erro ao carregar os episódios');
-    }
-    return response.json();
-  })
-  .then(data => {
-    episodes = data;
-    console.log('Episódios carregados com sucesso!');
-  })
-  .catch(error => {
-    console.error('Erro ao carregar episódios:', error);
-    // Você pode adicionar um fallback ou mensagem de erro aqui
-  });
-
-const seriesIcons = {
-  "Kamen Rider": "Series Icons/SHOWA/KR Icon.webp",
-  "Kamen Rider V3": "Series Icons/SHOWA/V3 Icon.webp",
-  "Kamen Rider X": "Series Icons/SHOWA/X Icon.webp",
-  "Kamen Rider Amazon": "Series Icons/SHOWA/AMAZON Icon.webp",
-  "Kamen Rider Stronger": "Series Icons/SHOWA/STRONGER Icon.webp",
-  "Kamen Rider (Skyrider)": "Series Icons/SHOWA/SKYRIDER Icon.webp",
-  "Kamen Rider Super-1": "Series Icons/SHOWA/SUPER-1 Icon.webp",
-  "Kamen Rider Black": "Series Icons/SHOWA/BLACK Icon.webp",
-  "Kamen Rider Black RX": "Series Icons/SHOWA/BLACK RX Icon.webp",
-  "Kamen Rider Kuuga": "Series Icons/HEISEI/KUUGA Icon.webp",
-  "Kamen Rider Agito": "Series Icons/HEISEI/AGITO Icon.webp",
-  "Kamen Rider Ryuki": "Series Icons/HEISEI/RYUKI Icon.webp",
-  "Kamen Rider Faiz": "Series Icons/HEISEI/FAIZ Icon.webp",
-  "Kamen Rider Blade": "Series Icons/HEISEI/BLADE Icon.webp",
-  "Kamen Rider Hibiki": "Series Icons/HEISEI/HIBIKI Icon.webp",
-  "Kamen Rider Kabuto": "Series Icons/HEISEI/KABUTO Icon.webp",
-  "Kamen Rider Den-O": "Series Icons/HEISEI/DEN-O Icon.webp",
-  "Kamen Rider Kiva": "Series Icons/HEISEI/KIVA Icon.webp",
-  "Kamen Rider Decade": "Series Icons/HEISEI/DECADE Icon.webp",
-  "Kamen Rider W": "Series Icons/HEISEI/W Icon.webp",
-  "Kamen Rider OOO": "Series Icons/HEISEI/OOO Icon.webp",
-  "Kamen Rider Fourze": "Series Icons/HEISEI/FOURZE Icon.png",
-  "Kamen Rider Wizard": "Series Icons/HEISEI/WIZARD Icon.webp",
-  "Kamen Rider Gaim": "Series Icons/HEISEI/GAIM Icon.webp",
-  "Kamen Rider Drive": "Series Icons/HEISEI/DRIVE Icon.webp",
-  "Kamen Rider Ghost": "Series Icons/HEISEI/GHOST Icon.webp",
-  "Kamen Rider Ex-Aid": "Series Icons/HEISEI/EX-AID Icon.webp",
-  "Kamen Rider Build": "Series Icons/HEISEI/BUILD Icon.png",
-  "Kamen Rider Zi-O": "Series Icons/HEISEI/ZI-O Icon.webp",
-  "Kamen Rider Zero-One": "Series Icons/REIWA/ZERO-ONE Icon.webp",
-  "Kamen Rider Saber": "Series Icons/REIWA/SABER Icon.webp",
-  "Kamen Rider Revice": "Series Icons/REIWA/REVICE ICON.webp",
-  "Kamen Rider Geats": "Series Icons/REIWA/GEATS Icon.webp",
-  "Kamen Rider Gotchard": "Series Icons/REIWA/GOTCHARD Icon.webp",
-  "Kamen Rider Gavv": "Series Icons/REIWA/GAVV Icon.webp",
-};
+document.addEventListener("DOMContentLoaded", () => {
+  fetch('episodes.json')
+    .then(response => {
+      if (!response.ok) throw new Error('Erro ao carregar os episódios');
+      return response.json();
+    })
+    .then(data => {
+      episodes = data;
+      console.log('Episódios carregados com sucesso!');
+      const episodesReadyEvent = new CustomEvent('episodesReady', {
+        detail: { episodes }
+      });
+      window.dispatchEvent(episodesReadyEvent);
+    })
+    .catch(error => console.error('Erro ao carregar episódios:', error));
+});
 
 function findEpisodes() {
     const input = document.getElementById("birthdate").value;
@@ -99,12 +59,13 @@ function findEpisodes() {
         const episodeDiv = document.createElement("div");
         episodeDiv.classList.add("episode-result");
 
-        const epFact = ep.fact ? `<p><strong>Curiosidade:</strong> ${ep.fact}</p>` : '';
+        const epFactText = getTranslatedFact(ep);
+        const epFact = epFactText ? `<p><strong>${getFactLabel()}:</strong> ${epFactText}</p>` : '';
 
         episodeDiv.innerHTML = `
         <hr>
         <img src="${ep.image || 'placeholder.png'}" alt="${ep.series}" class="episode-image">
-        <p><img src="${seriesIcons[ep.series] || 'default-icon.png'}" alt="${ep.series} Icon" class="series-icon"><strong>${ep.series}</strong> - Episódio ${ep.episode}: ${getTranslatedText(ep)}</p>
+        <p><img src="${seriesIcons[ep.series] || 'default-icon.png'}" alt="${ep.series} Icon" class="series-icon"><strong>${ep.series}</strong> - ${getEpisodeLabel()} ${ep.episode}: ${getTranslatedText(ep)}</p>
         <p><em>(${ep.air_date})</em></p>
         ${epFact}
         `;
@@ -184,12 +145,16 @@ function findEpisodes() {
     }
   }
 
-document.getElementById("surpriseButton").addEventListener("click", () => {
-  const randomDate = getRandomDate();
-  const input = document.getElementById("birthdate");
-  input.value = randomDate.toISOString().slice(0, 10); // Formato YYYY-MM-DD
-  findEpisodes(); // Já executa a busca direto
-});
+const surpriseBtn = document.getElementById("surpriseButton");
+
+if (surpriseBtn) {
+  surpriseBtn.addEventListener("click", () => {
+    const randomDate = getRandomDate();
+    const input = document.getElementById("birthdate");
+    input.value = randomDate.toISOString().slice(0, 10); // Formato YYYY-MM-DD
+    findEpisodes(); // Já executa a busca direto
+  });
+}
 
 function getRandomDate() {
   const year = Math.floor(Math.random() * (2024 - 1971 + 1)) + 1971; // Entre 1971 e 2024
@@ -198,3 +163,11 @@ function getRandomDate() {
 
   return new Date(year, month, day);
 }
+
+window.episodes = episodes; 
+
+setTimeout(() => {
+  if (typeof translateEpisodes === "function") {
+    translateEpisodes(); // força uma tradução extra depois de tudo
+  }
+}, 300); // 300ms de delay só pra garantir que o DOM esteja pronto

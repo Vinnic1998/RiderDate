@@ -6,7 +6,8 @@
     "episode": 1,
     "air_date": "1971-04-03",
     "image": "Episodes Images/SHOWA/KR/KR_01.webp",
-    "fact": "Esse é o 1º episódio da franquia Kamen Rider, também o da Era Showa"
+    "fact_en": "This is the 1st episode of Kamen Rider franchise, also the first one of the Showa Era",
+    "fact_pt": "Esse é o 1º episódio da franquia Kamen Rider, também o da Era Showa"
   },
   {
     "series": "Kamen Rider",
@@ -71,7 +72,8 @@
     "episode": 15,
     "air_date": "1975-01-25",
     "image": "Episodes Images/SHOWA/AMAZON/AMAZON_15.webp",
-    "fact": "Esse é o 200º episódio da franquia"
+    "fact_en": "This is the 200th episode of the Kamen Rider franchise",
+    "fact_pt": "Esse é o 200º episódio da franquia"
   },
   {
     "series": "Kamen Rider Amazon",
@@ -160,7 +162,8 @@
     "episode": 47,
     "air_date": "1989-09-24",
     "image": "Episodes Images/SHOWA/BLACK RX/RX_47.webp",
-    "fact": "Esse é o último episódio da Era Showa"
+    "fact_en": "This is the last episode of the Showa Era",
+    "fact_pt": "Esse é o último episódio da Era Showa"
   },
   {
     "series": "Kamen Rider Kuuga",
@@ -169,7 +172,8 @@
     "episode": 1,
     "air_date": "2000-01-30",
     "image": "Episodes Images/HEISEI/KUUGA/KUUGA_01.webp",
-    "fact": "Esse é o 1º episódio da era Heisei"
+    "fact_en": "This the 1st episode of the Heisei Era",
+    "fact_pt": "Esse é o 1º episódio da era Heisei"
   },
   {
     "series": "Kamen Rider Kuuga",
@@ -210,7 +214,8 @@
     "episode": 2,
     "air_date": "2001-02-04",
     "image": "Episodes Images/HEISEI/AGITO/AGITO_02.webp",
-    "fact": "Esse é o 500º episódio da franquia Kamen Rider"
+    "fact_en": "This is the 500th episode of the Kamen Rider franchise",
+    "fact_pt": "Esse é o 500º episódio da franquia Kamen Rider"
   },
   {
     "series": "Kamen Rider Agito",
@@ -347,7 +352,16 @@
     "episode": 1,
     "air_date": "2003-01-26",
     "image": "Episodes Images/HEISEI/FAIZ/FAIZ_01.webp",
-    "fact": "Esse é o 600º episódio da franquia Kamen Rider"
+    "fact_en": "This is the 600th episode of the Kamen Rider franchise",
+    "fact_pt": "Esse é o 600º episódio da franquia Kamen Rider"
+  },
+  {
+    "series": "Kamen Rider Faiz",
+    "title_en": "Intertwined Threads",
+    "title_pt": "Fios Entrelaçados",
+    "episode": 32,
+    "air_date": "2003-09-07",
+    "image": "Episodes Images/HEISEI/FAIZ/FAIZ_32.png"
   },
   {
     "series": "Kamen Rider Faiz",
@@ -383,12 +397,53 @@
   },
   {
     "series": "Kamen Rider Blade",
+    "title_en": "Mysterious Hunters",
+    "title_pt": "caçadores Misteriosos",
+    "episode": 24,
+    "air_date": "2004-07-11",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_24.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "A Traitor's Sprint",
+    "title_pt": "A Fuga do Traidor",
+    "episode": 25,
+    "air_date": "2004-07-18",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_25.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
     "title_en": "The Power Which Moves Me",
     "title_pt": "O Poder Que Me Move",
     "episode": 26,
     "air_date": "2004-07-25",
     "image": "Episodes Images/HEISEI/BLADE/BLADE_26.webp",
-    "fact": "Debut da forma Jack do Blade"
+    "fact_en": "Blade Jack Form's debut",
+    "fact_pt": "Debut da forma Jack do Blade"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Trembling Heart...",
+    "title_pt": "Coração Tremendo...",
+    "episode": 27,
+    "air_date": "2004-08-01",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_27.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "A Dangerous Gamble!?",
+    "title_pt": "Uma Apostada Perigosa!?",
+    "episode": 28,
+    "air_date": "2004-08-08",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_28.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Two Chalices",
+    "title_pt": "Dois Chalices",
+    "episode": 29,
+    "air_date": "2004-08-15",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_29.webp"
   },
   {
     "series": "Kamen Rider Blade",
@@ -397,7 +452,32 @@
     "episode": 30,
     "air_date": "2004-08-22",
     "image": "Episodes Images/HEISEI/BLADE/BLADE_30.webp",
-    "fact": "Debut da forma Jack do Garren"
+    "fact_en": "Garren Jack Form's debut",
+    "fact_pt": "Debut da forma Jack do Garren"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The 53rd Being",
+    "title_pt": "A 53ª Criatura",
+    "episode": 31,
+    "air_date": "2004-09-05",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_31.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Destroyer's Secret",
+    "title_pt": "O Segredo do Destruidor",
+    "episode": 32,
+    "air_date": "2004-09-12",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_32.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Targeted Kenzaki",
+    "title_pt": "Kenzaki está na Mira",
+    "episode": 33,
+    "air_date": "2004-09-19",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_33.webp"
   },
   {
     "series": "Kamen Rider Blade",
@@ -406,7 +486,26 @@
     "episode": 34,
     "air_date": "2004-09-26",
     "image": "Episodes Images/HEISEI/BLADE/BLADE_34.webp",
-    "fact": "Debut da forma King do Blade"
+    "fact_en": "Blade King Form's debut",
+    "fact_pt": "Debut da forma King do Blade"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Towards a New Destiny",
+    "title_pt": "Em Busca de um Novo Destino",
+    "episode": 37,
+    "air_date": "2004-10-17",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_37.webp",
+    "fact_en": "Chalice Wild Form's debut",
+    "fact_pt": "Debut da forma Wild do Chalice"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Reunion...Father and Daughter",
+    "title_pt": "Pai e Filha... se encontram",
+    "episode": 39,
+    "air_date": "2004-10-31",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_39.webp"
   },
   {
     "series": "Kamen Rider Blade",
@@ -471,7 +570,8 @@
     "episode": 12,
     "air_date": "2006-04-16",
     "image": "Episodes Images/HEISEI/KABUTO/KABUTO_12.webp",
-    "fact": "Debut da forma Rider do Drake"
+    "fact_en": "Drake Rider form's debut",
+    "fact_pt": "Debut da forma Rider do Drake"
   },
   {
     "series": "Kamen Rider Kabuto",
@@ -537,13 +637,23 @@
     "air_date": "2008-01-27",
     "image": "Episodes Images/HEISEI/KIVA/KIVA_01.webp"
   },
-   {
+  {
     "series": "Kamen Rider Kiva",
     "title_en": "When the Saints Go Marching In: I Am King",
     "title_pt": "Quandos os Santos Marcharem: Eu Serei o Rei",
     "episode": 29,
     "air_date": "2008-08-24",
     "image": "Episodes Images/HEISEI/KIVA/KIVA_29.webp"
+  },
+  {
+    "series": "Kamen Rider Kiva",
+    "title_en": "Applause: Motherly Dedicated Transformation",
+    "title_pt": "Aplausos: Amor de Mãe em Ação",
+    "episode": 29,
+    "air_date": "2008-09-07",
+    "image": "Episodes Images/HEISEI/KIVA/KIVA_31.webp",
+    "fact_en": "Debut of Megumi and Yuri Aso as Ixa",
+    "fact_pt": "Debut da Megumi e Yuri Aso como Ixa"
   },
   {
     "series": "Kamen Rider Kiva",
@@ -584,7 +694,8 @@
     "episode": 8,
     "air_date": "2009-03-15",
     "image": "Episodes Images/HEISEI/DECADE/DECADE_08.webp",
-    "fact": "Esse é o 900º episódio da franquia Kamen Rider"
+    "fact_en": "This is the 900th episode of the Kamen Rider franchise",
+    "fact_pt": "Esse é o 900º episódio da franquia Kamen Rider"
   },
   {
     "series": "Kamen Rider Decade",
@@ -601,7 +712,8 @@
     "episode": 1,
     "air_date": "2009-09-06",
     "image": "Episodes Images/HEISEI/W/W_01.webp",
-    "fact": "Primeiro episódio da Era Heisei 2"
+    "fact_en": "First episode of the Heisei Era 2",
+    "fact_pt": "Primeiro episódio da Era Heisei 2"
   },
   {
     "series": "Kamen Rider W",
@@ -693,12 +805,29 @@
   },
   {
     "series": "Kamen Rider W",
+    "title_en": "The Q on the Radio /Targeted Princess",
+    "title_pt": "Questão para o Rádio/Princesa na Mira",
+    "episode": 13,
+    "air_date": "2009-12-06",
+    "image": "Episodes Images/HEISEI/W/W_13.webp"
+  },
+  {
+    "series": "Kamen Rider W",
+    "title_en": "The Q on the Radio/Live Catastrophe",
+    "title_pt": "Questão para o Rádio/Grande Pânico ao Vivo",
+    "episode": 14,
+    "air_date": "2009-12-13",
+    "image": "Episodes Images/HEISEI/W/W_14.webp"
+  },
+  {
+    "series": "Kamen Rider W",
     "title_en": "The I Doesn't Stop/That Guy's Name Is Accel",
     "title_pt": "O I não Para/Accel é o Nome Dele!",
     "episode": 19,
     "air_date": "2010-01-24",
     "image": "Episodes Images/HEISEI/W/W_19.webp",
-    "fact": "Debut na TV do Kamen Rider Accel"
+    "fact_en": "Televised debut of Kamen Rider Accel",
+    "fact_pt": "Debut na TV do Kamen Rider Accel"
   },
   {
     "series": "Kamen Rider W",
@@ -726,6 +855,16 @@
   },
   {
     "series": "Kamen Rider OOO",
+    "title_en": "Drenched, the Past, and the Scorching Combo",
+    "title_pt": "Encharchado, o Passado, e o Combo Escaldante",
+    "episode": 9,
+    "air_date": "2010-10-31",
+    "image": "Episodes Images/HEISEI/OOO/OOO_09.webp",
+    "fact_en": "OOO Latorartar Combo's debut",
+    "fact_pt": "Debut do Combo Latorartar do OOO"
+  },
+  {
+    "series": "Kamen Rider OOO",
     "title_en": "Desire, Ice Pops, and Presents",
     "title_pt": "Desejo, Sorvetes, e Presentes",
     "episode": 2,
@@ -747,7 +886,8 @@
     "episode": 28,
     "air_date": "2011-04-03",
     "image": "Episodes Images/HEISEI/OOO/OOO_28.webp",
-    "fact": "Esse é o 1000º episódio da franquia Kamen Rider, também servindo como comemoração ao 40º aniversário da franquia!"
+    "fact_en": "This is the 1000th episode of the Kamen Rider franchise, also being the celebration of the 40th anniversary",
+    "fact_pt": "Esse é o 1000º episódio da franquia Kamen Rider, também servindo como comemoração ao 40º aniversário da franquia"
   },
   {
     "series": "Kamen Rider OOO",
@@ -835,14 +975,24 @@
     "title_pt": "Gaim e Baron, O Jogo da Amizade!",
     "episode": 13,
     "air_date": "2014-01-12",
-    "image": "Episodes Images/HEISEI/GAIM/GAIM_13.webp"
+    "image": "Episodes Images/HEISEI/GAIM/GAIM_13.webp",
+    "fact_en": "Only televised appearence of Banana Arms by Gaim",
+    "fact_pt": "Único uso da Banana Arms feito pelo Gaim na TV"
+  },
+  {
+    "series": "Kamen Rider Gaim",
+    "title_en": "Two People Aiming At the Future",
+    "title_pt": "Duas Mentes Mirando no Futuro",
+    "episode": 44,
+    "air_date": "2014-09-07",
+    "image": "Episodes Images/HEISEI/GAIM/GAIM_44.webp"
   },
   {
     "series": "Kamen Rider Gaim",
     "title_en": "Transformation! And into the Future",
     "title_pt": "Transformação do Futuro",
     "episode": 47,
-    "air_date": "2015-09-28",
+    "air_date": "2014-09-28",
     "image": "Episodes Images/HEISEI/GAIM/GAIM_47.webp"
   },
   {
@@ -868,7 +1018,8 @@
     "episode": 3,
     "air_date": "2014-10-19",
     "image": "Episodes Images/HEISEI/DRIVE/DRIVE_03.webp",
-    "fact": "Esse episódio saiu 40 anos depois de Kamen Rider Amazon"
+    "fact_en": "This episode debuted 40 years after Kamen Rider Amazon",
+    "fact_pt": "Esse episódio saiu 40 anos depois de Kamen Rider Amazon"
   },
   {
     "series": "Kamen Rider Drive",
@@ -933,7 +1084,8 @@
     "episode": 5,
     "air_date": "2016-10-30",
     "image": "Episodes Images/HEISEI/EX-AID/EX-AID_05.webp", 
-    "fact": "Debut dos Robots Gamers, como também da forma Robot Action Gamer Level 3"
+    "fact_en": "Robot Gamers's debut, also the debut of Robot Action Gamer Level 3",
+    "fact_pt": "Debut dos Robots Gamers, como também da forma Robot Action Gamer Level 3"
   },
   {
     "series": "Kamen Rider Ex-Aid",
@@ -942,7 +1094,8 @@
     "episode": 27,
     "air_date": "2017-04-16",
     "image": "Episodes Images/HEISEI/EX-AID/EX-AID_27.webp",
-    "fact": "Debut da Ride Player Nico"
+    "fact_en": "Ride Player Nico's debut",
+    "fact_pt": "Debut da Ride Player Nico"
   },
   {
     "series": "Kamen Rider Ex-Aid",
@@ -975,7 +1128,8 @@
     "episode": 28,
     "air_date": "2018-03-25",
     "image": "Episodes Images/HEISEI/BUILD/BUILD_28.webp",
-    "fact": "Debut da forma TankTank do Build"
+    "fact_en": "Build TankTank's debut",
+    "fact_pt": "Debut da forma TankTank do Build"
   },
   {
     "series": "Kamen Rider Build",
@@ -992,7 +1146,8 @@
     "episode": 49,
     "air_date": "2018-08-26",
     "image": "Episodes Images/HEISEI/BUILD/BUILD_49.webp",
-    "fact": "Nesse episódio, o Riderwatch do Cross-Z aparece"
+    "fact_en": "The Cross-Z's Riderwatch appears",
+    "fact_pt": "Nesse episódio, o Riderwatch do Cross-Z aparece"
   },
   {
     "series": "Kamen Rider Zi-O",
@@ -1017,7 +1172,8 @@
     "episode": 1,
     "air_date": "2019-09-01",
     "image": "Episodes Images/REIWA/ZERO ONE/ZERO ONE_01.webp",
-    "fact": "Primeiro episódio da Era Reiwa"
+    "fact_en": "Reiwa Era's first episode",
+    "fact_pt": "Primeiro episódio da Era Reiwa"
   },
   {
     "series": "Kamen Rider Zero-One",
@@ -1069,12 +1225,29 @@
   },
   {
     "series": "Kamen Rider Revice",
+    "title_en": "The Demon Is Just a Bad Guy!?",
+    "title_pt": "O Demônio é Mesmo o Cara Mal!?",
+    "episode": 2,
+    "air_date": "2021-09-12",
+    "image": "Episodes Images/REIWA/REVICE/REVICE_02.webp"
+  },
+  {
+    "series": "Kamen Rider Revice",
+    "title_en": "Runaway Kagero! Igarashi Brothers... Collapse!?",
+    "title_pt": "Fuja Kagero! Os Irmãos Igarashi... Endoidaram!?",
+    "episode": 9,
+    "air_date": "2021-10-31",
+    "image": "Episodes Images/REIWA/REVICE/REVICE_09.webp"
+  },
+  {
+    "series": "Kamen Rider Revice",
     "title_en": "Weakness Is Strength!? The Invincible Jeanne!",
     "title_pt": "Fraqueza é Força!? A Invencível Jeanne!",
     "episode": 12,
     "air_date": "2021-11-28",
     "image": "Episodes Images/REIWA/REVICE/REVICE_12.webp",
-    "fact": "Como o nome diz, a Kamen Rider Jeanne faz debut nesse episódio"
+    "fact_en": "As the name says, its the debut of Kamen Rider Jeanne",
+    "fact_pt": "Como o nome diz, a Kamen Rider Jeanne faz debut nesse episódio"
   },
   {
     "series": "Kamen Rider Revice",
@@ -1123,7 +1296,8 @@
     "episode": 43,
     "air_date": "2023-07-09",
     "image": "Episodes Images/REIWA/GEATS/GEATS_43.webp",
-    "fact": "Nesse episódio, Keiwa Sakurai é eliminado do Jyamato Grand Prix e Archimedel morre"
+    "fact_en": "Kamen Rider Gya-Go's debut",
+    "fact_pt": "Debut do Kamen Rider Gya-Go"
   },
   {
     "series": "Kamen Rider Geats",
@@ -1131,7 +1305,9 @@
     "title_pt": "Daybreak I: Que Venha os Holofotes!",
     "episode": 49,
     "air_date": "2023-08-27",
-    "image": "Episodes Images/REIWA/GEATS/GEATS_49.webp"
+    "image": "Episodes Images/REIWA/GEATS/GEATS_49.webp",
+    "fact_en":"This is the 1600th episode of the Kamen Rider franchise",
+    "fact_pt": "Esse é o 1600º episódio da franquia Kamen Rider"
   },
   {
     "series": "Kamen Rider Gotchard",
@@ -1156,7 +1332,8 @@
     "episode": 1,
     "air_date": "2024-09-01",
     "image": "Episodes Images/REIWA/GAVV/GAVV_01.webp",
-    "fact": "Esse episódio foi lançado 5 anos depois da estréia de Zero-One"
+    "fact_en": "The episode aired 5 years after the premiere of Zero-One",
+    "fact_pt": "Esse episódio foi lançado 5 anos depois da estréia de Zero-One"
   },
   {
     "series": "Kamen Rider Gavv",
@@ -1165,7 +1342,8 @@
     "episode": 2,
     "air_date": "2024-09-08",
     "image": "Episodes Images/REIWA/GAVV/GAVV_02.webp",
-    "fact": "Debut da forma Zakuzakuchips do Gavv"
+    "fact_en": "Debut of Gavv Zakuzakuchips's form",
+    "fact_Pt": "Debut da forma Zakuzakuchips do Gavv"
   },
   {
     "series": "Kamen Rider Gavv",
@@ -1174,7 +1352,8 @@
     "episode": 3,
     "air_date": "2024-09-15",
     "image": "Episodes Images/REIWA/GAVV/GAVV_03.webp",
-    "fact": "Debut do Punchingummy Assist do Gavv"
+    "fact_en": "Gavv Punchingummy Assist's debut",
+    "fact_pt": "Debut do Punchingummy Assist do Gavv"
   },
   {
     "series": "Kamen Rider Gavv",
@@ -1199,7 +1378,8 @@
     "episode": 6,
     "air_date": "2024-10-06",
     "image": "Episodes Images/REIWA/GAVV/GAVV_06.webp",
-    "fact": "o Kamen Rider Valen tem sua estréia neste episódio!"
+    "fact_en": "Kamen Rider Valen's debut",
+    "fact_pt": "o Kamen Rider Valen tem sua estréia neste episódio"
   },
   {
     "series": "Kamen Rider Gavv",
@@ -1223,7 +1403,9 @@
     "title_pt": "Uma Colher de Sorvete de Reviver",
     "episode": 24,
     "air_date": "2025-02-23",
-    "image": "Episodes Images/REIWA/GAVV/GAVV_24.webp"
+    "image": "Episodes Images/REIWA/GAVV/GAVV_24.webp",
+    "fact_en": "Gavv Sorbet Blizzard's debut",
+    "fact_pt": "Debut da forma Sorbet Blizzard do Gavv"
   },
   {
     "series": "Kamen Rider Gavv",
@@ -1231,7 +1413,9 @@
     "title_pt": "Chocolate Frappe dos Laços!",
     "episode": 28,
     "air_date": "2024-03-30",
-    "image": "Episodes Images/REIWA/GAVV/GAVV_28.webp"
+    "image": "Episodes Images/REIWA/GAVV/GAVV_28.webp",
+    "fact_en": "Valen Frappe Custom's debut",
+    "fact_pt": "Debut da forma Frappe Custom do Valen"
   },
   {
     "series": "Kamen Rider Gavv",
@@ -1255,6 +1439,8 @@
     "title_pt": "A La Mode Lembrança",
     "episode": 40,
     "air_date": "2024-06-22",
-    "image": "Episodes Images/REIWA/GAVV/GAVV_40.webp"
+    "image": "Episodes Images/REIWA/GAVV/GAVV_40.webp",
+    "fact_en": "Vram A La Mode's form Debut",
+    "fact_pt": "Debut da forma A La Mode do Vram"
   }
  ]

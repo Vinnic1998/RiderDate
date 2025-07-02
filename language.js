@@ -14,9 +14,23 @@ if (langSelect) {
   });
 }
 
+let episodesData = []; // Variável para armazenar os episódios
+
 // Função pra pegar o título traduzido de um episódio
 function getTranslatedText(ep) {
   return lang === "pt" ? (ep.title_pt || ep.title_en) : (ep.title_en || ep.title_pt);
+}
+
+// Função pra pegar o fato traduzido
+function getTranslatedFact(ep) {
+  return lang === "pt" ? (ep.fact_pt || ep.fact_en) : (ep.fact_en || ep.fact_pt);
+}
+
+function getFactLabel() {
+  return translations[lang]?.factLabel || "Curiosidade";
+}
+function getEpisodeLabel() {
+  return translations[lang]?.epPrefix || "Episódio";
 }
 
 function applyTranslations(lang) {
@@ -31,6 +45,7 @@ function applyTranslations(lang) {
     const surpriseBtn = document.getElementById("surpriseButton");
     const shareTitle = document.querySelector("#shareModal h2");
     const screenshotBtn = document.getElementById("screenshotButton");
+    const shareBtn = document.getElementById("shareButton");
 
     if (h1) h1.innerText = t.mainTitle;
     if (p) p.innerText = t.subText;
@@ -39,6 +54,7 @@ function applyTranslations(lang) {
     if (surpriseBtn) surpriseBtn.innerHTML = `<i class="fas fa-random"></i> ${t.surpriseButton}`;
     if (shareTitle) shareTitle.innerText = t.shareTitle;
     if (screenshotBtn) screenshotBtn.innerText = t.saveButton;
+    if (shareBtn) shareBtn.innerText = t.shareButton;
   }
 
   const tablePage = document.getElementById("tablepage");
@@ -77,7 +93,9 @@ const translations = {
     epPrefix: "Episódio",
     yes: "Sim",
     no: "Não",
-    tableHeaders: ["Série", "Episódio", "Título", "Data", "Está no Site?"]
+    tableHeaders: ["Série", "Episódio", "Título", "Data", "Está no Site?"],
+    factLabel: "Curiosidade",
+    shareButton: "Compartilhar"
   },
   en: {
     mainTitle: "Kamen Rider Episodes that premiered on your b-day!",
@@ -96,7 +114,9 @@ const translations = {
     epPrefix: "Episode",
     yes: "Yes",
     no: "No",
-    tableHeaders: ["Series", "Episode", "Title", "Date", "Is in the site?"]
+    tableHeaders: ["Series", "Episode", "Title", "Date", "Is in the site?"],
+    factLabel: "Trivia",
+    shareButton: "Share"
   }
 };
 
@@ -131,5 +151,90 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (document.querySelector("table")) {
     applyTableTranslations(lang);
+  }
+});
+
+function waitForEpisodesData() {
+  return new Promise((resolve) => {
+    if (episodesData && episodesData.length > 0) {
+      resolve();
+    } else {
+      const checkInterval = setInterval(() => {
+        if (episodesData && episodesData.length > 0) {
+          clearInterval(checkInterval);
+          resolve();
+        }
+      }, 100);
+    }
+  });
+}
+
+
+// Modifique a função translateEpisodes para ser mais robusta
+async function translateEpisodes() {
+  try {
+    await waitForEpisodesData();
+    
+    // Título do ep
+    document.querySelectorAll("[data-translate='title']").forEach(cell => {
+      const series = cell.getAttribute("data-series");
+      const epNum = cell.getAttribute("data-ep");
+      
+      if (!series || !epNum) return;
+      
+      const match = episodesData.find(ep => 
+        ep.series === series && ep.episode.toString() === epNum
+      );
+      
+      if (match) {
+        cell.innerText = getTranslatedText(match);
+      } else {
+        console.warn(`No match found for series: ${series}, episode: ${epNum}`);
+      }
+    });
+
+    // Curiosidade
+    document.querySelectorAll("[data-translate='fact']").forEach(cell => {
+      const series = cell.getAttribute("data-series");
+      const epNum = cell.getAttribute("data-ep");
+      
+      if (!series || !epNum) return;
+      
+      const match = episodesData.find(ep => 
+        ep.series === series && ep.episode.toString() === epNum
+      );
+      
+      if (match) {
+        cell.innerText = getTranslatedFact(match);
+      } else {
+        console.warn(`No match found for series: ${series}, episode: ${epNum}`);
+      }
+    });
+  } catch (error) {
+    console.error("Error in translateEpisodes:", error);
+  }
+}
+
+// Modifique o event listener para garantir a ordem correta
+window.addEventListener("episodesReady", async (event) => {
+  episodesData = event.detail.episodes;
+  applyTranslations(lang);
+  
+  if (document.querySelector("table")) {
+    applyTableTranslations(lang);
+    await translateEpisodes();
+  }
+});
+
+window.addEventListener("episodesReady", async (event) => {
+  console.log("🔥 episodesReady escutado!");
+  episodesData = event.detail.episodes;
+  console.log("➡️ episodesData agora é:", episodesData);
+
+  applyTranslations(lang);
+  
+  if (document.querySelector("table")) {
+    applyTableTranslations(lang);
+    await translateEpisodes();
   }
 });
