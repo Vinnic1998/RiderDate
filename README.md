@@ -12,6 +12,8 @@ A função do RiderDate é de ser um site para se divertir caçando episódios d
 
 01/06/2025 - Adição de tradução para Inglês e Temas. Tradução ainda está sendo feita!
 
+03/06/2025 - Ainda está tendo problemas na tradução da página de lista, mas.. todos os eps de Blade foram adicionados, Zi-O e outras séries estão engatinhando ainda..
+
 ==================================================================================================================================================
 
 Mais coisas serão adicionadas futuramente ao site, se quiserem sugerir ideias fiquem a vontade!
