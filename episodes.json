@@ -73,7 +73,7 @@
     "air_date": "1975-01-25",
     "image": "Episodes Images/SHOWA/AMAZON/AMAZON_15.webp",
     "fact_en": "This is the 200th episode of the Kamen Rider franchise",
-    "fact_pt": "Esse é o 200º episódio da franquia"
+    "fact_pt": "Esse é o 200º episódio da franquia Kamen Rider"
   },
   {
     "series": "Kamen Rider Amazon",
@@ -109,6 +109,24 @@
   },
   {
     "series": "Kamen Rider (Skyrider)",
+    "title_en": "Hiroshi's Father Had Lived! As Altered Human FX777?",
+    "title_pt": "Pai de Hiroshi está Vivo! Como Um Humano Alterado?",
+    "episode": 52,
+    "air_date": "1980-09-26",
+    "image": "Episodes Images/SHOWA/SKYRIDER/SKYRIDER_52.webp",
+    "fact_en": "This is the 300th episode of the Kamen Rider franchise",
+    "fact_pt": "Esse é o 300º episódio da franquia Kamen Rider"
+  },
+  {
+    "series": "Kamen Rider (Skyrider)",
+    "title_en": "The End of Admiral Majin! And the Great Leader's True Identity?",
+    "title_pt": "O Fim do Almirante Majin! Qual é a Verdadeira Identidade do líder?",
+    "episode": 53,
+    "air_date": "1980-10-03",
+    "image": "Episodes Images/SHOWA/SKYRIDER/SKYRIDER_53.webp"
+  },
+  {
+    "series": "Kamen Rider (Skyrider)",
     "title_en": "Farewell, Hiroshi Tsukuba! Eight Heroes Forever....",
     "title_pt": "Adeus, Hiroshi Tsukuba! O Legado dos Oito Heróis!",
     "episode": 54,
@@ -138,6 +156,26 @@
     "episode": 1,
     "air_date": "1987-10-04",
     "image": "Episodes Images/SHOWA/BLACK/BLACK_01.webp"
+  },
+  {
+    "series": "Kamen Rider Black",
+    "title_en": "The Roaring Armed Mecha",
+    "title_pt": "Máquina Combate",
+    "episode": 25,
+    "air_date": "1988-04-03",
+    "image": "Episodes Images/SHOWA/BLACK/BLACK_25.webp",
+    "fact_en": "This episode aired on the 34th anniversary of the franchise",
+    "fact_pt": "Esse episódio estreou no aniversário de 34 anos da franquia"
+  },
+  {
+    "series": "Kamen Rider Black",
+    "title_en": "The Creation King's True Identity?",
+    "title_pt": "Quem É o Grande Rei?",
+    "episode": 50,
+    "air_date": "1988-10-02",
+    "image": "Episodes Images/SHOWA/BLACK/BLACK_50.webp",
+    "fact_en": "This is the 400th episode of the Kamen Rider franchise",
+    "fact_pt": "Esse é o 400º episódio da franquia Kamen Rider"
   },
   {
     "series": "Kamen Rider Black",
@@ -397,8 +435,184 @@
   },
   {
     "series": "Kamen Rider Blade",
+    "title_en": "The Mysterious Rider",
+    "title_pt": "O Rider Misterioso",
+    "episode": 2,
+    "air_date": "2004-02-01",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_02.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Their Secret...",
+    "title_pt": "O Segredo deles...",
+    "episode": 3,
+    "air_date": "2004-02-08",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_03.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Immortality's Mysteries",
+    "title_pt": "Os Mistérios da Imortalidade",
+    "episode": 4,
+    "air_date": "2004-02-15",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_04.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Challenge to the Past",
+    "title_pt": "O Passado e seu Desafio",
+    "episode": 5,
+    "air_date": "2004-02-22",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_05.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Chalice's True Identity",
+    "title_pt": "A Verdadeira Face de Chalice",
+    "episode": 6,
+    "air_date": "2004-02-29",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_06.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Trapped Two",
+    "title_pt": "Emboscada a Dois",
+    "episode": 7,
+    "air_date": "2004-03-07",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_07.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Revived People",
+    "title_pt": "As Pessoas que Voltaram",
+    "episode": 8,
+    "air_date": "2004-03-14",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_08.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "A Fighter's Destiny",
+    "title_pt": "O Destino de um Lutador",
+    "episode": 9,
+    "air_date": "2004-03-21",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_09.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Manipulated Warrior",
+    "title_pt": "O Guerreiro Iludido",
+    "episode": 10,
+    "air_date": "2004-03-28",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_10.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Whereabouts of Each",
+    "title_pt": "O Destino de Cada Um!",
+    "episode": 11,
+    "air_date": "2004-04-04",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_11.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Category Ace",
+    "title_pt": "Categoria Ás",
+    "episode": 12,
+    "air_date": "2004-04-11",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_12.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Golden-Threaded Trap",
+    "title_pt": "Embuscada Dourada",
+    "episode": 13,
+    "air_date": "2004-04-18",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_13.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Ace Sealed",
+    "title_pt": "Ás Selado",
+    "episode": 14,
+    "air_date": "2004-04-25",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_14.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Fate's Conformer",
+    "title_pt": "Aceitação do Destino",
+    "episode": 15,
+    "air_date": "2004-05-02",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_15.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Leangle's Power",
+    "title_pt": "O Poder de Leangle",
+    "episode": 16,
+    "air_date": "2004-05-09",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_16.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Evil Belt",
+    "title_pt": "O Cinto Malígno",
+    "episode": 17,
+    "air_date": "2004-05-16",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_17.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "One Who Conquers Darkness",
+    "title_pt": "Manipulação das Sombras",
+    "episode": 18,
+    "air_date": "2004-05-23",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_18.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "One Who Conquers Darkness",
+    "title_pt": "O Conquistador da Escuridão",
+    "episode": 19,
+    "air_date": "2004-05-30",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_19.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Target is Kotaro",
+    "title_pt": "O Alvo é Kotaro!",
+    "episode": 20,
+    "air_date": "2004-06-06",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_20.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Battles That Feel for Friends",
+    "title_pt": "A Dor de Lutar por um Amigo!",
+    "episode": 21,
+    "air_date": "2004-06-13",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_21.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Escape From Darkness",
+    "title_pt": "Fuga das Sombras!",
+    "episode": 22,
+    "air_date": "2004-06-27",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_22.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Who are You?",
+    "title_pt": "Quem é Você?",
+    "episode": 23,
+    "air_date": "2004-07-04",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_23.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
     "title_en": "Mysterious Hunters",
-    "title_pt": "caçadores Misteriosos",
+    "title_pt": "Caçadores Misteriosos",
     "episode": 24,
     "air_date": "2004-07-11",
     "image": "Episodes Images/HEISEI/BLADE/BLADE_24.webp"
@@ -491,6 +705,22 @@
   },
   {
     "series": "Kamen Rider Blade",
+    "title_en": "A Dangerous Transformation!?",
+    "title_pt": "O Perigo da Transformação!",
+    "episode": 35,
+    "air_date": "2004-10-03",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_35.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Strongest Form",
+    "title_pt": "A Forma Final",
+    "episode": 36,
+    "air_date": "2004-10-10",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_36.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
     "title_en": "Towards a New Destiny",
     "title_pt": "Em Busca de um Novo Destino",
     "episode": 37,
@@ -498,6 +728,14 @@
     "image": "Episodes Images/HEISEI/BLADE/BLADE_37.webp",
     "fact_en": "Chalice Wild Form's debut",
     "fact_pt": "Debut da forma Wild do Chalice"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "One Who Takes Hold of Destiny",
+    "title_pt": "O Homem que Carrega o Destino!",
+    "episode": 38,
+    "air_date": "2004-10-24",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_38.webp"
   },
   {
     "series": "Kamen Rider Blade",
@@ -509,11 +747,75 @@
   },
   {
     "series": "Kamen Rider Blade",
+    "title_en": "Parting With the Past",
+    "title_pt": "Indo Embora Com o Passado",
+    "episode": 40,
+    "air_date": "2004-11-14",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_40.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "I Want to be Strong",
+    "title_pt": "Eu Quero Ter a Força",
+    "episode": 41,
+    "air_date": "2004-11-21",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_41.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
     "title_en": "Leangle Revived",
     "title_pt": "A Volta de Leangle",
     "episode": 42,
     "air_date": "2004-11-28",
     "image": "Episodes Images/HEISEI/BLADE/BLADE_42.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Foe or Friend?",
+    "title_pt": "Amigo ou Inimigo?",
+    "episode": 43,
+    "air_date": "2004-12-05",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_43.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Fourcards",
+    "title_pt": "Os Quatro Selos",
+    "episode": 44,
+    "air_date": "2004-12-12",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_44.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The New Card",
+    "title_pt": "A Nova Carta",
+    "episode": 45,
+    "air_date": "2004-12-19",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_45.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "The Ruler's Seal",
+    "title_pt": "O Líder foi Selado",
+    "episode": 46,
+    "air_date": "2004-12-26",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_46.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Garren Eliminated",
+    "title_pt": "Garren Eliminado",
+    "episode": 47,
+    "air_date": "2005-01-09",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_47.webp"
+  },
+  {
+    "series": "Kamen Rider Blade",
+    "title_en": "Prologue to Destruction",
+    "title_pt": "O Começo da Destruição",
+    "episode": 48,
+    "air_date": "2005-01-16",
+    "image": "Episodes Images/HEISEI/BLADE/BLADE_48.webp"
   },
   {
     "series": "Kamen Rider Blade",
@@ -530,6 +832,16 @@
     "episode": 1,
     "air_date": "2005-01-30",
     "image": "Episodes Images/HEISEI/HIBIKI/HIBIKI_01.webp"
+  },
+  {
+    "series": "Kamen Rider Hibiki",
+    "title_en": "The Howling Spider",
+    "title_pt": "A Aranha Barulhenta",
+    "episode": 2,
+    "air_date": "2005-02-06",
+    "image": "Episodes Images/HEISEI/HIBIKI/HIBIKI_02.webp",
+    "fact_en": "This is the 700th episode of Kamen Rider franchise",
+    "fact_pt": "Esse é o 700º episódio da franquia Kamen Rider"
   },
   {
     "series": "Kamen Rider Hibiki",
@@ -603,6 +915,14 @@
     "title_pt": "Eu Cheguei!",
     "episode": 1,
     "air_date": "2007-01-28",
+    "image": "Episodes Images/HEISEI/DEN-O/DEN-O_01.webp" 
+  },
+  {
+    "series": "Kamen Rider Den-O",
+    "title_en": "Will You Let Me Reel You In?",
+    "title_pt": "Fisgado Sem Nem Perceber!",
+    "episode": 5,
+    "air_date": "2007-02-25",
     "image": "Episodes Images/HEISEI/DEN-O/DEN-O_01.webp" 
   },
   {
@@ -821,6 +1141,14 @@
   },
   {
     "series": "Kamen Rider W",
+    "title_en": "The F Afterglow/Burglary Rider",
+    "title_pt": "O Caso de Fuyumi/O Rider Criminoso",
+    "episode": 15,
+    "air_date": "2009-12-20",
+    "image": "Episodes Images/HEISEI/W/W_15.webp"
+  },
+  {
+    "series": "Kamen Rider W",
     "title_en": "The I Doesn't Stop/That Guy's Name Is Accel",
     "title_pt": "O I não Para/Accel é o Nome Dele!",
     "episode": 19,
@@ -955,6 +1283,16 @@
   },
   {
     "series": "Kamen Rider Wizard",
+    "title_en": "Dangerous Part-Time Job",
+    "title_pt": "o Emprego de Meio Período Fatal",
+    "episode": 32,
+    "air_date": "2013-04-21",
+    "image": "Episodes Images/HEISEI/WIZARD/WIZARD_01.webp",
+    "fact_en": "This is the 1100th episode of the Kamen Rider franchise",
+    "fact_pt": "Esse é o 1100º episódio da franquia Kamen Rider"
+  },
+  {
+    "series": "Kamen Rider Wizard",
     "title_en": "Neverending Story",
     "title_pt": "A História sem Fim",
     "episode": 53,
@@ -1047,6 +1385,16 @@
   },
   {
     "series": "Kamen Rider Drive",
+    "title_en": "What is Waiting at the End of Evolution?",
+    "title_pt": "O Que Te Faz Esperar no Fim da Evolução?",
+    "episode": 32,
+    "air_date": "2015-05-31",
+    "image": "Episodes Images/HEISEI/DRIVE/DRIVE_32.webp",
+    "fact_en": "This is the 1200th episode of the Kamen Rider franchise",
+    "fact_pt": "Esse é o 1200º episódio da franquia Kamen Rider"
+  },
+  {
+    "series": "Kamen Rider Drive",
     "title_en": "Final Story (Special Edition): The Case of Ghost",
     "title_pt": "Última História (Edição Especial): O Caso do Fantasma",
     "episode": 48,
@@ -1060,6 +1408,16 @@
     "episode": 1,
     "air_date": "2015-10-04",
     "image": "Episodes Images/HEISEI/GHOST/GHOST_01.webp"
+  },
+  {
+    "series": "Kamen Rider Ghost",
+    "title_en": "Disaster! The Red Sky!",
+    "title_pt": "Misericórdia! O Céu ficou Vermelho!",
+    "episode": 25,
+    "air_date": "2016-04-03",
+    "image": "Episodes Images/HEISEI/GHOST/GHOST_25.webp",
+    "fact_en": "This episode aired on the 45th anniversary of the franchise",
+    "fact_pt": "Esse episódio estreou no aniversário de 45 anos da franquia"
   },
   {
     "series": "Kamen Rider Ghost",
@@ -1089,6 +1447,16 @@
   },
   {
     "series": "Kamen Rider Ex-Aid",
+    "title_en": "A Nonstandard BURGSTER?",
+    "title_pt": "Um BURGSTER fora da linha?",
+    "episode": 17,
+    "air_date": "2017-02-05",
+    "image": "Episodes Images/HEISEI/EX-AID/EX-AID_17.webp", 
+    "fact_en": "Only televised appearence of Ex-Aid Burger Action Gamer Level 4",
+    "fact_pt": "Única aparição na TV da forma Burger Action Gamer Level 4 do Ex-Aid"
+  },
+  {
+    "series": "Kamen Rider Ex-Aid",
     "title_en": "Love & Peace for the Winner!",
     "title_pt": "Paz e Amor para o Vencedor!",
     "episode": 27,
@@ -1096,6 +1464,16 @@
     "image": "Episodes Images/HEISEI/EX-AID/EX-AID_27.webp",
     "fact_en": "Ride Player Nico's debut",
     "fact_pt": "Debut da Ride Player Nico"
+  },
+  {
+    "series": "Kamen Rider Ex-Aid",
+    "title_en": "Accomplished Rebirth!",
+    "title_pt": "Renascimento Concluído",
+    "episode": 34,
+    "air_date": "2017-06-04",
+    "image": "Episodes Images/HEISEI/EX-AID/EX-AID_34.webp",
+    "fact_en": "This is the 1300th episode of the Kamen Rider franchise",
+    "fact_pt": "Esse é o 1300º episódio da franquia Kamen Rider"
   },
   {
     "series": "Kamen Rider Ex-Aid",
@@ -1133,11 +1511,35 @@
   },
   {
     "series": "Kamen Rider Build",
+    "title_en": "The Scientist of Hope",
+    "title_pt": "O Cientista da Esperança",
+    "episode": 45,
+    "air_date": "2018-07-22",
+    "image": "Episodes Images/HEISEI/BUILD/BUILD_45.webp"
+  },
+  {
+    "series": "Kamen Rider Build",
     "title_en": "An Oath to Be The One",
-    "title_pt": "O Escolhido para Ser o Único",
+    "title_pt": "O Juramento de Ser o Único",
     "episode": 46,
     "air_date": "2018-07-29",
     "image": "Episodes Images/HEISEI/BUILD/BUILD_46.webp"
+  },
+  {
+    "series": "Kamen Rider Build",
+    "title_en": "Zero Degree Flames",
+    "title_pt": "Chama Abaixo de Zero",
+    "episode": 47,
+    "air_date": "2018-08-15",
+    "image": "Episodes Images/HEISEI/BUILD/BUILD_47.webp"
+  },
+  {
+    "series": "Kamen Rider Build",
+    "title_en": "To A World of Love & Peace",
+    "title_pt": "Para Um Mundo de Paz e Amor",
+    "episode": 48,
+    "air_date": "2018-08-19",
+    "image": "Episodes Images/HEISEI/BUILD/BUILD_48.webp"
   },
   {
     "series": "Kamen Rider Build",
@@ -1156,6 +1558,76 @@
     "episode": 1,
     "air_date": "2018-09-02",
     "image": "Episodes Images/HEISEI/ZI-O/ZI-O_01.webp"
+  },
+  {
+    "series": "Kamen Rider Zi-O",
+    "title_en": "Best Match 2017",
+    "title_pt": "Combinação Perfeita 2017",
+    "episode": 2,
+    "air_date": "2018-09-09",
+    "image": "Episodes Images/HEISEI/ZI-O/ZI-O_02.webp",
+    "fact_en": "Zi-O Build Armor Debut",
+    "fact_pt": "Debut do Zi-O Build Armor"
+  },
+  {
+    "series": "Kamen Rider Zi-O",
+    "title_en": "Doctor Gamer 2018",
+    "title_pt": "Doutor Gamer 2018",
+    "episode": 3,
+    "air_date": "2018-09-16",
+    "image": "Episodes Images/HEISEI/ZI-O/ZI-O_03.webp",
+    "fact_en": "Geiz Drive Armor Debut",
+    "fact_pt": "Debut do Geiz Drive Armor"
+  },
+  {
+    "series": "Kamen Rider Zi-O",
+    "title_en": "No Continue 2016",
+    "title_pt": "Sem Continues 2016",
+    "episode": 4,
+    "air_date": "2018-09-23",
+    "image": "Episodes Images/HEISEI/ZI-O/ZI-O_04.webp",
+    "fact_en": "Zi-O Fourze Armor and Geiz Build Armor Debut",
+    "fact_pt": "Debut do Zi-O Fourze Armor e do Geiz Build Armor"
+  },
+  {
+    "series": "Kamen Rider Zi-O",
+    "title_en": "Switch On! 2011",
+    "title_pt": "Switch On! 2011",
+    "episode": 5,
+    "air_date": "2018-09-30",
+    "image": "Episodes Images/HEISEI/ZI-O/ZI-O_05.png",
+    "fact_en": "Zi-O Fourze Armor and Geiz Build Armor Debut",
+    "fact_pt": "Debut do Zi-O Fourze Armor e do Geiz Build Armor"
+  },
+  {
+    "series": "Kamen Rider Zi-O",
+    "title_en": "555・913・2003",
+    "title_pt": "555・913・2003",
+    "episode": 6,
+    "air_date": "2018-10-07",
+    "image": "Episodes Images/HEISEI/ZI-O/ZI-O_06.webp",
+    "fact_en": "Geiz Faiz Armor Debut",
+    "fact_pt": "Debut do Geiz Faiz Armor"
+  },
+  {
+    "series": "Kamen Rider Zi-O",
+    "title_en": "Hawk, Tiger, and Grasshopper 2010",
+    "title_pt": "Águia, Tigre, e Gafanhoto 2010",
+    "episode": 10,
+    "air_date": "2018-11-11",
+    "image": "Episodes Images/HEISEI/ZI-O/ZI-O_10.webp",
+    "fact_en": "Zi-O OOO Armor Debut",
+    "fact_pt": "Debut do Zi-O OOO Armor"
+  },
+  {
+    "series": "Kamen Rider Zi-O",
+    "title_en": "2017: Grand Climax!",
+    "title_pt": "2017: O Grande Clímax",
+    "episode": 40,
+    "air_date": "2018-06-23",
+    "image": "Episodes Images/HEISEI/ZI-O/ZI-O_40.webp",
+    "fact_en": "This is the 1400th episode of the Kamen Rider franchise, also the debut of Grand Zi-O",
+    "fact_pt": "Esse é o 1400º episódio da franquia Kamen Rider, também o debut do Grand Zi-O"
   },
   {
     "series": "Kamen Rider Zi-O",
@@ -1209,6 +1681,14 @@
   },
   {
     "series": "Kamen Rider Saber",
+    "title_en": "Chapter 46: Goodbye, My Hero.",
+    "title_pt": "Capítulo 46: Um Adeus ao Meu Herói",
+    "episode": 46,
+    "air_date": "2021-08-15",
+    "image": "Episodes Images/REIWA/SABER/SABER_46.webp"
+  },
+  {
+    "series": "Kamen Rider Saber",
     "title_en": "Final Chapter: The End of the World, the Story that is Born.",
     "title_pt": "Capítulo Final: O Fim do Mundo, A História Recomeça.",
     "episode": 47,
@@ -1256,6 +1736,16 @@
     "episode": 21,
     "air_date": "2022-02-06",
     "image": "Episodes Images/REIWA/REVICE/REVICE_21.webp"
+  },
+  {
+    "series": "Kamen Rider Revice",
+    "title_en": "Crank In! Memory of Hiromi!",
+    "title_pt": "Hiromi em Cena! A Memória que Renasce!",
+    "episode": 29,
+    "air_date": "2022-04-03",
+    "image": "Episodes Images/REIWA/REVICE/REVICE_29.webp",
+    "fact_en": "This episode aired on the 51st anniversary of the franchise",
+    "fact_pt": "Esse episódio estreou no aniversário de 51 anos da franquia"
   },
   {
     "series": "Kamen Rider Revice",
