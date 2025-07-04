@@ -285,3 +285,40 @@ body.kabuto-theme footer {
 body.kabuto-theme header {
   border-bottom: 4px solid rgb(86, 86, 86);
 }
+
+/* Tema Decade */
+
+body.decade-theme {
+  background: url(Wallpapers/HEISEI/DECADE\ WPP.jpg) no-repeat center center fixed;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+body.decade-theme header select {
+  background-color: magenta;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 2px;
+  color: #000000;
+}
+
+body.decade-theme header,
+body.decade-theme footer {
+  background-color: magenta;
+  color: black;
+}
+
+body.decade-theme header h1,
+body.decade-theme header h2,
+body.decade-theme header q {
+  color: black;
+}
+
+body.decade-theme footer {
+  border-top: 4px solid rgb(255, 255, 255);
+}
+
+body.decade-theme header {
+  border-bottom: 4px solid rgb(255, 255, 255);
+}

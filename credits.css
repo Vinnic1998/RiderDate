@@ -9,6 +9,10 @@
     margin-bottom: 10px;
 }
 
+.birthbox h2 {
+    color: black;
+}
+
 /* Tema Zero-One */
 
 .dark-theme .birthbox {
@@ -16,6 +20,37 @@
   box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
   border: greenyellow solid 4px;
   color: #e0e0e0;
+}
+
+.decade-theme .birthbox {
+  background-color: magenta;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  border: white solid 4px;
+  color: black;
+}
+
+.dark-theme .birthbox h2, 
+.ooo-theme .birthbox h2,
+.kabuto-theme .birthbox h2 {
+  color: white;
+}
+
+.kabuto-theme .birthbox a,
+.default-theme .birthbox a, 
+.dark-theme .birthbox a {
+  color: rgb(0, 149, 255);
+  text-decoration: none;
+}
+
+.geats-theme .birthbox a, 
+.showa-theme .birthbox a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+.ooo-theme .birthbox a {
+  color: rgb(255, 234, 0);
+  text-decoration: none;
 }
 
 .dark-theme button {
@@ -56,15 +91,6 @@ body.kabuto-theme .birthbox {
   color: #ffffff;
   border: 3px solid rgb(86, 86, 86);
   box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
-}
-
-/* Tema Decade */
-
-.decade-theme .birthbox {
-  background-color: magenta;
-  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
-  border: white solid 4px;
-  color: black;
 }
 
 .birthbox button {
