@@ -1358,7 +1358,7 @@
   {
     "series": "Kamen Rider W",
     "title_en": "The I Doesn't Stop/That Guy's Name Is Accel",
-    "title_pt": "O I não Para/Accel é o Nome Dele!",
+    "title_pt": "Eu Não Vou Parar/Seu Nome é Accel",
     "episode": 19,
     "air_date": "2010-01-24",
     "image": "Episodes Images/HEISEI/W/W_19.webp",
@@ -2033,6 +2033,52 @@
   },
   {
     "series": "Kamen Rider Geats",
+    "title_en": "Yearning F: The Nine-Tailed White Fox!",
+    "title_pt": "Anseio F: A Raposa Branca de Nove Caudas",
+    "episode": 38,
+    "air_date": "2023-06-04",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_38.webp",
+    "fact_en": "Geats Mark IX debut",
+    "fact_pt": "Debut do Geats Mark IX"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Genesis I: My DesiGra",
+    "title_pt": "Genesis I: Meu DesiGra",
+    "episode": 39,
+    "air_date": "2023-06-11",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_39.webp"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Genesis II: Tycoon Awakening",
+    "title_pt": "Genesis II: O Despertar do Tycoon",
+    "episode": 40,
+    "air_date": "2023-06-18",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_40.webp"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Genesis III: The Jet-Black Shogun",
+    "title_pt": "Genesis III: O Shogun Negro a Jato",
+    "episode": 41,
+    "air_date": "2023-06-25",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_41.webp",
+    "fact_en": "Tycoon Bujin Sword's debut",
+    "fact_pt": "Debut do Tycoon Bujin Sword"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Genesis IV: Completion of the Goddess, Blade of Darkness",
+    "title_pt": "Genesis IV: A Deus está Completa, Lâmina da Escuridão",
+    "episode": 42,
+    "air_date": "2023-07-02",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_42.webp",
+    "fact_en": "Premium Beroba and Premium Kekera's debut",
+    "fact_pt": "Debut da Premium Beroba e Premium Kekera"
+  },
+  {
+    "series": "Kamen Rider Geats",
     "title_en": "Genesis V: His Name Is Gya-Go!",
     "title_pt": "Genesis V: Seu Nome é Gya-Go!",
     "episode": 43,
@@ -2040,6 +2086,48 @@
     "image": "Episodes Images/REIWA/GEATS/GEATS_43.webp",
     "fact_en": "Kamen Rider Gya-Go's debut",
     "fact_pt": "Debut do Kamen Rider Gya-Go"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Genesis VI: Neon, Shines",
+    "title_pt": "Genesis VI: Neon, Arrasa",
+    "episode": 44,
+    "air_date": "2023-07-16",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_44.webp",
+    "fact_en": "Na-Go Fantasy Debut",
+    "fact_pt": "Debut da Na-Go Fantasy"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Genesis VII: Where Wishes Go",
+    "title_pt": "Genesis VII: Aonde Vão os Desejos",
+    "episode": 45,
+    "air_date": "2023-07-23",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_45.webp"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Genesis VIII: Goodbye, Michi",
+    "title_pt": "Genesis VIII: Adeus, Michi",
+    "episode": 46,
+    "air_date": "2023-07-30",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_46.webp"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Genesis IX: A True Kamen Rider",
+    "title_pt": "Genesis IX: O Kamen Rider Verdadeiro",
+    "episode": 47,
+    "air_date": "2023-08-13",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_47.webp"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Genesis X: Tsumuri's Requiem",
+    "title_pt": "Genesis X: O Requiém de Tsumuri",
+    "episode": 48,
+    "air_date": "2023-08-20",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_48.webp"
   },
   {
     "series": "Kamen Rider Geats",
