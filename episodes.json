@@ -383,6 +383,14 @@
   },
   {
     "series": "Kamen Rider Kuuga",
+    "title_en": "Archer",
+    "title_pt": "Arqueiro",
+    "episode": 8,
+    "air_date": "2000-03-19",
+    "image": "Episodes Images/HEISEI/KUUGA/KUUGA_08.webp"
+  },
+  {
+    "series": "Kamen Rider Kuuga",
     "title_en": "Teacher",
     "title_pt": "Professor",
     "episode": 12,
@@ -1045,6 +1053,14 @@
   },
   {
     "series": "Kamen Rider Kabuto",
+    "title_en": "Angry Tofu",
+    "title_pt": "Tofu Furioso",
+    "episode": 8,
+    "air_date": "2006-03-19",
+    "image": "Episodes Images/HEISEI/KABUTO/KABUTO_08.webp"
+  },
+  {
+    "series": "Kamen Rider Kabuto",
     "title_en": "The Makeup Thousand-Man Cut",
     "title_pt": "A Maquiagem do Homem de Mil Cortes",
     "episode": 12,
@@ -1627,6 +1643,16 @@
     "series": "Kamen Rider Ex-Aid",
     "title_en": "Love & Peace for the Winner!",
     "title_pt": "Paz e Amor para o Vencedor!",
+    "episode": 23,
+    "air_date": "2017-03-19",
+    "image": "Episodes Images/HEISEI/EX-AID/EX-AID_23.webp",
+    "fact_en": "Ex-Aid Maximum Gamer Level 99's debut",
+    "fact_pt": "Debut do Ex-Aid Maximum Gamer Level 99"
+  },
+  {
+    "series": "Kamen Rider Ex-Aid",
+    "title_en": "Love & Peace for the Winner!",
+    "title_pt": "Paz e Amor para o Vencedor!",
     "episode": 27,
     "air_date": "2017-04-16",
     "image": "Episodes Images/HEISEI/EX-AID/EX-AID_27.webp",
@@ -1669,13 +1695,23 @@
   },
   {
     "series": "Kamen Rider Build",
+    "title_en": "The Counterattack Hero",
+    "title_pt": "O Contra-Ataque do Herói",
+    "episode": 27,
+    "air_date": "2018-03-18",
+    "image": "Episodes Images/HEISEI/BUILD/BUILD_27.webp",
+    "fact_en": "Build TankTank's debut",
+    "fact_pt": "Debut do Build RabbitRabbit"
+  },
+  {
+    "series": "Kamen Rider Build",
     "title_en": "The Genius Arrives With a Tank",
     "title_pt": "O Tanque do Gênio Chegou",
     "episode": 28,
     "air_date": "2018-03-25",
     "image": "Episodes Images/HEISEI/BUILD/BUILD_28.webp",
     "fact_en": "Build TankTank's debut",
-    "fact_pt": "Debut da forma TankTank do Build"
+    "fact_pt": "Debut da forma Build TankTank"
   },
   {
     "series": "Kamen Rider Build",
@@ -1938,6 +1974,14 @@
     "episode": 2,
     "air_date": "2022-09-11",
     "image": "Episodes Images/REIWA/GEATS/GEATS_02.webp"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Lamentation III: A Fun Sengoku Game♡",
+    "title_pt": "Lamentação III: Um Jogo Divertido de Sengoku♡",
+    "episode": 27,
+    "air_date": "2023-03-19",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_27.webp"
   },
   {
     "series": "Kamen Rider Geats",
