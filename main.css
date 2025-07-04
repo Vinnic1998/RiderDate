@@ -75,6 +75,13 @@ body.default-theme {
   color: #222;
 }
 
+body.default-theme header select {
+  background-color: greenyellow;
+  border: 2px solid rgb(109, 181, 0);
+  border-radius: 2px;
+  color: #000000;
+}
+
 body.default-theme header,
 body.default-theme footer {
   background-color: greenyellow;
@@ -90,6 +97,13 @@ body.dark-theme {
   background: url(Wallpapers/REIWA/ZERO-ONE\ WPP.jpg) no-repeat center center fixed;
   background-position: -350px -100px;
   background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+body.dark-theme header select {
+  background-color: #000000;
+  border: 2px solid greenyellow;
+  border-radius: 2px;
   color: #ffffff;
 }
 
@@ -121,19 +135,25 @@ body.geats-theme {
   color: #000000;
 }
 
+body.geats-theme header select {
+  background-color: #ffffff;
+  border: 2px solid #ffcb00;
+  border-radius: 2px;
+  color: #000000;
+}
+
 body.geats-theme header,
 body.geats-theme footer {
   background-color: #ffffff;
-  color: #000000;
-  border-image: linear-gradient(to top, #996a17, #7c5d09) 4;
+  color: #000000
 }
 
 body.geats-theme header {
-  border-bottom: 4px solid #9b7627;
+  border-bottom: 4px solid #ffcb00;
 }
 
 body.geats-theme footer {
-  border-top: 4px solid red;
+  border-top: 4px solid #ffcb00;
 }
 
 /* OOO: três cores */
@@ -142,6 +162,13 @@ body.ooo-theme {
   background-position: -150px -100px;
   background-repeat: no-repeat;
   color: #000000;
+}
+
+body.ooo-theme header select {
+  background-color: hsl(0, 0%, 0%);
+  border-image: linear-gradient(to right, red, yellow, green) 1;
+  border-radius: 2px;
+  color: white;
 }
 
 body.ooo-theme header,
@@ -166,8 +193,18 @@ body.ooo-theme footer {
 }
 
 body.showa-theme {
-  background-color: #eae3d2;
+  background: url(Wallpapers/SHOWA/riders11a.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-position: 0PX 0PX;
+  background-repeat: no-repeat;
   color: #333;
+}
+
+body.showa-theme header select {
+  background-color: #cfc6b8;
+  border: 2px solid #aa0000;
+  border-radius: 2px;
+  color: #000000;
 }
 
 body.showa-theme header,
@@ -220,6 +257,13 @@ body.kabuto-theme {
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+}
+
+body.kabuto-theme header select {
+  background-color: #750000;
+  border: 2px solid rgb(86, 86, 86);
+  border-radius: 2px;
+  color: #ffffff;
 }
 
 body.kabuto-theme header,
