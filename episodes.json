@@ -399,6 +399,22 @@
   },
   {
     "series": "Kamen Rider Kuuga",
+    "title_en": "Suspicion",
+    "title_pt": "Suspeito",
+    "episode": 13,
+    "air_date": "2000-04-23",
+    "image": "Episodes Images/HEISEI/KUUGA/KUUGA_13.webp"
+  },
+  {
+    "series": "Kamen Rider Kuuga",
+    "title_en": "Omen",
+    "title_pt": "Presságio",
+    "episode": 14,
+    "air_date": "2000-04-30",
+    "image": "Episodes Images/HEISEI/KUUGA/KUUGA_14.webp"
+  },
+  {
+    "series": "Kamen Rider Kuuga",
     "title_en": "Approach",
     "title_pt": "Aproxima-se",
     "episode": 37,
@@ -1071,6 +1087,24 @@
   },
   {
     "series": "Kamen Rider Kabuto",
+    "title_en": "The Team Dissolves",
+    "title_pt": "Separação de Time",
+    "episode": 13,
+    "air_date": "2006-04-23",
+    "image": "Episodes Images/HEISEI/KABUTO/KABUTO_13.webp",
+    "fact_en": "Shun Kageyama's debut as TheBee",
+    "fact_pt": "Debut do Shun Kageyama como TheBee"
+  },
+  {
+    "series": "Kamen Rider Kabuto",
+    "title_en": "Back of the Back of the Back",
+    "title_pt": "O Fundo do Fundo do Fundo",
+    "episode": 14,
+    "air_date": "2006-04-30",
+    "image": "Episodes Images/HEISEI/KABUTO/KABUTO_13.webp"
+  },
+  {
+    "series": "Kamen Rider Kabuto",
     "title_en": "The Dangerous Younger Sister",
     "title_pt": "A Caçula Perigosa",
     "episode": 38,
@@ -1367,11 +1401,35 @@
   },
   {
     "series": "Kamen Rider W",
+    "title_en": "The I Doesn't Stop/Kamen Rider Style",
+    "title_pt": "Eu Não Vou Parar/Estilo Kamen Rider",
+    "episode": 20,
+    "air_date": "2010-01-31",
+    "image": "Episodes Images/HEISEI/W/W_20.webp"
+  },
+  {
+    "series": "Kamen Rider W",
     "title_en": "The T Returns/A Melody Not Intended for Women",
-    "title_pt": "O Retorno do T/Mulheres Não Deviam Escutar essa Melódia",
+    "title_pt": "O Retorno de T/Uma Melódia Inapropriada para uma Mulher",
     "episode": 21,
     "air_date": "2010-02-07",
     "image": "Episodes Images/HEISEI/W/W_21.webp"
+  },
+  {
+    "series": "Kamen Rider W",
+    "title_en": "The T Returns/The Man Who Cannot Die",
+    "title_pt": "O Retorno de T/Um Homem Imortal",
+    "episode": 22,
+    "air_date": "2010-02-14",
+    "image": "Episodes Images/HEISEI/W/W_22.webp"
+  },
+  {
+    "series": "Kamen Rider W",
+    "title_en": "L on the Lips/Singer-SongRider",
+    "title_pt": "L nos Lábios/O Rider Cantor",
+    "episode": 23,
+    "air_date": "2010-02-21",
+    "image": "Episodes Images/HEISEI/W/W_23.webp"
   },
   {
     "series": "Kamen Rider W",
@@ -1682,6 +1740,38 @@
     "image": "Episodes Images/HEISEI/EX-AID/EX-AID_27.webp",
     "fact_en": "Ride Player Nico's debut",
     "fact_pt": "Debut da Ride Player Nico"
+  },
+  {
+    "series": "Kamen Rider Ex-Aid",
+    "title_en": "Beyond Your Identity",
+    "title_pt": "Além da sua Identidade",
+    "episode": 28,
+    "air_date": "2017-04-23",
+    "image": "Episodes Images/HEISEI/EX-AID/EX-AID_28.webp"
+  },
+  {
+    "series": "Kamen Rider Ex-Aid",
+    "title_en": "We're Me!?",
+    "title_pt": "Sou Eu? Somos Nós?!",
+    "episode": 29,
+    "air_date": "2017-04-30",
+    "image": "Episodes Images/HEISEI/EX-AID/EX-AID_29.webp"
+  },
+  {
+    "series": "Kamen Rider Ex-Aid",
+    "title_en": "Strongest VS Strongest!",
+    "title_pt": "Luta dos Mais Fortes!",
+    "episode": 30,
+    "air_date": "2017-05-07",
+    "image": "Episodes Images/HEISEI/EX-AID/EX-AID_30.webp"
+  },
+  {
+    "series": "Kamen Rider Ex-Aid",
+    "title_en": "The Forbidden Continue!?",
+    "title_pt": "O Continue Proibido!?",
+    "episode": 31,
+    "air_date": "2017-05-14",
+    "image": "Episodes Images/HEISEI/EX-AID/EX-AID_31.webp"
   },
   {
     "series": "Kamen Rider Ex-Aid",
@@ -2017,6 +2107,22 @@
   },
   {
     "series": "Kamen Rider Geats",
+    "title_en": "Lamentation I: Jyamato Grand Prix♡",
+    "title_pt": "Lamentação I: O Grand Prix da Jyamato♡",
+    "episode": 25,
+    "air_date": "2023-03-05",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_25.webp"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Lamentation II: The Scarlet Boost!",
+    "title_pt": "Lamentação II: O Boost Rubro",
+    "episode": 26,
+    "air_date": "2023-03-12",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_26.webp"
+  },
+  {
+    "series": "Kamen Rider Geats",
     "title_en": "Lamentation III: A Fun Sengoku Game♡",
     "title_pt": "Lamentação III: Um Jogo Divertido de Sengoku♡",
     "episode": 27,
@@ -2025,11 +2131,51 @@
   },
   {
     "series": "Kamen Rider Geats",
+    "title_en": "Lamentation IV: Bonding LaserBoost!",
+    "title_pt": "Lamentação IV: A Ligação de LaserBoost!",
+    "episode": 28,
+    "air_date": "2023-03-26",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_28.webp"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Lamentation V: Surprise! Bullfighting Game♡",
+    "title_pt": "Lamentação V: O Jogo da Tourada♡",
+    "episode": 29,
+    "air_date": "2023-04-02",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_29.webp"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Lamentation VI: The Prince Within the Letter",
+    "title_pt": "Lamentação VI: A Carta do Principe",
+    "episode": 30,
+    "air_date": "2023-04-09",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_30.webp"
+  },
+  {
+    "series": "Kamen Rider Geats",
     "title_en": "Lamentation VII: Heaven and Hell Game♡",
     "title_pt": "Lamentação VII: Jogo do Céu e Inferno♡",
     "episode": 31,
     "air_date": "2023-04-16",
     "image": "Episodes Images/REIWA/GEATS/GEATS_31.webp"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Lamentation F: The Last Judgment",
+    "title_pt": "Lamentation F: O Julgamento Final",
+    "episode": 32,
+    "air_date": "2023-04-23",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_32.webp"
+  },
+  {
+    "series": "Kamen Rider Geats",
+    "title_en": "Yearning I: Buffa Unrivaled!",
+    "title_pt": "Yearning I: Desrivalização de Buffa!",
+    "episode": 33,
+    "air_date": "2023-04-30",
+    "image": "Episodes Images/REIWA/GEATS/GEATS_33.webp"
   },
   {
     "series": "Kamen Rider Geats",

@@ -138,6 +138,7 @@ body.geats-theme {
 body.geats-theme header select {
   background-color: #ffffff;
   border: 2px solid #ffcb00;
+  border-image: linear-gradient(to right, #ffcb00, #ffffff, #ffcb00) 1;
   border-radius: 2px;
   color: #000000;
 }
@@ -150,10 +151,12 @@ body.geats-theme footer {
 
 body.geats-theme header {
   border-bottom: 4px solid #ffcb00;
+  border-image: linear-gradient(to right, #ffcb00, #ffffff, #ffcb00) 1;
 }
 
 body.geats-theme footer {
   border-top: 4px solid #ffcb00;
+  border-image: linear-gradient(to right, #ffcb00, #ffffff, #ffcb00) 1;
 }
 
 /* OOO: três cores */
@@ -224,14 +227,22 @@ body.showa-theme footer {
 /* Gavv: roxo escuro e dourado */
 body.gavv-theme {
   background: url(Wallpapers/REIWA/GAVV\ WPP.jpg) no-repeat center center fixed;
-  background-position: 100px 0px;
+  background-size: cover;
+  background-position: 0px 0px;
   background-repeat: no-repeat;
   color: #000000;
 }
 
 body.gavv-theme header,
 body.gavv-theme footer {
-  background-color: #2e003e;
+  background-color: #2e003ee1;
+  color: #f5d0ff;
+}
+
+body.gavv-theme header select {
+  background-color: #2e003ee1;
+  border: 2px solid gold;
+  border-radius: 2px;
   color: #f5d0ff;
 }
 
@@ -297,28 +308,138 @@ body.decade-theme {
 }
 
 body.decade-theme header select {
-  background-color: magenta;
-  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(30, 30, 30);
+  border: 2px solid magenta;
   border-radius: 2px;
-  color: #000000;
+  color: #ffffff;
+}
+
+body.decade-theme::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  z-index: -1;
 }
 
 body.decade-theme header,
 body.decade-theme footer {
-  background-color: magenta;
-  color: black;
+  background-color: rgb(30, 30, 30);
+  color: rgb(255, 255, 255);
 }
 
 body.decade-theme header h1,
 body.decade-theme header h2,
 body.decade-theme header q {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 body.decade-theme footer {
-  border-top: 4px solid rgb(255, 255, 255);
+  border-top: 4px solid magenta;
 }
 
 body.decade-theme header {
-  border-bottom: 4px solid rgb(255, 255, 255);
+  border-bottom: 4px solid magenta;
+}
+
+/* Tema W */
+body.w-theme {
+  background: url('Wallpapers/HEISEI/W\ WPP.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* Borda superior (verde) */
+body.w-theme header {
+  border-bottom: 4px solid #4CAF50; /* Verde Cyclone */
+  background-color: rgba(0, 0, 0, 0.6); /* Semitransparente pra destacar o fundo */
+}
+
+/* Borda inferior (roxa) */
+body.w-theme footer {
+  border-top: 4px solid #9C27B0; /* Roxo Joker */
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Título com sombra pra destacar */
+body.w-theme header h1,
+body.w-theme header h2,
+body.w-theme q {
+  color: white;
+}
+
+/* Filtros e selects com borda dupla tipo "memória" */
+body.w-theme select {
+  border: 2px solid #4CAF50;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+/* Overlay escuro leve pra melhorar leitura */
+body.w-theme::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.35);
+  z-index: -1;
+}
+
+/* Tema Build */
+
+body.build-theme {
+  background: url('Wallpapers/HEISEI/BUILD\ WPP.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+body.build-theme header,
+body.build-theme footer {
+  background-color: black;
+  color: white;
+}
+
+body.build-theme header {
+  border-bottom: 4px solid red;
+}
+
+body.build-theme footer {
+  border-top: 4px solid blue;
+}
+
+body.build-theme header h1,
+body.build-theme header h2,
+body.build-theme header a {
+  color: white;
+}
+
+body.build-theme select {
+  border: 2px solid red;
+  background-color: black;
+  color: white;
+}
+
+body.build-theme::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  z-index: -1;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -2; /* fica atrás de tudo */
+  top: 0;
+  left: 0;
 }

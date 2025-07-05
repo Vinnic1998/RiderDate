@@ -29,6 +29,15 @@
 
 /* Tema Geats */
 
+body.geats-theme .birthbox {
+  background-color: hsl(0, 0%, 100%);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
+  border: 4px solid; 
+  border-image: linear-gradient(to right, #ffcb00, #ffffff, #ffcb00) 1;
+  border-image-slice: 1; 
+}
+
 /* Tema OOO */
 
 body.ooo-theme .birthbox {
@@ -60,12 +69,35 @@ body.kabuto-theme .birthbox {
 
 /* Tema Decade */
 
-.decade-theme .birthbox {
-  background-color: magenta;
+body.decade-theme .birthbox {
+  background-color: rgb(30, 30, 30);
   box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
-  border: white solid 4px;
-  color: black;
+  border: magenta solid 4px;
+  color: rgb(255, 252, 252);
 }
+
+/* Tema W */
+
+body.w-theme .birthbox {
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  border: 4px solid;
+  border-image: linear-gradient(to bottom, green, purple) 1;
+  border-image-slice: 1; 
+  color: rgb(255, 252, 252);
+}
+
+/* Tema Build */
+
+body.build-theme .birthbox {
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  border: 4px solid; 
+  border-image: linear-gradient(to top, red, blue) 1;
+  border-image-slice: 1; 
+  color: rgb(255, 252, 252);
+}
+
 
 .birthbox button {
     background-color: rgb(69, 197, 0);

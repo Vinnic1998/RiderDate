@@ -25,5 +25,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Salva no localStorage
     localStorage.setItem("rider-theme", theme);
+
+    if (theme === "build") {
+      carregarParticulasBuild();
+    } else {
+      const oldParticles = document.querySelector("#particles-js canvas");
+      if (oldParticles) oldParticles.remove();
+    }
   });
 });
+
+function carregarParticulasBuild() {
+  const container = document.getElementById("particles-js");
+  if (!container) return;
+
+  // Evita carregar várias vezes
+  if (container.querySelector("canvas")) return;
+
+  particlesJS.load('particles-js', 'particles-config.json', function () {
+    console.log('✨ Partículas estilo Build carregadas!');
+  });
+}

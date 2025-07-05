@@ -72,6 +72,7 @@ function findEpisodes() {
     html2canvas(elementToCapture, {
         useCORS: true,
         backgroundColor: "white",
+        color: "black",
     }).then(canvas => {
         const link = document.createElement("a");
         link.download = "kamen-rider-aniversario.png";

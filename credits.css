@@ -23,15 +23,16 @@
 }
 
 .decade-theme .birthbox {
-  background-color: magenta;
+  background-color: rgb(30, 30, 30);
   box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
-  border: white solid 4px;
-  color: black;
+  border: magenta solid 4px;
+  color: rgb(255, 252, 252);
 }
 
 .dark-theme .birthbox h2, 
 .ooo-theme .birthbox h2,
-.kabuto-theme .birthbox h2 {
+.kabuto-theme .birthbox h2,
+.decade-theme .birthbox h2 {
   color: white;
 }
 
