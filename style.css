@@ -1,119 +1,3 @@
-.birthbox {
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 10px;
-}
-
-/* Tema Zero-One */
-
-.dark-theme .birthbox {
-  background-color: #1e1e1e;
-  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
-  border: greenyellow solid 4px;
-  color: #e0e0e0;
-}
-
-.dark-theme button {
-  background-color: #388e3c;
-  color: white;
-}
-
-.dark-theme button:hover {
-  background-color: #2e7d32;
-}
-
-/* Tema Geats */
-
-body.geats-theme .birthbox {
-  background-color: hsl(0, 0%, 100%);
-  color: rgb(0, 0, 0);
-  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
-  border: 4px solid; 
-  border-image: linear-gradient(to right, #ffcb00, #ffffff, #ffcb00) 1;
-  border-image-slice: 1; 
-}
-
-/* Tema OOO */
-
-body.ooo-theme .birthbox {
-  background-color: hsl(0, 0%, 0%);
-  color: white;
-  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
-  border: 4px solid; 
-  border-image: linear-gradient(to top, red, yellow, green) 1;
-  border-image-slice: 1; 
-}
-
-/* Tema Showa */
-
-body.showa-theme .birthbox {
-  background-color: #f5f0e3;
-  color: #333;
-  border: 3px solid #aa0000;
-  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
-}
-
-/* Tema Kabuto */
-
-body.kabuto-theme .birthbox {
-  background-color: #750000;
-  color: #ffffff;
-  border: 3px solid rgb(86, 86, 86);
-  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
-}
-
-/* Tema Decade */
-
-body.decade-theme .birthbox {
-  background-color: rgb(30, 30, 30);
-  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
-  border: magenta solid 4px;
-  color: rgb(255, 252, 252);
-}
-
-/* Tema W */
-
-body.w-theme .birthbox {
-  background-color: rgb(30, 30, 30);
-  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
-  border: 4px solid;
-  border-image: linear-gradient(to bottom, green, purple) 1;
-  border-image-slice: 1; 
-  color: rgb(255, 252, 252);
-}
-
-/* Tema Build */
-
-body.build-theme .birthbox {
-  background-color: rgb(30, 30, 30);
-  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
-  border: 4px solid; 
-  border-image: linear-gradient(to top, red, blue) 1;
-  border-image-slice: 1; 
-  color: rgb(255, 252, 252);
-}
-
-
-.birthbox button {
-    background-color: rgb(69, 197, 0);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: background-color 0.3s ease;
-}
-
-.birthbox button:hover {
-    background-color: darkgreen;
-}
-
 .episode-result {
     text-align: center;
     margin-top: 20px;
@@ -247,4 +131,145 @@ body.build-theme .birthbox {
 
 #surpriseButton:hover {
   background-color: #651FFF;
+}
+
+.birthbox {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.birthbox button {
+    background-color: rgb(69, 197, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.birthbox button:hover {
+    background-color: darkgreen;
+}
+
+
+/* Tema Zero-One */
+
+.dark-theme .birthbox {
+  background-color: #1e1e1e;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  border: greenyellow solid 4px;
+  color: #e0e0e0;
+}
+
+.dark-theme button {
+  background-color: #388e3c;
+  color: white;
+}
+
+.dark-theme button:hover {
+  background-color: #2e7d32;
+}
+
+/* Tema Geats */
+
+body.geats-theme .birthbox {
+  background-color: hsl(0, 0%, 100%);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
+  border: 4px solid; 
+  border-image: linear-gradient(to right, #ffcb00, #ffffff, #ffcb00) 1;
+  border-image-slice: 1; 
+}
+
+/* Tema OOO */
+
+body.ooo-theme .birthbox {
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
+  border: 4px solid; 
+  border-image: linear-gradient(to top, red, yellow, green) 1;
+  border-image-slice: 1; 
+}
+
+/* Tema Showa */
+
+body.showa-theme .birthbox {
+  background-color: #f5f0e3;
+  color: #333;
+  border: 3px solid #aa0000;
+  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
+}
+
+/* Tema Kabuto */
+
+body.kabuto-theme .birthbox {
+  background-color: #750000;
+  color: #ffffff;
+  border: 3px solid rgb(86, 86, 86);
+  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
+}
+
+/* Tema Decade */
+
+body.decade-theme .birthbox {
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  border: magenta solid 4px;
+  color: rgb(255, 252, 252);
+}
+
+/* Tema W */
+
+body.w-theme .birthbox {
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  border: 4px solid;
+  border-image: linear-gradient(to bottom, green, purple) 1;
+  border-image-slice: 1; 
+  color: rgb(255, 252, 252);
+}
+
+/* Tema Build */
+
+body.build-theme .birthbox {
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  border: 4px solid; 
+  border-image: linear-gradient(to top, red, blue) 1;
+  border-image-slice: 1; 
+  color: rgb(255, 252, 252);
+}
+
+
+/* Tema Gavv */
+
+body.gavv-theme .birthbox {
+  background-color: #2e003ee1;
+  border: 2px solid gold;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  color: #f5d0ff;
+}
+
+body.gavv-theme .birthbox button {
+    background-color: gold;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+body.gavv-theme .birthbox button:hover {
+    background-color: rgb(137, 99, 0);
 }
