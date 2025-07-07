@@ -2412,7 +2412,7 @@
     "title_en": "Chocolate Frappe of Bonds!",
     "title_pt": "Chocolate Frappe dos Laços!",
     "episode": 28,
-    "air_date": "2024-03-30",
+    "air_date": "2025-03-30",
     "image": "Episodes Images/REIWA/GAVV/GAVV_28.webp",
     "fact_en": "Valen Frappe Custom's debut",
     "fact_pt": "Debut da forma Frappe Custom do Valen"
@@ -2422,25 +2422,65 @@
     "title_en": "Turnaround! Awakening! Master Gavv",
     "title_pt": "Reviravolta! Despertar! Mestre Gavv",
     "episode": 36,
-    "air_date": "2024-05-25",
+    "air_date": "2025-05-25",
     "image": "Episodes Images/REIWA/GAVV/GAVV_36.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "I Have Never Forgotten",
+    "title_pt": "O Outro Lado do Ódio",
+    "episode": 37,
+    "air_date": "2025-06-01",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_37.webp"
   },
   {
     "series": "Kamen Rider Gavv",
     "title_en": "The Other Side of Hatred",
     "title_pt": "O Outro Lado do Ódio",
     "episode": 38,
-    "air_date": "2024-06-08",
+    "air_date": "2025-06-08",
     "image": "Episodes Images/REIWA/GAVV/GAVV_38.webp"
   },
   {
     "series": "Kamen Rider Gavv",
+    "title_en": "I've Been Looking for You",
+    "title_pt": "Estava á Sua Procura",
+    "episode": 39,
+    "air_date": "2025-06-15",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_39.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
     "title_en": "The Reminiscent A La Mode",
-    "title_pt": "A La Mode Lembrança",
+    "title_pt": "Lembranças à La Mode",
     "episode": 40,
-    "air_date": "2024-06-22",
+    "air_date": "2025-06-22",
     "image": "Episodes Images/REIWA/GAVV/GAVV_40.webp",
     "fact_en": "Vram A La Mode's form Debut",
-    "fact_pt": "Debut da forma A La Mode do Vram"
+    "fact_pt": "Debut do Vram A La Mode"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Glasses Creeping Closer",
+    "title_pt": "Quatros Olhos se Aproximando Sorrateiramente",
+    "episode": 41,
+    "air_date": "2025-06-29",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_41.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "At the End of Broken Feelings",
+    "title_pt": "No Fim dos Sentimentos Partidos",
+    "episode": 42,
+    "air_date": "2025-07-06",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_42.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "At the End of Broken Feelings",
+    "title_pt": "Qual Sabor Tem o Mundo Humano?",
+    "episode": 43,
+    "air_date": "2025-07-13",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_43.webp"
   }
  ]
