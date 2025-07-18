@@ -363,6 +363,14 @@
   },
   {
     "series": "Kamen Rider Black RX",
+    "title_en": "The Riders' All Out Charge",
+    "title_pt": "O Ataque dos Kamen Riders",
+    "episode": 46,
+    "air_date": "1989-09-17",
+    "image": "Episodes Images/SHOWA/BLACK RX/RX_46.webp"
+  },
+  {
+    "series": "Kamen Rider Black RX",
     "title_en": "A Shining Tomorrow!",
     "title_pt": "A Luz do Amanhã!",
     "episode": 47,
@@ -412,6 +420,14 @@
     "episode": 14,
     "air_date": "2000-04-30",
     "image": "Episodes Images/HEISEI/KUUGA/KUUGA_14.webp"
+  },
+  {
+    "series": "Kamen Rider Kuuga",
+    "title_en": "Cooperation",
+    "title_pt": "Cooperação",
+    "episode": 33,
+    "air_date": "2000-09-17",
+    "image": "Episodes Images/HEISEI/KUUGA/KUUGA_33.webp"
   },
   {
     "series": "Kamen Rider Kuuga",
@@ -1037,6 +1053,16 @@
   },
   {
     "series": "Kamen Rider Hibiki",
+    "title_en": "Burning Crimson",
+    "title_pt": "O Vermelho Ardente",
+    "episode": 24,
+    "air_date": "2005-07-17",
+    "image": "Episodes Images/HEISEI/HIBIKI/HIBIKI_24.webp",
+    "fact_en": "Hibiki Kurenai's debut",
+    "fact_pt": "Debut do Hibiki Kurenai"
+  },
+  {
+    "series": "Kamen Rider Hibiki",
     "title_en": "Surpassing Father",
     "title_pt": "Supere o Pai",
     "episode": 31,
@@ -1101,7 +1127,15 @@
     "title_pt": "O Fundo do Fundo do Fundo",
     "episode": 14,
     "air_date": "2006-04-30",
-    "image": "Episodes Images/HEISEI/KABUTO/KABUTO_13.webp"
+    "image": "Episodes Images/HEISEI/KABUTO/KABUTO_14.webp"
+  },
+  {
+    "series": "Kamen Rider Kabuto",
+    "title_en": "The Infatuating Adjutant",
+    "title_pt": "A Ajudante Carismática",
+    "episode": 33,
+    "air_date": "2006-09-17",
+    "image": "Episodes Images/HEISEI/KABUTO/KABUTO_33.webp"
   },
   {
     "series": "Kamen Rider Kabuto",
@@ -1603,8 +1637,40 @@
   },
   {
     "series": "Kamen Rider W",
+    "title_en": "Who the K Needs/The Devil's Tail",
+    "title_pt": "A Busca da Kyoto/A Cauda do Demônio",
+    "episode": 45,
+    "air_date": "2010-08-01",
+    "image": "Episodes Images/HEISEI/W/W_45.webp"
+  },
+  {
+    "series": "Kamen Rider W",
+    "title_en": "Who the K Needs/The Last Supper",
+    "title_pt": "A Busca da Kyoto/A Última Ceia",
+    "episode": 46,
+    "air_date": "2010-08-08",
+    "image": "Episodes Images/HEISEI/W/W_46.webp"
+  },
+  {
+    "series": "Kamen Rider W",
+    "title_en": "The Abandoned U/A Request From Philip",
+    "title_pt": "A Utopia Abandonada/O Pedido do Philip",
+    "episode": 47,
+    "air_date": "2010-08-15",
+    "image": "Episodes Images/HEISEI/W/W_47.webp"
+  },
+  {
+    "series": "Kamen Rider W",
+    "title_en": "The Abandoned U/Eternal Partners",
+    "title_pt": "A Utopia Abandonada/Parceiros para Sempre",
+    "episode": 48,
+    "air_date": "2010-08-22",
+    "image": "Episodes Images/HEISEI/W/W_48.webp"
+  },
+  {
+    "series": "Kamen Rider W",
     "title_en": "Goodbye to the E/A Bouquet of Justice to This City",
-    "title_pt": "Um Adeus para o E/Um Buquê de Justiça para Essa Cidade",
+    "title_pt": "Adeus para Sempre/Um Buquê de Justiça para Esta Cidade",
     "episode": 49,
     "air_date": "2010-08-29",
     "image": "Episodes Images/HEISEI/W/W_49.webp"
@@ -1655,6 +1721,14 @@
   },
   {
     "series": "Kamen Rider OOO",
+    "title_en": "Ice, Greeedification, and Broken Wings",
+    "title_pt": "Gelo, Greeedificação, e Asas Quebradas",
+    "episode": 42,
+    "air_date": "2011-07-17",
+    "image": "Episodes Images/HEISEI/OOO/OOO_42.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
     "title_en": "Finale: The Medals of Tomorrow, Underwear, and Arms Held",
     "title_pt": "O Final: Medalhas do Amanhã, Cueca, e Braços Segurados",
     "episode": 48,
@@ -1692,6 +1766,16 @@
     "episode": 17,
     "air_date": "2011-01-08",
     "image": "Episodes Images/HEISEI/FOURZE/FOURZE_17.webp"
+  },
+  {
+    "series": "Kamen Rider Fourze",
+    "title_en": "Transcendent Magnetism",
+    "title_pt": "Magnetismo Transcendental",
+    "episode": 20,
+    "air_date": "2011-01-29",
+    "image": "Episodes Images/HEISEI/FOURZE/FOURZE_20.webp",
+    "fact_en": "Fourze MagnetStates' Debut",
+    "fact_pt": "Debut das MagnetStates do Fourze"
   },
   {
     "series": "Kamen Rider Fourze",
@@ -1857,6 +1941,14 @@
   },
   {
     "series": "Kamen Rider Ghost",
+    "title_en": "Courage! Tragic Resolution!",
+    "title_pt": "Coragem! Resolução Trágica!",
+    "episode": 40,
+    "air_date": "2016-07-17",
+    "image": "Episodes Images/HEISEI/GHOST/GHOST_40.webp"
+  },
+  {
+    "series": "Kamen Rider Ghost",
     "title_en": "Final Story (Special Edition): Future! Connected Thoughts!",
     "title_pt": "Última Históri (Edição Especial): Pensamentos para o Futuro!",
     "episode": 50,
@@ -1984,6 +2076,24 @@
     "episode": 1,
     "air_date": "2017-09-03",
     "image": "Episodes Images/HEISEI/BUILD/BUILD_01.png"
+  },
+  {
+    "series": "Kamen Rider Build",
+    "title_en": "The Innocent Runaway",
+    "title_pt": "Os Fugitivos Inocentes",
+    "episode": 2,
+    "air_date": "2017-09-03",
+    "image": "Episodes Images/HEISEI/BUILD/BUILD_02.png",
+    "fact_en": "Build GorillaMond's debut",
+    "fact_pt": "Debut do Build GorillaMond"
+  },
+  {
+    "series": "Kamen Rider Build",
+    "title_en": "Bordeline of Justice",
+    "title_pt": "A Fronteira da Justiça",
+    "episode": 3,
+    "air_date": "2017-09-17",
+    "image": "Episodes Images/HEISEI/BUILD/BUILD_03.png"
   },
   {
     "series": "Kamen Rider Build",
@@ -2462,6 +2572,24 @@
     "episode": 1,
     "air_date": "2023-09-03",
     "image": "Episodes Images/REIWA/GOTCHARD/GOTCHARD_01.webp"
+  },
+  {
+    "series": "Kamen Rider Gotchard",
+    "title_en": "Pursuit, Alchemy, Skebows!",
+    "title_pt": "Perseguição, Alquimia, Skebows!",
+    "episode": 2,
+    "air_date": "2023-09-10",
+    "image": "Episodes Images/REIWA/GOTCHARD/GOTCHARD_02.webp"
+  },
+  {
+    "series": "Kamen Rider Gotchard",
+    "title_en": "Bushido, Found!",
+    "title_pt": "Bushido, Encontrado!",
+    "episode": 3,
+    "air_date": "2023-09-17",
+    "image": "Episodes Images/REIWA/GOTCHARD/GOTCHARD_03.webp",
+    "fact_en": "Gotchard Appareskebow and Kamen Rider Valvarad's debut",
+    "fact_pt": "Debut do Gotchard Appareskebow e do Kamen Rider Valvarad"
   },
   {
     "series": "Kamen Rider Gotchard",
