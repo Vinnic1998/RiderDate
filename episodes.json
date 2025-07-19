@@ -481,6 +481,14 @@
   },
   {
     "series": "Kamen Rider Agito",
+    "title_en": "Another Clash",
+    "title_pt": "Outro Conflito",
+    "episode": 25,
+    "air_date": "2001-07-22",
+    "image": "Episodes Images/HEISEI/AGITO/AGITO_25.webp"
+  },
+  {
+    "series": "Kamen Rider Agito",
     "title_en": "Warriors, Those Bonds",
     "title_pt": "Os Laços dos Guerreiros!",
     "episode": 46,
@@ -600,6 +608,14 @@
     "image": "Episodes Images/HEISEI/FAIZ/FAIZ_01.webp",
     "fact_en": "This is the 600th episode of the Kamen Rider franchise",
     "fact_pt": "Esse é o 600º episódio da franquia Kamen Rider"
+  },
+  {
+    "series": "Kamen Rider Faiz",
+    "title_en": "Beautiful Assassin",
+    "title_pt": "Assassina Bonita",
+    "episode": 20,
+    "air_date": "2003-06-08",
+    "image": "Episodes Images/HEISEI/FAIZ/FAIZ_20.webp"
   },
   {
     "series": "Kamen Rider Faiz",
@@ -1195,6 +1211,14 @@
   },
   {
     "series": "Kamen Rider Den-O",
+    "title_en": "Climax Double Jump",
+    "title_pt": "Climax Double Jump",
+    "episode": 25,
+    "air_date": "2007-07-22",
+    "image": "Episodes Images/HEISEI/DEN-O/DEN-O_25.webp" 
+  },
+  {
+    "series": "Kamen Rider Den-O",
     "title_en": "The Climax Goes On, No Matter What",
     "title_pt": "O Clímax Não Irá Acabar, Não Importa Como!",
     "episode": 49,
@@ -1208,6 +1232,14 @@
     "episode": 1,
     "air_date": "2008-01-27",
     "image": "Episodes Images/HEISEI/KIVA/KIVA_01.webp"
+  },
+  {
+    "series": "Kamen Rider Kiva",
+    "title_en": "Nocturne: The Lovely Messiah",
+    "title_pt": "Nocturne: O Messias Adorável",
+    "episode": 20,
+    "air_date": "2008-06-08",
+    "image": "Episodes Images/HEISEI/KIVA/KIVA_20.webp"
   },
   {
     "series": "Kamen Rider Kiva",
@@ -1787,6 +1819,14 @@
   },
   {
     "series": "Kamen Rider Fourze",
+    "title_en": "Star Luck Ritual",
+    "title_pt": "Ritual da Sorte Estelar",
+    "episode": 44,
+    "air_date": "2012-07-22",
+    "image": "Episodes Images/HEISEI/FOURZE/FOURZE_44.webp"
+  },
+  {
+    "series": "Kamen Rider Fourze",
     "title_en": "Final Episode: Youthful Galaxy",
     "title_pt": "Episódio Final: Uma Nova Galáxia",
     "episode": 48,
@@ -1836,6 +1876,14 @@
     "image": "Episodes Images/HEISEI/GAIM/GAIM_13.webp",
     "fact_en": "Only televised appearence of Banana Arms by Gaim",
     "fact_pt": "Único uso da Banana Arms feito pelo Gaim na TV"
+  },
+  {
+    "series": "Kamen Rider Gaim",
+    "title_en": "Beat Riders' Great Gathering",
+    "title_pt": "O Grande Encontro dos Riders",
+    "episode": 33,
+    "air_date": "2014-06-08",
+    "image": "Episodes Images/HEISEI/GAIM/GAIM_33.webp"
   },
   {
     "series": "Kamen Rider Gaim",
