@@ -75,7 +75,7 @@ function getEpisodeLabels(epDateStr) {
   ) {
     labels += " <span class='novo'>NOVO!</span>";
   }
-  
+
   // Aniversário (mesmo dia/mês, anos diferentes)
   const yearsDiff = today.getFullYear() - epDate.getFullYear();
   if (
@@ -86,6 +86,13 @@ function getEpisodeLabels(epDateStr) {
     labels += ` <span class='aniversario'>(completou ${yearsDiff} ano${yearsDiff > 1 ? "s" : ""})</span>`;
   }
 
+  // Lógica de próximo ep
+  const diffTime = epDate - today;
+  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+  if (diffDays > 0) {
+    labels += ` <span class='proximo'>(lançará em ${diffDays} dia${diffDays > 1 ? "s" : ""})</span>`;
+  }
+  
   return labels;
 }
 
