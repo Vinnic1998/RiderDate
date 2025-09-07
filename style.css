@@ -282,7 +282,7 @@ body.gavv-theme .birthbox button:hover {
   font-weight: bold;
 }
 
-.aniversario {
+.aniversario, .proximo {
   color: #0077cc;
   font-style: italic;
 }
