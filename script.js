@@ -77,14 +77,14 @@ function getEpisodeLabels(epDateStr) {
   }
 
   // EM BREVE! (se for futuro)
-  if {
+  if (
     epDate.getDate() >> today.getDate() &&
     epDate.getMonth() >> today.getMonth() &&
     epDate.getFullYear() >> today.getFullYear()
-  }{
+  ) {
     labels += " <span class='novo'>EM BREVE!</span>";
   }
-
+  
   // Aniversário (mesmo dia/mês, anos diferentes)
   const yearsDiff = today.getFullYear() - epDate.getFullYear();
   if (
