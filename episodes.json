@@ -2705,11 +2705,99 @@
   },
   {
     "series": "Kamen Rider Gavv",
+    "title_en": "What Flavor Lies Beneath the Mask",
+    "title_pt": "O Sabor por Trás da Máscara",
+    "episode": 7,
+    "air_date": "2024-10-13",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_07.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Dual Chocolate",
+    "title_pt": "Chocolate Duplo",
+    "episode": 8,
+    "air_date": "2024-10-20",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_08.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Trick or Dance!",
+    "title_pt": "Doce ou Dança",
+    "episode": 9,
+    "air_date": "2024-10-27",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_09.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Extra Large! Candy Cannon!",
+    "title_pt": "Canhão de Doces Gigante!",
+    "episode": 10,
+    "air_date": "2024-11-10",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_10.webp",
+    "fact_en": "Gavv Bakucan Assist's debut",
+    "fact_pt": "Debut do Bakucan Assist do Gavv"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Beware of Sweet Words!",
+    "title_pt": "Cuidado com Doces Palavras!",
+    "episode": 11,
+    "air_date": "2024-11-17",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_11.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "A Bond Connected by Doughnuts",
+    "title_pt": "Um Laço Conectado por Rosquinhas",
+    "episode": 12,
+    "air_date": "2024-11-24",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_12.webp",
+    "fact_en": "Valen Doumaru's debut",
+    "fact_pt": "Debut do Valen Doumaru"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Promised Homemade Cake",
+    "title_pt": "A Promessa de um Bolo Caseiro",
+    "episode": 13,
+    "air_date": "2024-12-01",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_13.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
     "title_en": "Miraculous Awakening! Caking",
     "title_pt": "Despertar Milagroso! Caking",
     "episode": 14,
     "air_date": "2024-12-08",
-    "image": "Episodes Images/REIWA/GAVV/GAVV_14.webp"
+    "image": "Episodes Images/REIWA/GAVV/GAVV_14.webp",
+    "fact_en": "Gavv Caking's debut",
+    "fact_pt": "Debut do Gavv Caking"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Escaped Granute!",
+    "title_pt": "Granute Fugitivo!",
+    "episode": 15,
+    "air_date": "2024-12-15",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_15.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "The Gift of Noël",
+    "title_pt": "O Presente de Noël",
+    "episode": 16,
+    "air_date": "2024-12-22",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_16.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Caramel Tentacles Taste Like Happiness",
+    "title_pt": "Tentáculos de Caramelo Tem Sabor de Felicidade",
+    "episode": 17,
+    "air_date": "2025-01-05",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_17.webp",
+    "fact_en": "Kamen Rider Vram's debut",
+    "fact_pt": "Debut da Kamen Rider Vram"
   },
   {
     "series": "Kamen Rider Gavv",
@@ -2721,13 +2809,79 @@
   },
   {
     "series": "Kamen Rider Gavv",
+    "title_en": "The Secret Bittersweet Flavor of Pudding",
+    "title_pt": "Um Pudim Meio Amargo",
+    "episode": 19,
+    "air_date": "2025-01-19",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_19.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Break In! To the Dark Snacks Factory!",
+    "title_pt": "Invadindo a Fábrica de Doces Trevosos!",
+    "episode": 20,
+    "air_date": "2025-01-26",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_20.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Too Bitter Gavv",
+    "title_pt": "Um Gavv Muito Amargo",
+    "episode": 21,
+    "air_date": "2025-02-02",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_21.webp",
+    "fact_en": "Kamen Rider Bitter Gavv's debut",
+    "fact_pt": "Debut do Kamen Rider Bitter Gavv"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "The Truth Is Sweet and Bitter",
+    "title_pt": "A Verdade é Agridoce",
+    "episode": 22,
+    "air_date": "2025-02-09",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_22.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Broken Sweets",
+    "title_pt": "Doces Quebrados",
+    "episode": 23,
+    "air_date": "2025-02-16",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_23.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
     "title_en": "A Spoonful of Revival Ice Cream",
-    "title_pt": "Uma Colher de Sorvete de Reviver",
+    "title_pt": "Uma Bola Refrescante de Sorvete",
     "episode": 24,
     "air_date": "2025-02-23",
     "image": "Episodes Images/REIWA/GAVV/GAVV_24.webp",
     "fact_en": "Gavv Sorbet Blizzard's debut",
-    "fact_pt": "Debut da forma Sorbet Blizzard do Gavv"
+    "fact_pt": "Debut do Gavv Sorbet Blizzard"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Virtual Happiness, The Taste of Nectar",
+    "title_pt": "A Doçura da Falsa Felicidade",
+    "episode": 25,
+    "air_date": "2025-03-02",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_25.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Angry Pudding",
+    "title_pt": "Pudim Enfurecido",
+    "episode": 26,
+    "air_date": "2025-03-09",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_26.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Sour and Sweet to the Point of Burning",
+    "title_pt": "Azedo e Doce ao Ponto de Queimar",
+    "episode": 27,
+    "air_date": "2025-03-23",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_27.webp"
   },
   {
     "series": "Kamen Rider Gavv",
@@ -2737,7 +2891,65 @@
     "air_date": "2025-03-30",
     "image": "Episodes Images/REIWA/GAVV/GAVV_28.webp",
     "fact_en": "Valen Frappe Custom's debut",
-    "fact_pt": "Debut da forma Frappe Custom do Valen"
+    "fact_pt": "Debut da Valen Frappe Custom"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Jiip's Surprise Wedding!",
+    "title_pt": "O Casamento Surpresa do Jiip!",
+    "episode": 29,
+    "air_date": "2025-04-06",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_29.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "The Most Terrible Presidential Daughter",
+    "title_pt": "A Filha Presidencial Mais Terrível",
+    "episode": 30,
+    "air_date": "2025-04-13",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_30.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "A Difficult Marriage",
+    "title_pt": "Um Casamento Difícil",
+    "episode": 31,
+    "air_date": "2025-04-20",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_31.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Cup on the True Feelings!",
+    "title_pt": "Um Copo dos Verdadeiros Sentimentos!",
+    "episode": 32,
+    "air_date": "2025-04-27",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_32.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "One-Hit Kill!! Over Gavv!",
+    "title_pt": "Um Golpe Fatal!! Over Gavv!",
+    "episode": 33,
+    "air_date": "2025-05-04",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_33.webp",
+    "fact_en": "Gavv Over's debut",
+    "fact_pt": "Debut do Gavv Over"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "The Great 100 Gochizo Operation!",
+    "title_pt": "A Grande Operação dos 100 Gochizos!",
+    "episode": 34,
+    "air_date": "2025-05-11",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_34.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Zero Sweetness! Ironclad Lango",
+    "title_pt": "Zero Doçura! Lango de Ferro",
+    "episode": 35,
+    "air_date": "2025-05-11",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_35.webp"
   },
   {
     "series": "Kamen Rider Gavv",
@@ -2804,5 +3016,87 @@
     "episode": 43,
     "air_date": "2025-07-13",
     "image": "Episodes Images/REIWA/GAVV/GAVV_43.webp"
+  }, 
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Dazzling Moments That Will Never Come Back",
+    "title_pt": "Momentos Deslumbrantes que Nunca Voltarão",
+    "episode": 44,
+    "air_date": "2025-07-20",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_44.webp",
+    "fact_en": "The episode's name references the first part of the chorus at the beginning of the opening",
+    "fact_pt": "O nome do episódio faz referência a primeira parte do refrão do início da abertura"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "I Won't Let Anyone Take Them Away Anymore",
+    "title_pt": "Não Serão Mais Roubados",
+    "episode": 45,
+    "air_date": "2025-07-27",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_45.webp",
+    "fact_en": "The episode's name references the second part of the chorus at the beginning of the opening",
+    "fact_pt": "O nome do episódio faz referência a segunda parte do refrão do início da abertura"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Shoma's Determination",
+    "title_pt": "A Decisão de Shoma",
+    "episode": 46,
+    "air_date": "2025-08-03",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_46.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Happy Dystopia",
+    "title_pt": "Distopia Feliz",
+    "episode": 47,
+    "air_date": "2025-08-10",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_47.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Burning Amazingummy",
+    "title_pt": "Amazingummy em Chamas",
+    "episode": 48,
+    "air_date": "2025-08-17",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_48.webp",
+    "fact_en": "Gavv Amazingummy's debut",
+    "fact_pt": "Debut do Gavv Amazingummy"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "I Believe in Snacks!",
+    "title_pt": "Eu Acredito nos Lanches!",
+    "episode": 49,
+    "air_date": "2025-08-24",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_49.webp"
+  },
+  {
+    "series": "Kamen Rider Gavv",
+    "title_en": "Aim for It! A Delicious Future!",
+    "title_pt": "Almeje! Um Futuro Delicioso!",
+    "episode": 50,
+    "air_date": "2025-08-31",
+    "image": "Episodes Images/REIWA/GAVV/GAVV_50.webp",
+    "fact_en": "This is the 1700th episode of the Kamen Rider franchise",
+    "fact_pt": "Esse é o 1700º episódio da franquia Kamen Rider"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case1: Beginning",
+    "title_pt": "Caso1: Começar",
+    "episode": 1,
+    "air_date": "2025-09-07",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_01.webp",
+    "fact_en": "The first episode to air internationally",
+    "fact_pt": "O primeiro episódio a estrear internacionalmente"
+  },
+  { 
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case2: Explode",
+    "title_pt": "Caso2: Explodir",
+    "episode": 2,
+    "air_date": "2025-09-14",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_02.webp"
   }
  ]

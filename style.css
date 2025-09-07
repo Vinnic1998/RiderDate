@@ -273,3 +273,16 @@ body.gavv-theme .birthbox button {
 body.gavv-theme .birthbox button:hover {
     background-color: rgb(137, 99, 0);
 }
+
+.novo {
+  color: red;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.aniversario {
+  color: #0077cc;
+  font-style: italic;
+}

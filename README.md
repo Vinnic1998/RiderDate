@@ -14,6 +14,8 @@ A função do RiderDate é de ser um site para se divertir caçando episódios d
 
 03/06/2025 - Ainda está tendo problemas na tradução da página de lista, mas.. todos os eps de Blade foram adicionados, Zi-O e outras séries estão engatinhando ainda..
 
+07/09/2025 - Adição de todos eps de Gavv e eps da nova série, Zeztz. Adição do título NOVO para episódios lançados no dia atual e adição de tempo por exemplo (foi lançado há X anos)
+
 ==================================================================================================================================================
 
 PROGRESSO POR SÉRIE (episódios):
@@ -52,6 +54,7 @@ Kamen Rider Saber (2020) - 4/47
 Kamen Rider Revice (2021) - 7/50
 Kamen Rider Geats (2022) - 23/49
 Kamen Rider Gotchard (2023) - 3/50
-Kamen Rider Gavv (2024) - 13/42 (série ainda em andamento)
+Kamen Rider Gavv (2024) - 50/50 
+Kamen Rider Zeztz (2025) - 2/?? (série em andamento)
 
 Mais coisas serão adicionadas futuramente ao site, se quiserem sugerir ideias fiquem a vontade!

@@ -34,6 +34,7 @@ const seriesIcons = {
   "Kamen Rider Geats": "Series Icons/REIWA/GEATS Icon.webp",
   "Kamen Rider Gotchard": "Series Icons/REIWA/GOTCHARD Icon.webp",
   "Kamen Rider Gavv": "Series Icons/REIWA/GAVV Icon.webp",
+  "Kamen Rider Zeztz": "Series Icons/REIWA/ZEZTZ Icon.webp",
 };
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -53,6 +54,42 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch(error => console.error('Erro ao carregar episódios:', error));
 });
 
+// Função para converter data
+function parseDateNoTZ(dateStr) {
+  const [year, month, day] = dateStr.split("-").map(Number);
+  return new Date(year, month - 1, day); // mês começa em 0
+}
+
+
+// Função para labels personalizados como "NOVO!" e "Aniversário"
+function getEpisodeLabels(epDateStr) {
+  const today = new Date();
+  const epDate = parseDateNoTZ(epDateStr);
+  let labels = "";
+
+  // NOVO! (se for hoje exatamente)
+  if (
+    epDate.getDate() === today.getDate() &&
+    epDate.getMonth() === today.getMonth() &&
+    epDate.getFullYear() === today.getFullYear()
+  ) {
+    labels += " <span class='novo'>NOVO!</span>";
+  }
+
+  // Aniversário (mesmo dia/mês, anos diferentes)
+  const yearsDiff = today.getFullYear() - epDate.getFullYear();
+  if (
+    epDate.getDate() === today.getDate() &&
+    epDate.getMonth() === today.getMonth() &&
+    yearsDiff > 0
+  ) {
+    labels += ` <span class='aniversario'>(completou ${yearsDiff} ano${yearsDiff > 1 ? "s" : ""})</span>`;
+  }
+
+  return labels;
+}
+
+// Função para encontrar episódios
 function findEpisodes() {
     const input = document.getElementById("birthdate").value;
     const resultsDiv = document.getElementById("results");
@@ -98,19 +135,26 @@ function findEpisodes() {
         const episodeDiv = document.createElement("div");
         episodeDiv.classList.add("episode-result");
 
+        const extraLabel = getEpisodeLabels(ep.air_date);
+
         const epFactText = getTranslatedFact(ep);
         const epFact = epFactText ? `<p><strong>${getFactLabel()}:</strong> ${epFactText}</p>` : '';
 
         episodeDiv.innerHTML = `
-        <hr>
-        <img src="${ep.image || 'placeholder.png'}" alt="${ep.series}" class="episode-image">
-        <p><img src="${seriesIcons[ep.series] || 'default-icon.png'}" alt="${ep.series} Icon" class="series-icon"><strong>${ep.series}</strong> - ${getEpisodeLabel()} ${ep.episode}: ${getTranslatedText(ep)}</p>
-        <p><em>(${ep.air_date})</em></p>
-        ${epFact}
+          <hr>
+          <img src="${ep.image || 'placeholder.png'}" alt="${ep.series}" class="episode-image">
+          <p>
+            <img src="${seriesIcons[ep.series] || 'default-icon.png'}" alt="${ep.series} Icon" class="series-icon">
+            <strong>${ep.series}</strong> - ${getEpisodeLabel()} ${ep.episode}: ${getTranslatedText(ep)} 
+            ${extraLabel}
+          </p>
+          <p><em>(${ep.air_date})</em></p>
+          ${epFact}
         `;
 
         resultsDiv.appendChild(episodeDiv);
-        });
+    });
+
     shareText += `\nConfira o seu também aqui: ${window.location.href}`;
 
     shareButton.style.display = "inline-block";
@@ -159,18 +203,23 @@ function findEpisodes() {
         resultsDiv.innerHTML = "<p>Sem episódios no seu dia... mas olha só o que saiu pertinho!</p>";
         
         nearbyEpisodes.forEach(ep => {
-        const episodeDiv = document.createElement("div");
-        episodeDiv.classList.add("episode-result");
+          const episodeDiv = document.createElement("div");
+          episodeDiv.classList.add("episode-result");
 
-        episodeDiv.innerHTML = `
-            <hr>
-            <img src="${ep.image || 'placeholder.png'}" alt="${ep.series}" class="episode-image">
-            <p><img src="${seriesIcons[ep.series] || 'default-icon.png'}" alt="${ep.series} Icon" class="series-icon">
-            <strong>${ep.series}</strong> - Episódio ${ep.episode}: ${getTranslatedText(ep)}</p>
-            <p><em>(${ep.air_date}) - ${ep.diffDays === 1 ? "1 dia" : `${ep.diffDays} dias`} de diferença</em></p>
-        `;
+          const extraLabel = getEpisodeLabels(ep.air_date);
 
-        resultsDiv.appendChild(episodeDiv);
+          episodeDiv.innerHTML = `
+              <hr>
+              <img src="${ep.image || 'placeholder.png'}" alt="${ep.series}" class="episode-image">
+              <p>
+                <img src="${seriesIcons[ep.series] || 'default-icon.png'}" alt="${ep.series} Icon" class="series-icon">
+                <strong>${ep.series}</strong> - Episódio ${ep.episode}: ${getTranslatedText(ep)} 
+                ${extraLabel}
+              </p>
+              <p><em>(${ep.air_date}) - ${ep.diffDays === 1 ? "1 dia" : `${ep.diffDays} dias`} de diferença</em></p>
+          `;
+
+          resultsDiv.appendChild(episodeDiv);
         });
 
         document.getElementById("shareButton").style.display = "none";
