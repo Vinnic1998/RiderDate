@@ -10,11 +10,13 @@ A função do RiderDate é de ser um site para se divertir caçando episódios d
 
 30/06/2025 - Adição do botão de "Me Surpreenda!" para datas aleatórias e filtros na Lista de Episódios.
 
-01/06/2025 - Adição de tradução para Inglês e Temas. Tradução ainda está sendo feita!
+01/07/2025 - Adição de tradução para Inglês e Temas. Tradução ainda está sendo feita!
 
-03/06/2025 - Ainda está tendo problemas na tradução da página de lista, mas.. todos os eps de Blade foram adicionados, Zi-O e outras séries estão engatinhando ainda..
+03/07/2025 - Ainda está tendo problemas na tradução da página de lista, mas.. todos os eps de Blade foram adicionados, Zi-O e outras séries estão engatinhando ainda..
 
 07/09/2025 - Adição de todos eps de Gavv e eps da nova série, Zeztz. Adição do título NOVO para episódios lançados no dia atual e adição de tempo por exemplo (foi lançado há X anos)
+
+08/09/2025 - Adição de eps na tabela
 
 ==================================================================================================================================================
 
