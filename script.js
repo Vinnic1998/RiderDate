@@ -90,7 +90,7 @@ function getEpisodeLabels(epDateStr) {
   const diffTime = epDate - today;
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
   if (diffDays > 0) {
-    labels += " <span class='proimo'>EM BREVE!</span>";
+    labels += " <span class='proximo'>EM BREVE!</span>";
   }
 
   return labels;
