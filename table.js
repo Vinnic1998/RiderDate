@@ -34,6 +34,7 @@ const seriesIcons = {
   "Kamen Rider Geats": "Series Icons/REIWA/GEATS Icon.webp",
   "Kamen Rider Gotchard": "Series Icons/REIWA/GOTCHARD Icon.webp",
   "Kamen Rider Gavv": "Series Icons/REIWA/GAVV Icon.webp",
+  "Kamen Rider Zeztz": "Series Icons/REIWA/ZEZTZ Icon.webp"
 };
 
 document.addEventListener("DOMContentLoaded", () => {
