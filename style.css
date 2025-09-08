@@ -209,6 +209,62 @@ body.showa-theme .birthbox {
   box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
 }
 
+body.showa-theme .birthbox button {
+    background-color: #aa0000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+body.showa-theme .birthbox button:hover {
+  background-color: #8b0000;
+}
+
+body.showa-theme #surpriseButton,
+body.showa-theme #shareButton {
+    background-color: teal;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+body.showa-theme #surpriseButton:hover,
+body.showa-theme #shareButton:hover {
+  background-color: rgb(2, 79, 98);
+}
+
+/* Tema Gavv */
+
+body.gavv-theme .birthbox {
+  background-color: #2e003ee1;
+  border: 2px solid gold;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  color: #f5d0ff;
+}
+
+body.gavv-theme .birthbox button {
+    background-color: gold;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+body.gavv-theme .birthbox button:hover {
+    background-color: rgb(137, 99, 0);
+}
+
 /* Tema Kabuto */
 
 body.kabuto-theme .birthbox {
@@ -216,6 +272,38 @@ body.kabuto-theme .birthbox {
   color: #ffffff;
   border: 3px solid rgb(86, 86, 86);
   box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
+}
+
+body.kabuto-theme .birthbox button {
+    background-color: rgb(0, 157, 255);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;rgb(157, 157, 157);
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+body.kabuto-theme .birthbox button:hover {
+  background-color: #0077cc;
+}
+
+body.kabuto-theme #surpriseButton,
+body.kabuto-theme #shareButton {
+    background-color: rgb(184, 184, 184);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+body.kabuto-theme #surpriseButton:hover,
+body.kabuto-theme #shareButton:hover {
+  background-color: rgb(108, 108, 108);
 }
 
 /* Tema Decade */
@@ -249,19 +337,20 @@ body.build-theme .birthbox {
   color: rgb(255, 252, 252);
 }
 
+/* Tema Zeztz */
 
-/* Tema Gavv */
-
-body.gavv-theme .birthbox {
-  background-color: #2e003ee1;
-  border: 2px solid gold;
+body.zeztz-theme .birthbox {
+  background-color: #000000a8;
+  border: 4px solid; 
+  border-image: linear-gradient(to top, #00A496, #E50038) 1;
+  border-image-slice: 1; 
   box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
-  color: #f5d0ff;
+  color: #ffffff;
 }
 
-body.gavv-theme .birthbox button {
-    background-color: gold;
-    color: rgb(0, 0, 0);
+body.zeztz-theme .birthbox button {
+    background-color: #ff6536;
+    color: white;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -270,8 +359,19 @@ body.gavv-theme .birthbox button {
     transition: background-color 0.3s ease;
 }
 
-body.gavv-theme .birthbox button:hover {
-    background-color: rgb(137, 99, 0);
+body.zeztz-theme .birthbox button:hover {
+    background-color: #c70039;
+}
+
+body.zeztz-theme .birthbox #surpriseButton {
+    background-color: #00A496;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+body.zeztz-theme .birthbox #surpriseButton:hover {
+    background-color: #007f6a;
 }
 
 .novo {

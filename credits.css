@@ -94,6 +94,27 @@ body.kabuto-theme .birthbox {
   box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
 }
 
+/* Tema Zeztz */
+
+body.zeztz-theme .birthbox {
+  background-color: #000000a8;
+  border: 4px solid; 
+  border-image: linear-gradient(to top, #00A496, #E50038) 1;
+  border-image-slice: 1; 
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+body.zeztz-theme .birthbox h1,
+body.zeztz-theme .birthbox h2,
+body.zeztz-theme .birthbox h3 {
+  color: white;
+}
+
+body.zeztz-theme .birthbox a {
+  color: #00A496;
+}
+
 .birthbox button {
     background-color: rgb(69, 197, 0);
     color: white;

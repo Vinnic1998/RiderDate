@@ -8,19 +8,202 @@
     margin-bottom: 10px;
 }
 
+/* Tema Light */
+
 body.theme-default .ep-list {
   background-color: white;
   color: black;
 }
 
-body.theme-dark .ep-list {
+/* Tema Dark */
+
+body.dark-theme .ep-list {
   background-color: #262626;
+  color: white;
+  border: 2px solid greenyellow;
+  border-radius: 2px;
+}
+
+body.dark-theme .ep-list select {
+  background-color: #262626;
+  color: white;
+  border: 2px solid greenyellow;
+  border-radius: 2px;
+}
+
+/* Tema do Geats */
+
+body.geats-theme .ep-list {
+  border: 4px solid; 
+  border-image: linear-gradient(to right, #ffcb00, #ffffff, #ffcb00) 1;
+  border-image-slice: 1; 
+}
+
+body.geats-theme .ep-list select {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-image: linear-gradient(to right, #ffcb00, #ffffff, #ffcb00) 1;
+  border-image-slice: 1; 
+  border-radius: 2px;
+}
+
+/* Tema do OOO */
+
+body.ooo-theme .ep-list {
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
+  border: 4px solid; 
+  border-image: linear-gradient(to top, red, yellow, green) 1;
+  border-image-slice: 1; 
+}
+
+body.ooo-theme .ep-list select {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border-image: linear-gradient(to top, red, yellow, green) 1;
+  border-image-slice: 1; 
+  border-radius: 2px;
+}
+
+/* Tema Showa */
+
+body.showa-theme .ep-list {
+  background-color: #f5f0e3;
+  color: #333;
+  border: 3px solid #aa0000;
+  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
+}
+
+body.showa-theme .ep-list select {
+  background-color: #f5f0e3;
+  color: rgb(0, 0, 0);
+  border: 3px solid #aa0000;
+  border-radius: 2px;
+}
+
+/* Tema do Gavv */
+
+body.gavv-theme .ep-list {
+  background-color: #2e003ee1;
+  border: 2px solid gold;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  color: #f5d0ff;
+}
+
+body.gavv-theme .ep-list select {
+  background-color: #2e003ee1;
+  border: 2px solid gold;
+  border-radius: 2px;
+  color: #f5d0ff;
+}
+
+/* Tema do Kabuto */
+
+body.kabuto-theme .ep-list {
+  background-color: #750000;
+  color: #ffffff;
+  border: 3px solid rgb(86, 86, 86);
+  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
+}
+
+body.kabuto-theme .ep-list select {
+  background-color: #750000;
+  border: 3px solid rgb(86, 86, 86);
+  border-radius: 2px;
+  color: #ffffff;
+}
+
+/* Tema do Decade */
+
+body.decade-theme .ep-list {
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  border: magenta solid 4px;
+  color: rgb(255, 252, 252);
+}
+
+body.decade-theme .ep-list select {
+  background-color: rgb(30, 30, 30);
+  border: magenta solid 2px;
+  border-radius: 2px;
+  color: #ffffff;
+}
+
+/* Tema do W */
+
+body.w-theme .ep-list {
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  border: 4px solid;
+  border-image: linear-gradient(to bottom, green, purple) 1;
+  border-image-slice: 1; 
+  color: rgb(255, 252, 252);
+}
+
+body.w-theme .ep-list select {
+  background-color: rgba(30, 30, 30, 0.755);
   color: white;
 }
 
-body.theme-geats .ep-list {
-  background-color: #ffdbec;
-  border: red solid 4px;
+body.w-theme #serie-filter {
+  border: 2px solid green;
+}
+
+body.w-theme #status-filter {
+  border-image: linear-gradient(to right, green, purple) 1;
+  border-image-slice: 1; 
+}
+
+body.w-theme #month-filter {
+  border: 2px solid purple;
+}
+
+/* Tema do Build */
+
+body.build-theme .ep-list {
+  background-color: rgba(30, 30, 30, 0.755);
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  border: 4px solid; 
+  border-image: linear-gradient(to top, red, blue) 1;
+  border-image-slice: 1; 
+  color: rgb(255, 252, 252);
+}
+
+body.build-theme .ep-list select {
+  background-color: rgba(30, 30, 30, 0.755);
+  color: white;
+}
+
+body.build-theme #serie-filter {
+  border: 2px solid red;
+}
+
+body.build-theme #status-filter {
+  border-image: linear-gradient(to right, red, blue) 1;
+  border-image-slice: 1; 
+}
+
+body.build-theme #month-filter {
+  border: 2px solid blue;
+}
+
+/* Tema do Zeztz */
+
+body.zeztz-theme .ep-list {
+  background-color: #000000a8;
+  border: 4px solid; 
+  border-image: linear-gradient(to top, #00A496, #E50038) 1;
+  border-image-slice: 1; 
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+body.zeztz-theme .ep-list select {
+  background-color: #000000;
+  border: 2px solid #00A496;
+  border-radius: 2px;
+  color: #ffffff;
 }
 
 table {
@@ -32,6 +215,7 @@ table {
   border-radius: 10px;
   overflow: hidden;
   font-family: sans-serif;
+  color: black;
 }
 
 th, td {

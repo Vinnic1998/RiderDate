@@ -435,6 +435,44 @@ body.build-theme::before {
   z-index: -1;
 }
 
+/* Tema Zeztz */
+
+body.zeztz-theme {
+  background: url(Wallpapers/REIWA/ZEZTZ\ WPP.png) no-repeat center center fixed;
+  background-position: 0px 0px;
+  background-size: 2500px;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+body.zeztz-theme header select {
+  background-color: #000000;
+  border: 2px solid #00A496;
+  border-radius: 2px;
+  color: #ffffff;
+}
+
+body.zeztz-theme header,
+body.zeztz-theme footer {
+  background-color: #00000095;
+  color: #ffffff;
+}
+
+body.zeztz-theme header h1,
+body.zeztz-theme header h2,
+body.zeztz-theme header q {
+  color: #ffffff;
+}
+
+body.zeztz-theme footer {
+  border-top: 4px solid  #E50038;
+}
+
+body.zeztz-theme header {
+  border-bottom: 4px solid #00A496;
+}
+
+
 #particles-js {
   position: fixed;
   width: 100%;
