@@ -280,7 +280,7 @@ body.kabuto-theme .birthbox button {
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
-    cursor: pointer;rgb(157, 157, 157);
+    cursor: pointer;
     margin-top: 10px;
     transition: background-color 0.3s ease;
 }
