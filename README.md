@@ -18,6 +18,8 @@ A função do RiderDate é de ser um site para se divertir caçando episódios d
 
 08/09/2025 - Adição de eps na tabela
 
+09/09/2025 - Mais eps adicionados
+
 ==================================================================================================================================================
 
 PROGRESSO POR SÉRIE (episódios):
