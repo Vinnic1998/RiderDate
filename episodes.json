@@ -497,11 +497,27 @@
   },
   {
     "series": "Kamen Rider Agito",
+    "title_en": "United Front!",
+    "title_pt": "Frente de Batalha Unida!",
+    "episode": 40,
+    "air_date": "2001-11-11",
+    "image": "Episodes Images/HEISEI/AGITO/AGITO_40.webp"
+  },
+  {
+    "series": "Kamen Rider Agito",
     "title_en": "Warriors, Those Bonds",
     "title_pt": "Os Laços dos Guerreiros!",
     "episode": 46,
     "air_date": "2001-12-23",
     "image": "Episodes Images/HEISEI/AGITO/AGITO_46.webp"
+  },
+  {
+    "series": "Kamen Rider Agito",
+    "title_en": "The Governor of Stars",
+    "title_pt": "O Governante das Estrelas",
+    "episode": 48,
+    "air_date": "2002-01-06",
+    "image": "Episodes Images/HEISEI/AGITO/AGITO_48.webp"
   },
   {
     "series": "Kamen Rider Agito",
@@ -1232,6 +1248,14 @@
     "episode": 32,
     "air_date": "2007-09-09",
     "image": "Episodes Images/HEISEI/DEN-O/DEN-O_32.webp" 
+  },
+  {
+    "series": "Kamen Rider Den-O",
+    "title_en": "My End Has Made You Cry",
+    "title_pt": "O Meu Fim Vai te Fazer Chorar",
+    "episode": 47,
+    "air_date": "2008-01-06",
+    "image": "Episodes Images/HEISEI/DEN-O/DEN-O_47.webp"
   },
   {
     "series": "Kamen Rider Den-O",
@@ -2051,6 +2075,14 @@
   },
   {
     "series": "Kamen Rider Wizard",
+    "title_en": "Another Magician",
+    "title_pt": "Outro Mago",
+    "episode": 17,
+    "air_date": "2013-01-06",
+    "image": "Episodes Images/HEISEI/WIZARD/WIZARD_17.webp"
+  },
+  {
+    "series": "Kamen Rider Wizard",
     "title_en": "Dangerous Part-Time Job",
     "title_pt": "o Emprego de Meio Período Fatal",
     "episode": 32,
@@ -2488,6 +2520,16 @@
     "image": "Episodes Images/HEISEI/ZI-O/ZI-O_10.webp",
     "fact_en": "Zi-O OOO Armor Debut",
     "fact_pt": "Debut do Zi-O OOO Armor"
+  },
+  {
+    "series": "Kamen Rider Zi-O",
+    "title_en": "Happy New Woz 2019",
+    "title_pt": "Feliz Ano Novo Woz 2019",
+    "episode": 17,
+    "air_date": "2019-01-06",
+    "image": "Episodes Images/HEISEI/ZI-O/ZI-O_17.webp",
+    "fact_en": "Kamen Rider Woz's Debut",
+    "fact_pt": "Debut do Kamen Rider Woz"
   },
   {
     "series": "Kamen Rider Zi-O",
