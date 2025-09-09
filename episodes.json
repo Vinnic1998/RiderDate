@@ -1741,6 +1741,56 @@
   },
   {
     "series": "Kamen Rider OOO",
+    "title_en": "A Cat, Evolution, and a Glutton",
+    "title_pt": "Um Gato, Evolução, e um Glutão",
+    "episode": 3,
+    "air_date": "2010-09-19",
+    "image": "Episodes Images/HEISEI/OOO/OOO_03.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "Doubt, a Picture Message, and a Helping Hand",
+    "title_pt": "Dúvida, uma Mensagem de Imagem, e uma Mão Amiga",
+    "episode": 4,
+    "air_date": "2010-09-26",
+    "image": "Episodes Images/HEISEI/OOO/OOO_04.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "A Game of Tag, a Nest, and a Rich Girl",
+    "title_pt": "Um Pega-Pega, um Ninho, e uma Garota Rica",
+    "episode": 5,
+    "air_date": "2010-10-03",
+    "image": "Episodes Images/HEISEI/OOO/OOO_05.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "Fashion, a Contract, and the Strongest Combo",
+    "title_pt": "Moda, um Contrato, e o Combo Mais Forte",
+    "episode": 6,
+    "air_date": "2010-10-10",
+    "image": "Episodes Images/HEISEI/OOO/OOO_06.webp",
+    "fact_en": "OOO Gatakiriba Combo's debut",
+    "fact_pt": "Debut do Combo Gatakiriba do OOO"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "A Lousy Husband, a Trap, and a Jackpot",
+    "title_pt": "Um Marido Ruim, uma Armadilha, e um Jackpot",
+    "episode": 7,
+    "air_date": "2010-10-17",
+    "image": "Episodes Images/HEISEI/OOO/OOO_07.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "Sabotage, Having No Greed, and Taking a Break",
+    "title_pt": "Sabotagem, Sem Ganância, e um Descanso",
+    "episode": 8,
+    "air_date": "2010-10-24",
+    "image": "Episodes Images/HEISEI/OOO/OOO_08.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
     "title_en": "Drenched, the Past, and the Scorching Combo",
     "title_pt": "Encharchado, o Passado, e o Combo Escaldante",
     "episode": 9,
@@ -1751,11 +1801,153 @@
   },
   {
     "series": "Kamen Rider OOO",
+    "title_en": "A Fist, an Experiment, and a Super Bike",
+    "title_pt": "Um Punho, um Experimento, e uma Super Moto",
+    "episode": 10,
+    "air_date": "2010-11-14",
+    "image": "Episodes Images/HEISEI/OOO/OOO_10.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "A Traveler, a Swallowtail, and a Celebrity",
+    "title_pt": "Um Viajante, uma Borboleta, e uma Celebridade",
+    "episode": 11,
+    "air_date": "2010-11-21",
+    "image": "Episodes Images/HEISEI/OOO/OOO_11.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
     "title_en": "An Eel, the World, and the Gravity Combo",
-    "title_pt": "Uma Enguia, o Mundo, e o Combo que muda Tudo",
+    "title_pt": "Uma Enguia, o Mundo, e o Combo Gravitacional",
     "episode": 12,
     "air_date": "2010-11-28",
     "image": "Episodes Images/HEISEI/OOO/OOO_12.jpg"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "A Siamese Cat, Stress and the Genius Surgeon",
+    "title_pt": "Um Gato Siamês, Estresse e a Cirurgiã Gênia",
+    "episode": 13,
+    "air_date": "2010-12-05",
+    "image": "Episodes Images/HEISEI/OOO/OOO_13.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "Pride, Surgery, and a Secret",
+    "title_pt": "Orgulho, Cirurgia, e um Segredo",
+    "episode": 14,
+    "air_date": "2010-12-12",
+    "image": "Episodes Images/HEISEI/OOO/OOO_14.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "The Medal Struggles, the Transporter, and the Vessel",
+    "title_pt": "As Lutas das Medalhas, o Transportador, e o Vassalo",
+    "episode": 15,
+    "air_date": "2010-12-19",
+    "image": "Episodes Images/HEISEI/OOO/OOO_15.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "An End, the Greeed, and a New Rider",
+    "title_pt": "Um Fim, os Greeed, e um Novo Rider",
+    "episode": 16,
+    "air_date": "2010-12-26",
+    "image": "Episodes Images/HEISEI/OOO/OOO_16.webp",
+    "fact_en": "Kamen Rider Birth's debut",
+    "fact_pt": "Debut do Kamen Rider Birth"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "The Kendo Girl, Oden, and the Splitting Yummy",
+    "title_pt": "A Garota do Kendo, Oden, e o Yummy Dividido",
+    "episode": 17,
+    "air_date": "2011-01-09",
+    "image": "Episodes Images/HEISEI/OOO/OOO_17.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "Destruction, Motives, and the Eel Whip",
+    "title_pt": "Destruição, Motivos, e o Chicote de Enguia",
+    "episode": 18,
+    "air_date": "2011-01-16",
+    "image": "Episodes Images/HEISEI/OOO/OOO_18.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "The Red Medal, the Detective, and Betrayal",
+    "title_pt": "A Medalha Vermelha, o Detetive, e a Traição",
+    "episode": 19,
+    "air_date": "2011-01-23",
+    "image": "Episodes Images/HEISEI/OOO/OOO_19.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "The Decoy, Quantification, and the Flaming Combo",
+    "title_pt": "A Isca, Quantificação, e o Combo Flamejante",
+    "episode": 20,
+    "air_date": "2011-01-30",
+    "image": "Episodes Images/HEISEI/OOO/OOO_20.webp",
+    "fact_en": "OOO Tajadol Combo's debut",
+    "fact_pt": "Debut do Combo Tajadol do OOO"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "The Grasshopper, Father and Son, and the Ally of Justice",
+    "title_pt": "O Gafanhoto, Pai e Filho, e o Aliado da Justiça",
+    "episode": 21,
+    "air_date": "2011-02-06",
+    "image": "Episodes Images/HEISEI/OOO/OOO_21.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "Chocolate, Faith, and the Power of Justice",
+    "title_pt": "Chocolate, Fé, e o Poder da Justiça",
+    "episode": 22,
+    "air_date": "2011-02-13",
+    "image": "Episodes Images/HEISEI/OOO/OOO_22.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "Beauty, an Egg, and the Sleeping Desire",
+    "title_pt": "Beleza, um Ovo, e o Desejo Adormecido",
+    "episode": 23,
+    "air_date": "2011-02-20",
+    "image": "Episodes Images/HEISEI/OOO/OOO_23.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "Beauty, an Egg, and the Sleeping Desire",
+    "title_pt": "Beleza, um Ovo, e o Desejo Adormecido",
+    "episode": 23,
+    "air_date": "2011-02-20",
+    "image": "Episodes Images/HEISEI/OOO/OOO_23.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "Memories, Love, and the Marine Combo",
+    "title_pt": "Memórias, Amor, e o Combo Marinho",
+    "episode": 24,
+    "air_date": "2011-02-27",
+    "image": "Episodes Images/HEISEI/OOO/OOO_24.webp",
+    "fact_en": "OOO Shauta Combo and Imaginary Renai Combo's debut",
+    "fact_pt": "Debut do Combo Shauta e do Combo Imaginário Renai do OOO"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "The Boxer, the Left Hand, and the Bird Yummy",
+    "title_pt": "Boxeador, Mão Esquerda e o Yummy Passaro",
+    "episode": 25,
+    "air_date": "2011-03-06",
+    "image": "Episodes Images/HEISEI/OOO/OOO_25.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "Ankh, the Ring, and Putting it All On",
+    "title_pt": "Ankh, o Ringue, e Força Total",
+    "episode": 26,
+    "air_date": "2011-03-20",
+    "image": "Episodes Images/HEISEI/OOO/OOO_26.webp"
   },
   {
     "series": "Kamen Rider OOO",

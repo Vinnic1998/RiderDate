@@ -44,7 +44,7 @@ Kamen Rider Den-O (2007) - 6/49
 Kamen Rider Kiva (2008) - 7/48
 Kamen Rider Decade (2009) - 3/31
 Kamen Rider W (2009) - 49/49
-Kamen Rider OOO (2010) - 7/48
+Kamen Rider OOO (2010) - 30/48
 Kamen Rider Fourze (2011) - 8/48
 Kamen Rider Wizard (2012) - 3/53
 Kamen Rider Gaim (2013) - 5/47
