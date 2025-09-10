@@ -57,7 +57,7 @@ Kamen Rider Zero-One (2019) - 3/45
 Kamen Rider Saber (2020) - 4/47
 Kamen Rider Revice (2021) - 7/50
 Kamen Rider Geats (2022) - 23/49
-Kamen Rider Gotchard (2023) - 3/50
+Kamen Rider Gotchard (2023) - 6/50
 Kamen Rider Gavv (2024) - 50/50 
 Kamen Rider Zeztz (2025) - 2/?? (série em andamento)
 

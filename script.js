@@ -83,7 +83,7 @@ function getEpisodeLabels(epDateStr) {
     epDate.getMonth() === today.getMonth() &&
     yearsDiff > 0
   ) {
-    labels += ` <span class='aniversario'>(completou ${yearsDiff} ano${yearsDiff > 1 ? "s" : ""})</span>`;
+    labels += ` <span class='aniversario'>completou ${yearsDiff} ano${yearsDiff > 1 ? "s" : ""}</span>`;
   }
 
   // Lógica de próximo ep
