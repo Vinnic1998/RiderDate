@@ -473,6 +473,7 @@ body.zeztz-theme .birthbox #surpriseButton:hover {
 
 .novo {
   color: red;
+  border: solid 1px white;
   background-color: black;
   padding: 5px;
   border-radius: 5px;
@@ -482,12 +483,17 @@ body.zeztz-theme .birthbox #surpriseButton:hover {
 .proximo {
   color: rgb(0, 136, 255);
   background-color: black;
+  border: solid 1px white;
   padding: 5px;
   border-radius: 5px;
   font-weight: bold;
 }
 
 .aniversario {
-  color: #0077cc;
-  font-style: italic;
+  color: rgb(255, 208, 0);
+  background-color: black;
+  border: solid 1px white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
 }

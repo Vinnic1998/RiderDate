@@ -277,6 +277,22 @@
   },
   {
     "series": "Kamen Rider (Skyrider)",
+    "title_en": "First Appearance! Powered Skyrider's Finishing Move",
+    "title_pt": "Primeira Vez Dando as Caras! Skyrider e seu Golpe Poderoso!",
+    "episode": 29,
+    "air_date": "1980-04-18",
+    "image": "Episodes Images/SHOWA/SKYRIDER/SKYRIDER_29.webp"
+  },
+  {
+    "series": "Kamen Rider (Skyrider)",
+    "title_en": "He Eats Dreams? The Strange Boy Who Came From the Amazon",
+    "title_pt": "Ele Come Sonhos? O Estranho Menino que Veio da Amazônia",
+    "episode": 30,
+    "air_date": "1980-04-25",
+    "image": "Episodes Images/SHOWA/SKYRIDER/SKYRIDER_30.webp"
+  },
+  {
+    "series": "Kamen Rider (Skyrider)",
     "title_en": "Hiroshi's Father Had Lived! As Altered Human FX777?",
     "title_pt": "Pai de Hiroshi está Vivo! Como Um Humano Alterado?",
     "episode": 52,
@@ -2888,6 +2904,26 @@
     "image": "Episodes Images/REIWA/GOTCHARD/GOTCHARD_03.webp",
     "fact_en": "Gotchard Appareskebow and Kamen Rider Valvarad's debut",
     "fact_pt": "Debut do Gotchard Appareskebow e do Kamen Rider Valvarad"
+  },
+  {
+    "series": "Kamen Rider Gotchard",
+    "title_en": "Say Goodbye at Twilight",
+    "title_pt": "Diga Adeus ao Anoitecer",
+    "episode": 48,
+    "air_date": "2024-08-11",
+    "image": "Episodes Images/REIWA/GOTCHARD/GOTCHARD_48.webp",
+    "fact_en": "Twilight Majade's debut",
+    "fact_pt": "Debut da Twilight Majade"
+  },
+  {
+    "series": "Kamen Rider Gotchard",
+    "title_en": "Metal Warrior! The Silver Valvarad!",
+    "title_pt": "O Guerreiro Metálico! O Valvarad Prateado!",
+    "episode": 49,
+    "air_date": "2024-08-17",
+    "image": "Episodes Images/REIWA/GOTCHARD/GOTCHARD_49.webp",
+    "fact_en": "Valvarad Kurogane's debut",
+    "fact_pt": "Debut do Valvarad Kurogane"
   },
   {
     "series": "Kamen Rider Gotchard",
