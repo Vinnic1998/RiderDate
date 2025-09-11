@@ -490,10 +490,6 @@ body.zeztz-theme .birthbox #surpriseButton:hover {
 }
 
 .aniversario {
-  color: rgb(255, 208, 0);
-  background-color: black;
-  border: solid 1px white;
-  padding: 5px;
-  border-radius: 5px;
-  font-weight: bold;
+  color: #ffb700;
+  font-style: italic;
 }
