@@ -2001,6 +2001,50 @@
   },
   {
     "series": "Kamen Rider OOO",
+    "title_en": "The Big Sister, the Doctor, and the Truth about Ankh",
+    "title_pt": "A Irmã mais Velha, o Doutor, e a Verdade sobre Ankh",
+    "episode": 29,
+    "air_date": "2011-04-10",
+    "image": "Episodes Images/HEISEI/OOO/OOO_29.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "The King, the Panda, and the Flames of the Memory",
+    "title_pt": "O Rei, o Panda, e as Memórias Flamejantes",
+    "episode": 30,
+    "air_date": "2011-04-17",
+    "image": "Episodes Images/HEISEI/OOO/OOO_30.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "Gratitude, Scheming, and the Purple Medal",
+    "title_pt": "Gratidão, Esquemas, e a Medalha Roxa",
+    "episode": 31,
+    "air_date": "2011-04-24",
+    "image": "Episodes Images/HEISEI/OOO/OOO_31.webp"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "The New Greeed, Emptiness, and the Invincible Combo",
+    "title_pt": "O Novo Greeed, Vázio, e o Combo Invencível",
+    "episode": 32,
+    "air_date": "2011-05-01",
+    "image": "Episodes Images/HEISEI/OOO/OOO_32.webp",
+    "fact_en": "OOO Putotyra Combo's Debut",
+    "fact_pt": "Debut do Combo Putotyra do OOO"
+  },
+  {
+    "series": "Kamen Rider OOO",
+    "title_en": "Circumstances, Farewell, and a Tearful Birth",
+    "title_pt": "Circunstâncias, Adeus, e um Nascimento Melancólico",
+    "episode": 38,
+    "air_date": "2011-06-12",
+    "image": "Episodes Images/HEISEI/OOO/OOO_38.webp",
+    "fact_en": "Shintaro Goto's debut as Kamen Rider Birth",
+    "fact_pt": "Debut de Shintaro Goto como Kamen Rider Birth"
+  },
+  {
+    "series": "Kamen Rider OOO",
     "title_en": "Ice, Greeedification, and Broken Wings",
     "title_pt": "Gelo, Greeedificação, e Asas Quebradas",
     "episode": 42,
@@ -3384,5 +3428,15 @@
     "episode": 2,
     "air_date": "2025-09-14",
     "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_02.webp"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case3: Corrode",
+    "title_pt": "Caso3: Corroer",
+    "episode": 2,
+    "air_date": "2025-09-21",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_02.webp",
+    "fact_en": "Zeztz Phisicam Transform's Debut",
+    "fact_pt": "Debut do Zeztz Phisicam Transform"
   }
  ]
