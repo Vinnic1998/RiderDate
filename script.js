@@ -96,6 +96,13 @@ function getEpisodeLabels(epDateStr) {
   return labels;
 }
 
+// Função pra conversão de data
+function formatUserLocaleDate(dateStr) {
+  const d = parseDateNoTZ(dateStr);
+  const locale = window.currentLang === 'en' ? 'en-US' : 'pt-BR';
+  return d.toLocaleDateString(locale, { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
 // Função para encontrar episódios
 function findEpisodes() {
     const input = document.getElementById("birthdate").value;
@@ -155,7 +162,7 @@ function findEpisodes() {
             <strong>${ep.series}</strong> - ${getEpisodeLabel()} ${ep.episode}: ${getTranslatedText(ep)} 
             ${extraLabel}
           </p>
-          <p><em>(${ep.air_date})</em></p>
+          <p><em>(${formatUserLocaleDate(ep.air_date)})</em></p>
           ${epFact}
         `;
 
@@ -223,7 +230,7 @@ function findEpisodes() {
                 <strong>${ep.series}</strong> - Episódio ${ep.episode}: ${getTranslatedText(ep)} 
                 ${extraLabel}
               </p>
-              <p><em>(${ep.air_date}) - ${ep.diffDays === 1 ? "1 dia" : `${ep.diffDays} dias`} de diferença</em></p>
+              <p><em>(${formatUserLocaleDate(ep.air_date)}) - ${ep.diffDays === 1 ? "1 dia" : `${ep.diffDays} dias`} de diferença</em></p>
           `;
 
           resultsDiv.appendChild(episodeDiv);

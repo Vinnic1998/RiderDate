@@ -3431,12 +3431,22 @@
   },
   {
     "series": "Kamen Rider Zeztz",
-    "title_en": "Case3: Corrode",
-    "title_pt": "Caso3: Corroer",
-    "episode": 2,
+    "title_en": "Case3: Erode",
+    "title_pt": "Caso3: Corrói",
+    "episode": 3,
     "air_date": "2025-09-21",
-    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_02.webp",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_03.webp",
     "fact_en": "Zeztz Phisicam Transform's Debut",
     "fact_pt": "Debut do Zeztz Phisicam Transform"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case4: Rob",
+    "title_pt": "Caso4: Roubo",
+    "episode": 4,
+    "air_date": "2025-09-28",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_04.webp",
+    "fact_en": "Zeztz Phisicam Wing's Debut",
+    "fact_pt": "Debut do Zeztz Phisicam Wing"
   }
  ]

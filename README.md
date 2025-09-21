@@ -20,6 +20,8 @@ A função do RiderDate é de ser um site para se divertir caçando episódios d
 
 09/09/2025 - Mais eps adicionados
 
+21/09/2025 - Eps novos de Zeztz
+
 ==================================================================================================================================================
 
 PROGRESSO POR SÉRIE (episódios):
@@ -59,6 +61,6 @@ Kamen Rider Revice (2021) - 7/50
 Kamen Rider Geats (2022) - 23/49
 Kamen Rider Gotchard (2023) - 6/50
 Kamen Rider Gavv (2024) - 50/50 
-Kamen Rider Zeztz (2025) - 3/?? (série em andamento)
+Kamen Rider Zeztz (2025) - 4/?? (série em andamento)
 
 Mais coisas serão adicionadas futuramente ao site, se quiserem sugerir ideias fiquem a vontade!

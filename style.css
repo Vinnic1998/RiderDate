@@ -209,6 +209,33 @@ body.geats-theme .birthbox {
   border-image-slice: 1; 
 }
 
+body.geats-theme .birthbox button {
+  background-color: red;
+  color: white;
+}
+
+body.geats-theme .birthbox button:hover {
+  background-color: crimson;
+}
+
+body.geats-theme #surpriseButton {
+  background-color: gold;
+  color: white;
+}
+
+body.geats-theme #surpriseButton:hover {
+  background-color: goldenrod;
+}
+
+body.geats-theme #shareButton {
+  background-color: silver;
+  color: white;
+}
+
+body.geats-theme #shareButton:hover {
+  background-color: rgb(106, 106, 106);
+}
+
 /* Tema OOO */
 
 body.ooo-theme .birthbox {
@@ -354,8 +381,7 @@ body.kabuto-theme .birthbox button:hover {
   background-color: #0077cc;
 }
 
-body.kabuto-theme #surpriseButton,
-body.kabuto-theme #shareButton {
+body.kabuto-theme #surpriseButton {
     background-color: rgb(184, 184, 184);
     color: black;
     border: none;
@@ -366,9 +392,18 @@ body.kabuto-theme #shareButton {
     transition: background-color 0.3s ease;
 }
 
-body.kabuto-theme #surpriseButton:hover,
-body.kabuto-theme #shareButton:hover {
+body.kabuto-theme #surpriseButton:hover {
   background-color: rgb(108, 108, 108);
+}
+
+body.kabuto-theme #shareButton {
+  background-color: gold;
+  color: #000000;
+  transition: background-color 0.3s ease;
+}
+
+body.kabuto-theme #shareButton:hover {
+  background-color: goldenrod;
 }
 
 /* Tema Decade */
@@ -395,8 +430,7 @@ body.decade-theme .birthbox button:hover {
     background-color: #b300b3;
 }
 
-body.decade-theme #surpriseButton,
-body.decade-theme #shareButton {
+body.decade-theme #surpriseButton {
     background-color: rgb(0, 163, 14);
     color: rgb(255, 255, 255);
     border: none;
@@ -407,9 +441,23 @@ body.decade-theme #shareButton {
     transition: background-color 0.3s ease;
 }
 
-body.decade-theme #surpriseButton:hover,
-body.decade-theme #shareButton:hover {
+body.decade-theme #surpriseButton:hover {
   background-color: rgb(0, 108, 9);
+}
+
+body.decade-theme #shareButton {
+    background-color: rgb(0, 128, 255);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+body.decade-theme #shareButton:hover {
+  background-color: #0077cc;
 }
 
 /* Tema W */
@@ -423,6 +471,37 @@ body.w-theme .birthbox {
   color: rgb(255, 252, 252);
 }
 
+body.w-theme .birthbox button {
+  background-color: #2cb100;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+body.w-theme .birthbox button:hover {
+  background-color: #028e19;
+}
+
+body.w-theme #surpriseButton {
+  background-color: #8c00c8;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+body.w-theme #surpriseButton:hover {
+  background-color: #370391;
+}
+
+
+body.w-theme #shareButton {
+  background-color: #7a7a7a;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s ease;
+}
+
+body.w-theme #shareButton:hover {
+  background-color: #444444;
+}
+
 /* Tema Build */
 
 body.build-theme .birthbox {
@@ -432,6 +511,37 @@ body.build-theme .birthbox {
   border-image: linear-gradient(to top, red, blue) 1;
   border-image-slice: 1; 
   color: rgb(255, 252, 252);
+}
+
+body.build-theme .birthbox button {
+  background-color: red;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+body.build-theme .birthbox button:hover {
+  background-color: rgb(145, 11, 38);
+}
+
+body.build-theme #surpriseButton {
+  background-color: blue;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+body.build-theme #surpriseButton:hover {
+  background-color: rgb(79, 3, 185);
+  color: white;
+}
+
+body.build-theme #shareButton {
+  background-color: yellow;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+body.build-theme #shareButton:hover {
+  background-color: rgb(166, 106, 3);
 }
 
 /* Tema Zeztz */
@@ -465,10 +575,22 @@ body.zeztz-theme .birthbox #surpriseButton {
     color: white;
     font-weight: bold;
     margin-top: 10px;
+    transition: background-color 0.3s ease;
 }
 
 body.zeztz-theme .birthbox #surpriseButton:hover {
     background-color: #007f6a;
+}
+
+body.zeztz-theme #shareButton {
+  background-color: white;
+  color: red;
+  transition: background-color 0.3s ease;
+}
+
+body.zeztz-theme #shareButton:hover {
+  background-color: rgb(174, 211, 255);
+  color: crimson;
 }
 
 .novo {

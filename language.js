@@ -2,6 +2,7 @@
 
 const langSelect = document.getElementById("language-select");
 const lang = localStorage.getItem("lang") || "pt";
+window.currentLang = lang;
 
 // Seta o valor inicial do select
 if (langSelect) langSelect.value = lang;
@@ -46,6 +47,9 @@ function applyTranslations(lang) {
     const shareTitle = document.querySelector("#shareModal h2");
     const screenshotBtn = document.getElementById("screenshotButton");
     const shareBtn = document.getElementById("shareButton");
+    const soonLabel = document.getElementById("IDbreve");
+    const newLabel = document.getElementById("IDnovo");
+    const DebutLabel = document.getElementById("IDdebut")
 
     if (h1) h1.innerText = t.mainTitle;
     if (p) p.innerText = t.subText;
@@ -55,6 +59,9 @@ function applyTranslations(lang) {
     if (shareTitle) shareTitle.innerText = t.shareTitle;
     if (screenshotBtn) screenshotBtn.innerText = t.saveButton;
     if (shareBtn) shareBtn.innerText = t.shareButton;
+    if (soonLabel) soonLabel.innerText = t.soonLabel;
+    if (newLabel) newLabel.innerText = t.newLabel;
+    if (DebutLabel) DebutLabel.innerText = t.DebutLabel
   }
 
   const tablePage = document.getElementById("tablepage");
@@ -95,7 +102,10 @@ const translations = {
     no: "Não",
     tableHeaders: ["Série", "Episódio", "Título", "Data", "Está no Site?"],
     factLabel: "Curiosidade",
-    shareButton: "Compartilhar"
+    shareButton: "Compartilhar",
+    NewLabel: "NOVO",
+    SoonLabel: "EM BREVE",
+    DebutLabel: "lançou"
   },
   en: {
     mainTitle: "Kamen Rider Episodes that premiered on your b-day!",
@@ -116,7 +126,10 @@ const translations = {
     no: "No",
     tableHeaders: ["Series", "Episode", "Title", "Date", "Is in the site?"],
     factLabel: "Trivia",
-    shareButton: "Share"
+    shareButton: "Share",
+    NewLabel: "NEW",
+    SoonLabel: "SOON",
+    DebutLabel: "released"
   }
 };
 
