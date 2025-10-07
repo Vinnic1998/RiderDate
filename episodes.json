@@ -667,6 +667,24 @@
   },
   {
     "series": "Kamen Rider Faiz",
+    "title_en": "Mari Dies",
+    "title_pt": "Mari Morre",
+    "episode": 33,
+    "air_date": "2003-09-14",
+    "image": "Episodes Images/HEISEI/FAIZ/FAIZ_33.webp"
+  },
+  {
+    "series": "Kamen Rider Faiz",
+    "title_en": "True Form",
+    "title_pt": "Verdadeira Forma",
+    "episode": 34,
+    "air_date": "2003-09-21",
+    "image": "Episodes Images/HEISEI/FAIZ/FAIZ_34.webp",
+    "fact_en": "Shuji's Debut as Kamen Rider Delta",
+    "fact_pt": "A Estreia de Shuji como Kamen Rider Delta"
+  },
+  {
+    "series": "Kamen Rider Faiz",
     "title_en": "The Resurrection Riddle",
     "title_pt": "O Enigma da Resurreição",
     "episode": 35,
@@ -1309,11 +1327,29 @@
     "series": "Kamen Rider Kiva",
     "title_en": "Applause: Motherly Dedicated Transformation",
     "title_pt": "Aplausos: Amor de Mãe em Ação",
-    "episode": 29,
+    "episode": 31,
     "air_date": "2008-09-07",
     "image": "Episodes Images/HEISEI/KIVA/KIVA_31.webp",
     "fact_en": "Debut of Megumi and Yuri Aso as Ixa",
     "fact_pt": "Debut da Megumi e Yuri Aso como Ixa"
+  },
+  {
+    "series": "Kamen Rider Kiva",
+    "title_en": "New World: Another Kiva",
+    "title_pt": "Novo Mundo: Outro Kiva",
+    "episode": 32,
+    "air_date": "2008-09-14",
+    "image": "Episodes Images/HEISEI/KIVA/KIVA_31.webp",
+    "fact_en": "Kamen Rider Saga's Debut",
+    "fact_pt": "Debut do Kamen Rider Saga"
+  },
+  {
+    "series": "Kamen Rider Kiva",
+    "title_en": "Supersonic: Saga's Fight",
+    "title_pt": "Supersônico: A Batalha de Saga",
+    "episode": 33,
+    "air_date": "2008-09-21",
+    "image": "Episodes Images/HEISEI/KIVA/KIVA_33.webp"
   },
   {
     "series": "Kamen Rider Kiva",
@@ -2192,6 +2228,22 @@
     "episode": 44,
     "air_date": "2014-09-07",
     "image": "Episodes Images/HEISEI/GAIM/GAIM_44.webp"
+  },
+  {
+    "series": "Kamen Rider Gaim",
+    "title_en": "The Fated Two's Final Battle!",
+    "title_pt": "A Batalha Final dos Destinados!",
+    "episode": 45,
+    "air_date": "2014-09-14",
+    "image": "Episodes Images/HEISEI/GAIM/GAIM_45.webp"
+  },
+  {
+    "series": "Kamen Rider Gaim",
+    "title_en": "Fate's Victor",
+    "title_pt": "O Vencedor do Destino",
+    "episode": 46,
+    "air_date": "2014-09-21",
+    "image": "Episodes Images/HEISEI/GAIM/GAIM_46.webp"
   },
   {
     "series": "Kamen Rider Gaim",
@@ -3448,5 +3500,25 @@
     "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_04.webp",
     "fact_en": "Zeztz Phisicam Wing's Debut",
     "fact_pt": "Debut do Zeztz Phisicam Wing"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case5: Crash",
+    "title_pt": "Caso5: Cair",
+    "episode": 5,
+    "air_date": "2025-10-05",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_05.webp",
+    "fact_en": "Zeztz Technolom Stream's Debut",
+    "fact_pt": "Debut do Zeztz Technolom Stream"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case6: Imprison",
+    "title_pt": "Caso6: Prisionar",
+    "episode": 6,
+    "air_date": "2025-10-12",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_06.webp",
+    "fact_en": "Zeztz Technolom Machinery's Debut",
+    "fact_pt": "Debut do Zeztz Technolom Machinery"
   }
  ]

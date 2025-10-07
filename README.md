@@ -38,18 +38,18 @@ Kamen Rider Black RX (1988) - 3/47
 Kamen Rider Kuuga (2000) - 8/49
 Kamen Rider Agito (2001) - 10/51
 Kamen Rider Ryuki (2002) - 12/50
-Kamen Rider Faiz (2003) - 6/50
+Kamen Rider Faiz (2003) - 8/50
 Kamen Rider Blade (2004) - 49/49
 Kamen Rider Hibiki (2005) - 6/48
 Kamen Rider Kabuto (2006) - 9/49
 Kamen Rider Den-O (2007) - 8/49
-Kamen Rider Kiva (2008) - 7/48
+Kamen Rider Kiva (2008) - 9/48
 Kamen Rider Decade (2009) - 3/31
 Kamen Rider W (2009) - 49/49
 Kamen Rider OOO (2010) - 35/48
 Kamen Rider Fourze (2011) - 8/48
 Kamen Rider Wizard (2012) - 4/53
-Kamen Rider Gaim (2013) - 5/47
+Kamen Rider Gaim (2013) - 7/47
 Kamen Rider Drive (2014) - 8/48
 Kamen Rider Ghost (2015) - 4/50
 Kamen Rider Ex-Aid (2016) - 13/45
@@ -61,6 +61,6 @@ Kamen Rider Revice (2021) - 7/50
 Kamen Rider Geats (2022) - 23/49
 Kamen Rider Gotchard (2023) - 6/50
 Kamen Rider Gavv (2024) - 50/50 
-Kamen Rider Zeztz (2025) - 4/?? (série em andamento)
+Kamen Rider Zeztz (2025) - 6/?? (série em andamento)
 
 Mais coisas serão adicionadas futuramente ao site, se quiserem sugerir ideias fiquem a vontade!
