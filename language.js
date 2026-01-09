@@ -96,6 +96,9 @@ function applyTranslations(lang) {
   const tablePage = document.getElementById("tablepage");
   if (tablePage) tablePage.innerText = t.TablePage;
 
+  const CreditsPage = document.getElementById("creditspage");
+  if (CreditsPage) CreditsPage.innerText = t.CreditsPage;
+
   const epListTitle = document.querySelector(".ep-list h1");
   const epListP = document.getElementById("ep-listP");
   if (epListTitle) epListTitle.innerText = t.EpListH1;
@@ -109,7 +112,6 @@ function applyTranslations(lang) {
     footerPs[2].innerHTML = `${t.footer3} <a href="https://kamenrider.fandom.com/pt/wiki/Kamen_Rider_Wiki">Kamen Rider Wiki</a>.`;
   }
 }
-
 
 const translations = {
   pt: {
@@ -125,6 +127,7 @@ const translations = {
     footer2: "Todas as imagens e informações de Kamen Rider pertencem à Toei Company",
     footer3: "As imagens e informações foram tiradas da Kamen Rider Wiki",
     TablePage: "Tabela dos Episódios Listados",
+    CreditsPage: "Créditos",
     EpListH1: "Lista de Episódios de Kamen Rider",
     epPrefix: "Episódio",
     yes: "Sim",
@@ -149,7 +152,8 @@ const translations = {
     footer1: "© 2025 - Project created by Sonnic1998/Vinnic1998",
     footer2: "All Kamen Rider images and information belong to Toei Company",
     footer3: "The images and info were taken from the Kamen Rider Wiki",
-    TablePage: "Episodes table list",
+    TablePage: "Episodes List Table",
+    CreditsPage: "Credits",
     EpListH1: "Kamen Rider Episodes List",
     epPrefix: "Episode",
     yes: "Yes",
