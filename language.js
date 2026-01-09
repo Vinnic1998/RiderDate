@@ -27,11 +27,38 @@ function getTranslatedFact(ep) {
   return lang === "pt" ? (ep.fact_pt || ep.fact_en) : (ep.fact_en || ep.fact_pt);
 }
 
+// Função para a palavra Curiosidade
 function getFactLabel() {
   return translations[lang]?.factLabel || "Curiosidade";
 }
+
+// Função para o prefixo do episódio
 function getEpisodeLabel() {
   return translations[lang]?.epPrefix || "Episódio";
+}
+
+// Função para NOVO!
+function getNewLabel() {
+  return translations[lang]?.NewLabel || "NOVO!";
+}
+
+// Função para EM BREVE!
+function getSoonLabel() {
+  return translations[lang]?.SoonLabel || "EM BREVE!";
+}
+
+// Função para datas INTERNACIONAIS (como no caso de Zeztz)
+function getInternationalDateLabel() {
+  return translations[lang]?.internationalDate || "Internacional";
+}
+
+// Função para aniversários 
+function getBirthdayLabel(yearsDiff) { 
+  if (lang === "en") {
+    return `(debuted ${yearsDiff} year${yearsDiff > 1 ? "s" : ""} ago)`;
+  } else {
+    return `(completou ${yearsDiff} ano${yearsDiff > 1 ? "s" : ""})`;
+  }
 }
 
 function applyTranslations(lang) {
@@ -50,6 +77,7 @@ function applyTranslations(lang) {
     const soonLabel = document.getElementById("IDbreve");
     const newLabel = document.getElementById("IDnovo");
     const DebutLabel = document.getElementById("IDdebut")
+    const birthdayLabel = document.querySelector("aniversario");
 
     if (h1) h1.innerText = t.mainTitle;
     if (p) p.innerText = t.subText;
@@ -62,6 +90,7 @@ function applyTranslations(lang) {
     if (soonLabel) soonLabel.innerText = t.soonLabel;
     if (newLabel) newLabel.innerText = t.newLabel;
     if (DebutLabel) DebutLabel.innerText = t.DebutLabel
+    if (birthdayLabel) birthdayLabel.innerText = t.birthdayLabel;
   }
 
   const tablePage = document.getElementById("tablepage");
@@ -105,7 +134,8 @@ const translations = {
     shareButton: "Compartilhar",
     NewLabel: "NOVO",
     SoonLabel: "EM BREVE",
-    DebutLabel: "lançou"
+    DebutLabel: "lançou",
+    internationalDate: "internacional",
   },
   en: {
     mainTitle: "Kamen Rider Episodes that premiered on your b-day!",
@@ -129,7 +159,8 @@ const translations = {
     shareButton: "Share",
     NewLabel: "NEW",
     SoonLabel: "SOON",
-    DebutLabel: "released"
+    DebutLabel: "released",
+    internationalDate: "international"
   }
 };
 

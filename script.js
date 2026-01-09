@@ -73,7 +73,7 @@ function getEpisodeLabels(epDateStr) {
     epDate.getMonth() === today.getMonth() &&
     epDate.getFullYear() === today.getFullYear()
   ) {
-    labels += " <span class='novo'>NOVO!</span>";
+    labels += ` <span class='novo'>${getNewLabel()}</span>`;
   }
 
   // Aniversário (mesmo dia/mês, anos diferentes)
@@ -83,24 +83,45 @@ function getEpisodeLabels(epDateStr) {
     epDate.getMonth() === today.getMonth() &&
     yearsDiff > 0
   ) {
-    labels += ` <span class='aniversario'>(completou ${yearsDiff} ano${yearsDiff > 1 ? "s" : ""})</span>`;
+    // CHAMA getBirthdayLabel PASSANDO yearsDiff COMO PARÂMETRO
+    labels += ` <span class='aniversario'>${getBirthdayLabel(yearsDiff)}</span>`;
   }
 
   // Lógica de próximo ep
   const diffTime = epDate - today;
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
   if (diffDays > 0) {
-    labels += " <span class='proximo'>EM BREVE!</span>";
+    labels += ` <span class='proximo'>${getSoonLabel()}</span>`;
   }
 
   return labels;
 }
 
-// Função pra conversão de data
+// Função pra conversão de data 
 function formatUserLocaleDate(dateStr) {
+  if (!dateStr) return '';
   const d = parseDateNoTZ(dateStr);
   const locale = window.currentLang === 'en' ? 'en-US' : 'pt-BR';
   return d.toLocaleDateString(locale, { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+// Função para formatar as datas do episódio
+function formatEpisodeDates(ep) {
+  const originalDate = formatUserLocaleDate(ep.air_date);
+  
+  // Se não tiver data internacional
+  if (!ep.air_date_international) {
+    return `<em>${originalDate}</em>`;
+  }
+  
+  // Se tiver ambas as datas
+  const internationalDate = formatUserLocaleDate(ep.air_date_international);
+  return `
+    <div class="episode-dates">
+      <div class="date-original"><em>(${originalDate})</em></div>
+      <div class="date-international">(${internationalDate}) <span class="international-label">(${getInternationalDateLabel()})</span></div>
+    </div>
+  `;
 }
 
 // Função para encontrar episódios
@@ -162,7 +183,7 @@ function findEpisodes() {
             <strong>${ep.series}</strong> - ${getEpisodeLabel()} ${ep.episode}: ${getTranslatedText(ep)} 
             ${extraLabel}
           </p>
-          <p><em>(${formatUserLocaleDate(ep.air_date)})</em></p>
+          <p><em>(${formatEpisodeDates(ep)})</em></p>
           ${epFact}
         `;
 
@@ -230,7 +251,7 @@ function findEpisodes() {
                 <strong>${ep.series}</strong> - Episódio ${ep.episode}: ${getTranslatedText(ep)} 
                 ${extraLabel}
               </p>
-              <p><em>(${formatUserLocaleDate(ep.air_date)}) - ${ep.diffDays === 1 ? "1 dia" : `${ep.diffDays} dias`} de diferença</em></p>
+              <p><em>${formatEpisodeDates(ep)} - ${ep.diffDays === 1 ? "1 dia" : `${ep.diffDays} dias`} de diferença</em></p>
           `;
 
           resultsDiv.appendChild(episodeDiv);

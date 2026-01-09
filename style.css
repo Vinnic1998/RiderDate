@@ -615,3 +615,28 @@ body.zeztz-theme #shareButton:hover {
   color: #ffb700;
   font-style: italic;
 }
+
+.episode-dates {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 8px 0;
+}
+
+.date-original {
+  font-style: italic;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.date-international {
+  font-weight: bold;
+  color: #2196F3;
+  font-size: 1em;
+}
+
+.international-label {
+  font-size: 0.8em;
+  color: #777;
+  font-style: italic;
+}

@@ -12,7 +12,7 @@
   {
     "series": "Kamen Rider",
     "title_en": "Gel Shocker Destroyed! The Leader's End!!",
-    "title_pt": "Gel Shocker Derrotada! O Fim do Grande Líder!!",
+    "title_pt": "O Fim do Líder da Gel Shocker!",
     "episode": 98,
     "air_date": "1973-02-10",
     "image": "Episodes Images/SHOWA/KR/KR_98.webp"
@@ -20,7 +20,7 @@
   {
     "series": "Kamen Rider V3",
     "title_en": "Rider No. 3: His Name is V3!",
-    "title_pt": "Rider Nº3: O Nome Dele é V3!",
+    "title_pt": "Venha ao Mundo: V3!",
     "episode": 1,
     "air_date": "1973-02-17",
     "image": "Episodes Images/SHOWA/V3/V3_01.webp"
@@ -28,10 +28,12 @@
 {
     "series": "Kamen Rider V3",
     "title_en": "Last Testament of the Double Riders",
-    "title_pt": "O Testamento Final da Dupla Riders",
+    "title_pt": "O Adeus da Dupla Rider",
     "episode": 2,
     "air_date": "1973-02-24",
-    "image": "Episodes Images/SHOWA/V3/V3_02.webp"
+    "image": "Episodes Images/SHOWA/V3/V3_02.webp",
+    "fact_en": "This is the 100th episode of the Kamen Rider Franchise",
+    "fact_pt": "Esse é o 100º episódio da franquia Kamen Rider"
   },
   {
     "series": "Kamen Rider V3",
@@ -3466,7 +3468,7 @@
   {
     "series": "Kamen Rider Zeztz",
     "title_en": "Case1: Beginning",
-    "title_pt": "Caso1: Começar",
+    "title_pt": "Caso1: Começa",
     "episode": 1,
     "air_date": "2025-09-07",
     "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_01.webp",
@@ -3476,7 +3478,7 @@
   { 
     "series": "Kamen Rider Zeztz",
     "title_en": "Case2: Explode",
-    "title_pt": "Caso2: Explodir",
+    "title_pt": "Caso2: Explode",
     "episode": 2,
     "air_date": "2025-09-14",
     "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_02.webp"
@@ -3484,7 +3486,7 @@
   {
     "series": "Kamen Rider Zeztz",
     "title_en": "Case3: Erode",
-    "title_pt": "Caso3: Corrói",
+    "title_pt": "Caso3: Corrosão",
     "episode": 3,
     "air_date": "2025-09-21",
     "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_03.webp",
@@ -3494,7 +3496,7 @@
   {
     "series": "Kamen Rider Zeztz",
     "title_en": "Case4: Rob",
-    "title_pt": "Caso4: Roubo",
+    "title_pt": "Caso4: Rouba",
     "episode": 4,
     "air_date": "2025-09-28",
     "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_04.webp",
@@ -3504,7 +3506,7 @@
   {
     "series": "Kamen Rider Zeztz",
     "title_en": "Case5: Crash",
-    "title_pt": "Caso5: Cair",
+    "title_pt": "Caso5: Cai",
     "episode": 5,
     "air_date": "2025-10-05",
     "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_05.webp",
@@ -3514,11 +3516,130 @@
   {
     "series": "Kamen Rider Zeztz",
     "title_en": "Case6: Imprison",
-    "title_pt": "Caso6: Prisionar",
+    "title_pt": "Caso6: Aprisiona",
     "episode": 6,
     "air_date": "2025-10-12",
     "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_06.webp",
     "fact_en": "Zeztz Technolom Machinery's Debut",
     "fact_pt": "Debut do Zeztz Technolom Machinery"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case7 Punish",
+    "title_pt": "Caso7: Pune",
+    "episode": 7,
+    "air_date": "2025-10-19",
+    "air_date_international": "2025-10-18",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_07.webp",
+    "fact_en": "Zeztz Technolom Projection's Debut",
+    "fact_pt": "Debut do Zeztz Technolom Projection"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case8 Serve",
+    "title_pt": "Caso8: Serve",
+    "episode": 8,
+    "air_date": "2025-10-26",
+    "air_date_international": "2025-10-25",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_08.webp",
+    "fact_en": "Zeztz Esprim Recovery's Debut",
+    "fact_pt": "Debut do Zeztz Esprim Recovery"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case9: Poison",
+    "title_pt": "Caso9: Envenena",
+    "episode": 9,
+    "air_date": "2025-11-09",
+    "air_date_international": "2025-11-08",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_09.webp",
+    "fact_en": "Breakam Buster's Debut",
+    "fact_pt": "Debut do Breakam Buster"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case10: Vanish",
+    "title_pt": "Caso10: Desaparecer",
+    "episode": 10,
+    "air_date": "2025-11-16",
+    "air_date_international": "2025-11-15",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_10.webp",
+    "fact_en": "Zeztz Esprism Barrier's Debut",
+    "fact_pt": "Debut do Zeztz Esprism Barrier"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case11: Rot",
+    "title_pt": "Caso11: Apodrece",
+    "episode": 11,
+    "air_date": "2025-11-23",
+    "air_date_international": "2025-11-22",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_11.webp",
+    "fact_en": "Zeztz Paradigm Wonder's Debut",
+    "fact_pt": "Debut do Zeztz Paradigm Wonder"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case12: Impact",
+    "title_pt": "Caso12: Colide",
+    "episode": 12,
+    "air_date": "2025-11-30",
+    "air_date_international": "2025-11-29",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_12.webp",
+    "fact_en": "Nox Knight's Debut",
+    "fact_pt": "Debut do Nox Knight"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case13: Extinguish",
+    "title_pt": "Caso13: Extingue",
+    "episode": 13,
+    "air_date": "2025-12-07",
+    "air_date_international": "2025-12-06",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_13.webp",
+    "fact_en": "Zeztz Paradigm Gravity's Debut",
+    "fact_pt": "Debut do Zeztz Paradigm Gravity"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case14: Thunder",
+    "title_pt": "Caso14: Trovoa",
+    "episode": 14,
+    "air_date": "2025-12-14",
+    "air_date_international": "2025-12-13",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_14.webp",
+    "fact_en": "Zeztz Inazuma Plasma's Debut",
+    "fact_pt": "Debut do Zeztz Inazuma Plasma"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case15: Lighten",
+    "title_pt": "Caso15: Ilumina",
+    "episode": 15,
+    "air_date": "2025-12-21",
+    "air_date_international": "2025-12-20",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_15.webp",
+    "fact_en": "Zeztz Plasma Booster's Debut",
+    "fact_pt": "Debut do Zeztz Plasma Booster"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case16: Escape",
+    "title_pt": "Caso16: Corre",
+    "episode": 16,
+    "air_date": "2025-01-03",
+    "air_date_international": "2026-01-03",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_16.webp",
+    "fact_en": "Kamen Rider Nox's Debut",
+    "fact_pt": "Debut do Kamen Rider Nox"
+  },
+  {
+    "series": "Kamen Rider Zeztz",
+    "title_en": "Case17: Pursue",
+    "title_pt": "Caso17: Persegue",
+    "episode": 17,
+    "air_date": "2026-01-11",
+    "air_date_international": "2026-01-10",
+    "image": "Episodes Images/REIWA/ZEZTZ/ZEZTZ_16.webp"
   }
  ]
